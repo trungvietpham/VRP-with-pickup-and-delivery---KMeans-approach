@@ -1,0 +1,66 @@
+dump:
+    customer: dump/customer.pkl
+    depot: dump/depot.pkl
+    vendor: dump/vendor.pkl
+flag:
+    depot-customer: false
+    gendata: true
+    run_all: true
+    vendor-depot: false
+fname:
+    correlation: input/correlation.json
+    time: input/time.json
+    time: input/time.json
+    customer: input/market_400.json
+    depot: input/depot_50.json
+    item_type: data/items.csv
+    vehicle: input/vehicle_15.json
+    vendor: input/vendor.json
+gendata:
+    gen_customer:
+        flag: true
+        fname: data/customers.csv
+        high_thr: 500
+        low_thr: 0
+        n: 400
+        out_fname: input/market_400.json
+    gen_depot:
+        flag: true
+        fname: data/depots.csv
+        high_thr: 11000
+        low_thr: 10000
+        n: 50
+        out_fname: input/depot_50.json
+    gen_vehicle:
+        flag: true
+        fname: null
+        high_thr: 12000
+        low_thr: 10000
+        n: 15
+    gen_vendor:
+        flag: true
+        fname: data/vendor.csv
+        high_thr: 20000
+        low_thr: 15000
+        n: 10
+        out_fname: input/vendor.json
+other_config:
+    coef list:
+    - 7.5
+    - 2.0
+    - 5.5
+    - 4.7
+    - 9.0
+    no of items: 1
+    no of items type: 1
+    no of node threshold: 15
+    no of vehicle types: 5
+output:
+    depot-customer:
+        kmeans: output/depot-customer/KMeans_phase.json
+        pre_tsp: output/depot-customer/pre_TSP_phase.json
+        tsp: output/depot-customer/TSP_phase_with_Kmeans.json
+    vendor-depot:
+        kmeans: output/vendor-depot/KMeans_phase.json
+        pre_tsp: output/vendor-depot/pre_TSP_phase.json
+        tsp: output/vendor-depot/TSP_phase_with_Kmeans.json
