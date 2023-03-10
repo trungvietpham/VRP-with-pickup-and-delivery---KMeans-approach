@@ -363,7 +363,7 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
 
     # Dump ra file pkl để lưu dữ liệu:
     depot_dump_fname = config['dump']['depot']
-    if not os.path.exists(depot_dump_fname): os.makedirs(depot_dump_fname)
+    if not os.path.exists(os.path.dirname(depot_dump_fname)): os.makedirs(os.path.dirname(depot_dump_fname))
     dump_data(depot_list, depot_dump_fname)
 
     dump_data(vendor_list, config['dump']['vendor'])

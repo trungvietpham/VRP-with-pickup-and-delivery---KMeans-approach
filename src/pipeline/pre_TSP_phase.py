@@ -160,7 +160,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer'):
                 # print(f"child: {child.print(city_id_list_flag=True)}, n child: {child.n_cities}, thr: {n_node_threshold}")
                 if child.n_cities > n_node_threshold:
                     continue_flag = True
-                    print(f"Exceed threshold: {child.n_cities}>{n_node_threshold}")
+                    # print(f"Exceed threshold: {child.n_cities}>{n_node_threshold}")
 
                     break
             

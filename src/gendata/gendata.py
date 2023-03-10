@@ -36,7 +36,8 @@ def gendata():
     if gen_vendor_flag: 
         config['fname']['vendor'] = config['gendata']['gen_vendor']['out_fname']
         csv_to_json_file(config['gendata']['gen_vendor']['fname'], data_type='vendor', dump_file=config['gendata']['gen_vendor']['out_fname'], mode='w', n_node=config['gendata']['gen_vendor']['n'], low_threshold=config['gendata']['gen_vendor']['low_thr'], high_threshold=config['gendata']['gen_vendor']['high_thr'], n_items=n_items)
-
+        gen_vehicle(config['gendata']['gen_vendor']['n'], n_items_type, dump_file='input/vehicle_10.json', low_threshold=config['gendata']['gen_vehicle']['low_thr'], high_threshold=config['gendata']['gen_vehicle']['high_thr'], n_types=n_types, coef_list=coef_list)
+        
     get_length_path('data/correlations.csv', 'input/correlation.json')
     get_time_path('data/correlations.csv', 'input/time.json')
 

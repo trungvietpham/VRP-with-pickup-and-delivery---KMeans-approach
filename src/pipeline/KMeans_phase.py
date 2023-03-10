@@ -92,7 +92,7 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer'):
     figure, ax = draw_animation(figure, ax, centers, model.locations, labels, 0.01, n_vehicles)
     figure, ax = plot(figure, ax, dis)
     plt.show()
-    input("A key: ")
+    input("Press to continue: ")
     
 
     # Các biến để in thông tin ra màn hình

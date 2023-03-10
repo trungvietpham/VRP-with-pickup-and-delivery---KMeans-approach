@@ -89,6 +89,7 @@ def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = No
         
     
     save_data[data_type] = markets_dict
+    if not os.path.exists(os.path.dirname(dump_file)): os.makedirs(os.path.dirname(dump_file))
     with open(dump_file, mode, encoding='utf8') as json_file:
         json.dump(save_data, json_file, ensure_ascii=False, indent=4)
 
@@ -110,6 +111,8 @@ def gen_vehicle(n_vehicle, n_items, dump_file, low_threshold = 0, high_threshold
                 demand_dict = {'item_id':j+1, 'demand': gen_num}
                 vehicle_i[j+1] = demand_dict
         save_data[i] = vehicle_i
+    
+    if not os.path.exists(os.path.dirname(dump_file)): os.makedirs(os.path.dirname(dump_file))
     
     json.dump(save_data, open(dump_file, 'w'), indent=4)
 

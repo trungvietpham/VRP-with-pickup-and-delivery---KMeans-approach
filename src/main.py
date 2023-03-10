@@ -109,9 +109,10 @@ def main(dump_flag = True):
     # Dump các thông tin ra file:
     if dump_flag:
         scena_fname = f"scenarios/{n_node_thr}node_{n_vehicles}ve_{n_customers}cus_{n_depots}de_{n_vendor}ven"
-        sur_main(scena_fname+'/metric_res.json')
 
         if not os.path.exists(scena_fname): os.makedirs(scena_fname)
+
+        
         with open(scena_fname+f"/summary.txt", 'w') as f:
             f.write('\n'.join(summary) + f"\n\nMore details in {scena_fname}/details.txt\n")
             f.write(f'Metric ouput in {scena_fname}/metric_res.json\n')
@@ -124,8 +125,10 @@ def main(dump_flag = True):
             f.write('\n'.join(route_only))
             f.close()
         
-    with open('scenarios/parameter_evaluate.csv', 'a') as f: 
-        f.write(f"{n_node_thr}node_{n_vehicles}ve_{n_customers}cus_{n_depots}de, {r_length}, {cost}, {np.round(kmeans_time + pre_time, 0)}, {tsp_time}\n")
+        sur_main(scena_fname+'/metric_res.json')
+
+    # with open('scenarios/parameter_evaluate.csv', 'a') as f: 
+    #     f.write(f"{n_node_thr}node_{n_vehicles}ve_{n_customers}cus_{n_depots}de, {r_length}, {cost}, {np.round(kmeans_time + pre_time, 0)}, {tsp_time}\n")
         
     print(f"Folder: {scena_fname}")
 

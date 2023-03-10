@@ -9,12 +9,11 @@ flag:
     vendor-depot: false
 fname:
     correlation: input/correlation.json
-    time: input/time.json
-    time: input/time.json
     customer: input/market_400.json
     depot: input/depot_50.json
     item_type: data/items.csv
-    vehicle: input/vehicle_15.json
+    time: input/time.json
+    vehicle: input/vehicle_20.json
     vendor: input/vendor.json
 gendata:
     gen_customer:
@@ -36,7 +35,7 @@ gendata:
         fname: null
         high_thr: 12000
         low_thr: 10000
-        n: 15
+        n: 20
     gen_vendor:
         flag: true
         fname: data/vendor.csv
