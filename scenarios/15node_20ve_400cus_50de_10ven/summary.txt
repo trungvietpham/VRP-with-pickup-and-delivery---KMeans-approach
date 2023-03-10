@@ -1,0 +1,49 @@
+Scenarios:
+	No. of customers: 400
+	No. of depots: 50
+	No. of vendor: 10
+	No. of vehicle: 20
+	Maximal number of city for TSP: 15
+1. DEPOT - CUSTOMER PHASE:
+1.1. KMeans phase:
+	Summary: 
+		Converged after 6 steps
+		No. of clusters = No. of vehicles = 20
+		No. of customers = 400
+		No. of good types =  1
+		Total picked capacity = [101109.] kg
+		Total delivered capacity = [101109.] kg
+		Total distance = 823.602 (km)
+		Clustering duration = 3800.0 ms
+
+
+
+1.2. Prepare for TSP phase:
+	Summary: 
+		Total try KMeans times = 41
+		No. cluster parent = 20
+		Total no. cluster child = 41
+		Total distance = 627.0 (km)
+		Total time for clustering = 2358.0 ms
+
+
+
+1.3. TSP phase
+	Summary: 
+		Total route length = 807.0 (km)
+		Total time computing TSP = 25065.0 ms
+		Total cost = 940.8
+
+
+
+TSP phase
+	Summary: 
+		Total route length = 2554.8230000000003 (km)
+		Total time computing TSP = 11222.0 ms
+		Total cost = 3361321.1302264016
+
+
+
+
+More details in scenarios/15node_20ve_400cus_50de_10ven/details.txt
+Metric ouput in scenarios/15node_20ve_400cus_50de_10ven/metric_res.json

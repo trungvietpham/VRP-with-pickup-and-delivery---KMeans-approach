@@ -2,8 +2,6 @@
 
 import os
 import sys
-# path = os.path.join(os.path.dirname(__file__))
-# sys.path.insert(1, path)
 sys.path.append("")
 import numpy as np
 from src.utils.uitls import *
@@ -12,30 +10,16 @@ class KMeans:
     def __init__(self, k) -> None:
         self.k = k
 
-    # def init_center(self, locations):
-    #     locations = np.array(locations)
-    #     self.n_cities = len(locations)
-    #     n_dims = locations.shape[1]
-    #     x_low, y_low = np.min(locations, axis=0)
-    #     x_high, y_high = np.max(locations, axis=0)
-    #     # low = np.min(locations)
-    #     # high = np.max(locations)
-    #     centroid = []
-    #     for i in range(self.k):
-    #         centroid.append([np.random.uniform(x_low, x_high), np.random.uniform(y_low, y_high)])
-        
-    #     self.init_centroid = np.array(centroid)
-    #     return np.array(centroid)
-
     def init_center(self, locations):
         '''
-        Params: 
-        city_array: list class City
-        Return: List chứa tọa độ của các tâm
+        Params: \n
+        city_array: list class City\n
+        Return value: array(k, n_dims) lưu thông tin tọa độ init của k cụm\n
+        
+        Cách khởi tạo: Lấy ngẫu nhiên k điểm trong số các điểm trong locations để làm tâm cụm khởi đầu \n
         '''
         self.n_cities = len(locations)
         
-        # print(f"n node: {len(locations)}, n cluster: {self.k}")
         index_list = np.random.choice(int(len(locations)), self.k, replace=False)
         centroid = []
         for i in index_list:
@@ -53,6 +37,7 @@ class KMeans:
             `centroid`: Thông tin về tọa độ các tâm\n
             `shuffle`: Cờ để trộn data\n
             `convert_flag`: Cờ convert cho hàm optimizer\n
+        Return value: array(n_nodes,) lưu id của cụm mà node được gán vào\n
         '''
         # Cast params thành array
         locations = np.array(locations)
@@ -70,8 +55,6 @@ class KMeans:
         for i, val in enumerate(index_list): reverse_index[val] = i
 
         # Chuẩn hóa dữ liệu trước khi đưa vào hàm optimizer:
-        # clusters_capacity_normed = self.clusters_capacity / self.mass_coef
-        # nodes_demand_normed = nodes_demands_shuffled / self.mass_coef
         clusters_capacity_normed = self.clusters_capacity
         nodes_demand_normed = nodes_demands_shuffled
 
@@ -93,7 +76,8 @@ class KMeans:
 
     def update_centers(self, locations, labels):
         '''
-        Cập nhật lại tọa độ tâm cụm
+        Cập nhật lại tọa độ tâm cụm\n
+        Return value: array(k, n_dims) lưu thông tin tọa độ sau khi update của k cụm\n
         '''
         locations = np.array(locations)
         labels = np.array(labels)
@@ -127,13 +111,8 @@ class KMeans:
     def data_normalize(self):
         '''
         Chuẩn hóa dữ liệu về khoảng (0,1) để tiện cho việc tính toán\n
-        Các biến được sử dụng:\n
-        `locations`: tọa độ của các nodes trong không gian cần phân cụm\n
-        `demand_list`: demand của các node, shape = [n_nodes, n_items]\n
-        `scale_coef_list`: Mảng chứa hệ số ứng với các clusters\n
         return: (distance_coef, mass_coef, scale_coef_norm) với distance_coef là hệ số khoảng cách, là max các khoảng cách giữa các nodes, mass_coef là hệ số chuẩn hóa của khối lượng hàng hóa ở các node
         '''
-
 
         distance_coef = 0
         for i in self.correaltion:
@@ -161,6 +140,7 @@ class KMeans:
         `cluster_list`: danh sách các cluster (sử dụng cấu trúc Cluster)\n
         `correlation`: mảng lưu khoảng cách giữa 2 điểm bất kỳ trong tập hợp {depots + customers}
         `optimizer`: Hàm tối ưu được sử dụng\n
+        `mapping_item_type`: Mảng lưu thông tin về item_type của từng item\n
         `epsilon`: Ngưỡng xảy ra điều kiện dừng\n
         `penalty_coef`: Hệ số phạt trong trường hợp vượt quá dung tích được gán cho cluster\n
         `trade_off_coef`: Hệ số alpha giữa khoảng cách và demand trong hàm optimizer, thỏa mãn alpha trong khoảng (0,1) \n
@@ -195,8 +175,6 @@ class KMeans:
         # Tạo các thuộc tính của lớp:
         self.id_list = id_list
         self.demand_list = demand_list
-        # print(self.demand_list)
-        # input('demand list: ')
         self.locations = locations
         self.clusters_capacity = clusters_capacity
         self.scale_coef = scale_coef_list
@@ -244,7 +222,6 @@ class KMeans:
 
                 check_converged = self.has_converged(all_centroids[-2], all_centroids[-1], epsilon=epsilon)
 
-            # print('total dis in {}: {}'.format(j,total_dis))
             meta_it.append(it)
             meta_all_centroids.append(all_centroids)
             meta_all_labels.append(all_labels)
@@ -256,10 +233,6 @@ class KMeans:
         best = np.min(meta_best)
         i_best = np.argmin(meta_best)
 
-        # print('Demand của các node: ')
-        # for city in node_list:
-        #     print(city.items_array)
-        #     input('Press to continue...')
         # Lưu các thông tin vào các thuộc tính của cụm
         cluster_list, node_list = save_data_to_cluster_customer(cluster_list, meta_all_centroids[i_best][meta_i_best[i_best]], meta_all_labels[i_best][meta_i_best[i_best]], node_list, mapping_item_type)
 

@@ -77,20 +77,6 @@ class Node:
             self._add_order(key, o_dict[key])
 
 
-    # def _add_demand(self, vendor_code, order):
-    #     if vendor_code in self.demand_dict:
-    #         self.demand_dict[vendor_code] += order
-    #     else: self.demand_dict[vendor_code] = order
-    
-    # def _remove_demand(self, code):
-    #     if code in self.demand_dict:
-    #         del self.order_dict[code]
-    
-    # def add_demand(self, d_dict):
-    #     for key in d_dict:
-    #         self._add_demand(key, d_dict[key])
-
-
     def print(self, id_flag = False, location_flag = False, demand_flag = False, cluster_id_flag = False, remain_capa_flag = False, header = ''):
         if id_flag: print('{}Id: {}'.format(header, self.id))
         if location_flag: print('{}Location: ({}, {})'.format(header, self.lat, self.lng))

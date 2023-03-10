@@ -88,7 +88,6 @@ def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef
 
 def load_node_from_json(file_name, format, n_items=0) -> tuple[int, list[Node]]:
     '''
-ss
     Params: 
 
     file_name: đường dẫn tới file json
@@ -136,9 +135,6 @@ ss
         if 'end_time' in data[format][node]:
             end_time = data[format][node]['end_time']
         else: end_time = 3600 * 24
-
-        # index_i = np.array(re.split(re.compile(' +'), data[3*i+2 + offset]))
-        # demand_i = np.array(re.split(re.compile(' +'), data[3*i+3 + offset]))
 
         demand_list_i = np.zeros(n_items)
         for j in demand_i:
@@ -248,8 +244,6 @@ def output_to_json_file(cluster_list:list[Cluster], city_list:list[Node], dump_f
     for i in range(len(city_list)):
         mapping_id_code[city_list[i].id] = city_list[i].code
     
-    # print('Mapping: ')
-    # print(mapping)
     for i in range(n_cluster):
         tmp = {}
         tmp['cluster_id'] = i
@@ -263,8 +257,6 @@ def output_to_json_file(cluster_list:list[Cluster], city_list:list[Node], dump_f
         for city_id in cluster_list[i].cities_id:
             city_tmp = {}
             city_tmp['node_id'] = int(city_id)
-            # print('City id = {}'.format(city_id))
-            # print('Mapping = {}'.format(mapping[city_id]))
             city_tmp['node_location'] = {'lat': city_list[mapping[int(city_id)]].lat, 'long':city_list[mapping[int(city_id)]].lng}
 
             demand = city_list[mapping[int(city_id)]].items_array
@@ -273,7 +265,6 @@ def output_to_json_file(cluster_list:list[Cluster], city_list:list[Node], dump_f
                 demand_tmp['Item ' + str(j)] = demand[j]
             
             city_tmp['demand'] = demand_tmp
-            # cities_tmp[mapping_id_code[int(city_id)]] = city_tmp
             cities_tmp[city_id] = city_tmp
         tmp['node_list'] = cities_tmp
         save_data[str(i)] = tmp
@@ -283,8 +274,6 @@ def output_to_json_file(cluster_list:list[Cluster], city_list:list[Node], dump_f
             json.dump(save_data, json_file, ensure_ascii=False, indent=4)
     
     return save_data
-
-def visualize(): pass
 
 def kmeans_display(X, center, label, K, no_color_flag = False):
     if not no_color_flag:
@@ -309,8 +298,7 @@ def kmeans_display(X, center, label, K, no_color_flag = False):
 
     for i in range(K):
         plt.scatter(center[i, 0], center[i, 1], color = 'red', marker = c_marker[i], s = 50, alpha = .8)
-    # plt.axis('equal')
-    # plt.plot()
+
 
 def total_distance(centroid, locations, labels):
     '''
@@ -332,18 +320,13 @@ def total_distance(centroid, locations, labels):
 
 def draw_animation(figure, ax, all_centroid, locations, all_labels, time_delta, n_clusters, next_by_key = False):
     it = len(all_centroid)
-    # plotting data
     plt.ion()
-    # figure, ax = plt.subplots(figsize=(10, 8))
     
     for i in range(it):
         kmeans_display(locations, all_centroid[i], all_labels[i], n_clusters)
         
-        # plt.show()
         figure.canvas.draw()
         figure.canvas.flush_events()
-        # input('A key')
-        # plt.waitforbuttonpress(10)
         if next_by_key: input('Press to continue...')
         else:
             time.sleep(time_delta) 
@@ -373,9 +356,6 @@ def convert_demand(demand, mapping_item_type):
     n_item_type = int(np.max(mapping_item_type)) + 1
     res = np.array([0.0]*n_item_type)
     for j in range(n_item_type):
-        # print(nodes_demand[i][item_type_mapping == j])
-        # print(demand[mapping_item_type == j])
-        # input('pp')
         res[j] += np.sum(demand[mapping_item_type == j])
     
     return res
@@ -396,22 +376,14 @@ def save_data_to_cluster_customer(cluster_list: list[Cluster], center_list, labe
     center_list = np.array(center_list)
     labels_list = np.array(labels_list)
 
-    # print('Labels list: {}'.format(labels_list))
-
     # Lưu các thuộc tính cho các clusters
     for i, cluster in enumerate(cluster_list):
         city_list = np.where(labels_list == i)[0]
         cluster.set_center(center_list[i])
-        # print('Lưu thuộc tính cho cluster và customer: ')
-        # print(city_list)
         cluster.clear_mass()
         for j in city_list:
-            # print('Customer demand: {}'.format(customer_list[j].items_array))
-            # print('Update mass: {}'.format(convert_demand(customer_list[j].items_array, mapping_item_type)))
-            # input('PpP')
             cluster.update_mass(convert_demand(customer_list[j].items_array, mapping_item_type), customer_list[j].id)
-            # print('Cluster mass after update: {}'.format(cluster.current_mass))
-            # input('Press to continue...')
+
     
     for i, customer in enumerate(customer_list):
         customer.cluster_id = labels_list[i]
@@ -428,10 +400,6 @@ def is_bigger_than(array1, array2):
     #Kiểm tra có cùng shape hay không, nếu không thì raise lỗi 
     if array1.shape != array2.shape: 
         raise Exception('2 array do not have the same shape')
-    # print('Array 1: {}'.format(array1))
-    # print('Array 2: {}'.format(array2))
-    # print('bigger:  {}'.format(array1>=array2))
-    # print('Return: {}'.format(np.sum(array1>=array2) > 0))
     return np.sum(array1<array2) == 0
 
 def save_node_list_to_file(node_list:list[Node], fname):
@@ -508,9 +476,6 @@ def convert_demand_for_depot(demand, start_remain, end_remain, id_list, mapping_
     '''
     demand = np.array(demand)
 
-    # print('Demand: {}'.format(demand))
-    # print(f"Start: {start_remain}\nEnd: {end_remain}")
-
     res = []
     offset = np.array(start_remain) - np.array(end_remain)
 
@@ -535,8 +500,6 @@ def convert_demand_for_depot(demand, start_remain, end_remain, id_list, mapping_
             
             res_i[id_list[k]] = np.array(res_i_k)
         res.append(res_i)
-    # print(f"Out: {np.array(res)}")
-    # input('pp')
     return res
                     
 

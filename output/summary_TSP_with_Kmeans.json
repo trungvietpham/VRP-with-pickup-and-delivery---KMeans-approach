@@ -1,0 +1,12 @@
+{
+    "depot-customer": {
+        "Distance": 982.267,
+        "Time": 25065.0,
+        "Cost": 941
+    },
+    "vendor-depot": {
+        "Distance": 2554.8230000000003,
+        "Time": 11222.0,
+        "Cost": 3361
+    }
+}
