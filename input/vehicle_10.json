@@ -1,34 +1,34 @@
 {
     "0": {
-        "type": 2,
-        "coef": 2.0,
+        "type": 3,
+        "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 11318
+            "demand": 11255
         }
     },
     "1": {
-        "type": 3,
-        "coef": 5.5,
+        "type": 1,
+        "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 10466
+            "demand": 11297
         }
     },
     "2": {
-        "type": 3,
-        "coef": 5.5,
-        "1": {
-            "item_id": 1,
-            "demand": 11621
-        }
-    },
-    "3": {
         "type": 5,
         "coef": 9.0,
         "1": {
             "item_id": 1,
-            "demand": 11513
+            "demand": 10498
+        }
+    },
+    "3": {
+        "type": 3,
+        "coef": 5.5,
+        "1": {
+            "item_id": 1,
+            "demand": 10071
         }
     },
     "4": {
@@ -36,15 +36,15 @@
         "coef": 2.0,
         "1": {
             "item_id": 1,
-            "demand": 11706
+            "demand": 11045
         }
     },
     "5": {
-        "type": 4,
-        "coef": 4.7,
+        "type": 2,
+        "coef": 2.0,
         "1": {
             "item_id": 1,
-            "demand": 10885
+            "demand": 10661
         }
     },
     "6": {
@@ -52,23 +52,23 @@
         "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 10320
+            "demand": 11814
         }
     },
     "7": {
-        "type": 4,
-        "coef": 4.7,
-        "1": {
-            "item_id": 1,
-            "demand": 10923
-        }
-    },
-    "8": {
         "type": 3,
         "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 11680
+            "demand": 10260
+        }
+    },
+    "8": {
+        "type": 1,
+        "coef": 7.5,
+        "1": {
+            "item_id": 1,
+            "demand": 11258
         }
     },
     "9": {
@@ -76,7 +76,7 @@
         "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11834
+            "demand": 10264
         }
     }
 }

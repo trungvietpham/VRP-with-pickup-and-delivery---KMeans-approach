@@ -45,7 +45,7 @@ def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef
     nodes_demand = np.array(nodes_demand)
 
     # Kiểm tra dữ liệu đầu vào
-    assert 0<trade_off_coef<1, 'trade_off_coef must be an float in range (0,1)'
+    assert 0<=trade_off_coef<=1, 'trade_off_coef must be an float in range (0,1)'
 
     # Khởi tạo 1 vài tham số
     zeros_penalty = 1000

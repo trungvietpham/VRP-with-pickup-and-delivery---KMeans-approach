@@ -14,7 +14,7 @@ import yaml
 from yaml.loader import SafeLoader
 sys.path.append("")
 
-cnt = 0
+count = 0
 
 def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = None, n_node=None, low_threshold = 0, high_threshold = 1000, mode = 'w'):
     '''
@@ -52,11 +52,11 @@ def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = No
         k_random.append(idx[int(r)])
         del idx[r]
 
-    global cnt
+    global count
     
     for i, line in enumerate(k_random):
         market_dict = {}
-        market_dict['id'] = cnt
+        market_dict['id'] = count
         market_dict['code'] = df['code'].iloc[line]
         market_dict['name'] = df['name'].iloc[line]
         location_dict = {}
@@ -85,7 +85,7 @@ def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = No
             market_dict['end_time'] = int(df['end_time'][line])
 
         markets_dict[market_dict['id']] = market_dict
-        cnt+=1
+        count+=1
         
     
     save_data[data_type] = markets_dict

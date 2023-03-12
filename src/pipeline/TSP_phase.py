@@ -369,28 +369,28 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
     dump_data(vendor_list, config['dump']['vendor'])
 
     
-    # Trực quan hóa dữ liệu
-    n,e,w,s = get_pole(depot_locations + customer_locations)
-    plt.ion()
-    figure, ax = plt.subplots(figsize=(10, 8))
+    # # Trực quan hóa dữ liệu
+    # n,e,w,s = get_pole(depot_locations + customer_locations)
+    # plt.ion()
+    # figure, ax = plt.subplots(figsize=(10, 8))
     
-    for i in range(len(route_list)):
-        plt.xlim(w[0], e[0])
-        plt.ylim(s[1], n[1])
-        route = route_list[i].split(' -> ')
-        node_tpe = [r[0] for r in route]
-        n_depots = np.sum(np.array(node_tpe) == 'D')
-        locations = []
-        for code in route:
-            locations.append(mapping_code_location[code])
-        figure,ax = draw_tsp_route(figure, ax, 'r', 'b', n_depots, locations)
+    # for i in range(len(route_list)):
+    #     plt.xlim(w[0], e[0])
+    #     plt.ylim(s[1], n[1])
+    #     route = route_list[i].split(' -> ')
+    #     node_tpe = [r[0] for r in route]
+    #     n_depots = np.sum(np.array(node_tpe) == 'D')
+    #     locations = []
+    #     for code in route:
+    #         locations.append(mapping_code_location[code])
+    #     figure,ax = draw_tsp_route(figure, ax, 'r', 'b', n_depots, locations)
 
-        figure.canvas.draw()
-        figure.canvas.flush_events()
+    #     figure.canvas.draw()
+    #     figure.canvas.flush_events()
 
-        print(f"Route: {route_list[i]}, length: {route_distance[i]} km")
-        if input('Press to continue (0 to exit)...') == '0': break
-        plt.clf()
+    #     print(f"Route: {route_list[i]}, length: {route_distance[i]} km")
+    #     if input('Press to continue (0 to exit)...') == '0': break
+    #     plt.clf()
     
 
 

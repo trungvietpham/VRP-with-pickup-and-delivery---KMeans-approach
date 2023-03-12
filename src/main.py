@@ -19,7 +19,7 @@ from src.pipeline.survival import sur_main
 
 # Cần fine tune các tham số: penalty_coef, trade_off_coef
 
-def main(dump_flag = True):
+def main(dump_flag = True, alpha = 0.9):
 
     config = read_config('src/config/config.yaml', tpe  = 'yaml')
     n_node_thr, n_customers, n_depots, n_vendor = 0,0,0,0
@@ -41,7 +41,7 @@ def main(dump_flag = True):
         details.append('1.1. KMeans phase:')
         summary.append('1. DEPOT - CUSTOMER PHASE:')
         summary.append('1.1. KMeans phase:')
-        s, d, kmeans_time, n_customers, n_vehicles = KMeans_phase(config['fname']['vehicle'], tpe='depot-customer')
+        s, d, kmeans_time, n_customers, n_vehicles = KMeans_phase(config['fname']['vehicle'], tpe='depot-customer', alpha=alpha)
         print(f"depot-customer: kmeans done")
         summary.append(s)
         details.append(d)
@@ -52,7 +52,7 @@ def main(dump_flag = True):
 
         details.append('1.2. Prepare for TSP phase:')
         summary.append('1.2. Prepare for TSP phase:')
-        s,d, pre_time = Pre_TSP_phase(n_node_thr, config['fname']['vehicle'], tpe='depot-customer')
+        s,d, pre_time = Pre_TSP_phase(n_node_thr, config['fname']['vehicle'], tpe='depot-customer', alpha=alpha)
         print(f"depot-customer: pre tsp phase done")
         
         summary.append(s)
@@ -87,7 +87,7 @@ def main(dump_flag = True):
         
         details.append('TSP phase')
         summary.append('TSP phase')
-        s, d, n_vendor, t, r_length, cost = vendor_tsp_phase()
+        s, d, n_vendor, t, r_length, cost = vendor_tsp_phase(alpha)
         if s == -1: 
             summary.append('Cannot solving problem, capacity are lower than demand')
             details.append(summary[-1])
@@ -131,5 +131,6 @@ def main(dump_flag = True):
     #     f.write(f"{n_node_thr}node_{n_vehicles}ve_{n_customers}cus_{n_depots}de, {r_length}, {cost}, {np.round(kmeans_time + pre_time, 0)}, {tsp_time}\n")
         
     print(f"Folder: {scena_fname}")
+    return scena_fname
 
-if __name__ == '__main__': main()
+if __name__ == '__main__': main(alpha=0.9)

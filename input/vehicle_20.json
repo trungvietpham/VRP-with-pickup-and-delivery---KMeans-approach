@@ -1,37 +1,5 @@
 {
     "0": {
-        "type": 2,
-        "coef": 2.0,
-        "1": {
-            "item_id": 1,
-            "demand": 11077
-        }
-    },
-    "1": {
-        "type": 3,
-        "coef": 5.5,
-        "1": {
-            "item_id": 1,
-            "demand": 10381
-        }
-    },
-    "2": {
-        "type": 3,
-        "coef": 5.5,
-        "1": {
-            "item_id": 1,
-            "demand": 10188
-        }
-    },
-    "3": {
-        "type": 5,
-        "coef": 9.0,
-        "1": {
-            "item_id": 1,
-            "demand": 10763
-        }
-    },
-    "4": {
         "type": 1,
         "coef": 7.5,
         "1": {
@@ -39,84 +7,116 @@
             "demand": 11336
         }
     },
-    "5": {
+    "1": {
         "type": 5,
         "coef": 9.0,
         "1": {
             "item_id": 1,
-            "demand": 11562
+            "demand": 10086
         }
     },
-    "6": {
+    "2": {
         "type": 1,
         "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 10807
+            "demand": 10561
         }
     },
-    "7": {
+    "3": {
+        "type": 1,
+        "coef": 7.5,
+        "1": {
+            "item_id": 1,
+            "demand": 10325
+        }
+    },
+    "4": {
+        "type": 1,
+        "coef": 7.5,
+        "1": {
+            "item_id": 1,
+            "demand": 10250
+        }
+    },
+    "5": {
+        "type": 1,
+        "coef": 7.5,
+        "1": {
+            "item_id": 1,
+            "demand": 11644
+        }
+    },
+    "6": {
         "type": 3,
         "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 10137
+            "demand": 11791
         }
     },
-    "8": {
-        "type": 2,
-        "coef": 2.0,
-        "1": {
-            "item_id": 1,
-            "demand": 11397
-        }
-    },
-    "9": {
+    "7": {
         "type": 4,
         "coef": 4.7,
         "1": {
             "item_id": 1,
-            "demand": 11523
+            "demand": 11248
         }
     },
-    "10": {
+    "8": {
+        "type": 4,
+        "coef": 4.7,
+        "1": {
+            "item_id": 1,
+            "demand": 11510
+        }
+    },
+    "9": {
         "type": 1,
         "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11682
+            "demand": 11601
+        }
+    },
+    "10": {
+        "type": 3,
+        "coef": 5.5,
+        "1": {
+            "item_id": 1,
+            "demand": 10591
         }
     },
     "11": {
-        "type": 4,
-        "coef": 4.7,
+        "type": 1,
+        "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 10776
+            "demand": 11573
         }
     },
     "12": {
-        "type": 5,
-        "coef": 9.0,
+        "type": 1,
+        "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11405
+            "demand": 11363
         }
     },
     "13": {
-        "type": 4,
-        "coef": 4.7,
+        "type": 1,
+        "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11195
+            "demand": 11131
         }
     },
     "14": {
-        "type": 5,
-        "coef": 9.0,
+        "type": 1,
+        "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11436
+            "demand": 11998
         }
     },
     "15": {
@@ -124,7 +124,7 @@
         "coef": 9.0,
         "1": {
             "item_id": 1,
-            "demand": 11908
+            "demand": 11893
         }
     },
     "16": {
@@ -132,31 +132,31 @@
         "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 10609
+            "demand": 10076
         }
     },
     "17": {
+        "type": 5,
+        "coef": 9.0,
+        "1": {
+            "item_id": 1,
+            "demand": 11706
+        }
+    },
+    "18": {
         "type": 3,
         "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 10475
-        }
-    },
-    "18": {
-        "type": 2,
-        "coef": 2.0,
-        "1": {
-            "item_id": 1,
-            "demand": 10598
+            "demand": 10641
         }
     },
     "19": {
-        "type": 2,
-        "coef": 2.0,
+        "type": 1,
+        "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11664
+            "demand": 10444
         }
     }
 }

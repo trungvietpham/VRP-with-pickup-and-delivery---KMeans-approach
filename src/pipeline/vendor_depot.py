@@ -4,15 +4,16 @@ from src.utils.uitls import *
 from src.utils.get_data import *
 from src.utils.KMeans import KMeans
 from python_tsp.exact import solve_tsp_dynamic_programming
+import json
 
-def sub_cluster(vendor_id, vehicle:Vehicle):
+def sub_cluster(vendor_id, vehicle:Vehicle, alpha):
     '''
     Chia nhỏ các node trong 1 vendor ra thành nhiều route để đảm bảo hàng hóa trong 1 route đủ để chứa trong 1 xe và số node không vượt quá threshold
     Hiện tại mới chỉ thiết lập 1 xe `vehicle`, có thể đưa lên thành 1 list các xe
     '''
-    config = read_config('src/config/config.yaml')
-
-    correlation = json.load(open(config['fname']['correlation'], 'r'))
+    config = read_config('src/config/config.yaml', tpe='yaml')
+    with open(config['fname']['correlation'], 'r') as f:
+        correlation = json.load(f)
     mapping_item_type = get_items(config['fname']['item_type'])
     n_node_thr = config['other_config']['no of node threshold']
 
@@ -37,7 +38,7 @@ def sub_cluster(vendor_id, vehicle:Vehicle):
 
         model = KMeans(n_sub)
         
-        (centers, labels, it, dis, best, i_best, child_cluster_list, city_list) = model.fit(city_list, child_cluster_list, correlation, optimizer, mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=0.9, n_times=3)
+        (centers, labels, it, dis, best, i_best, child_cluster_list, city_list) = model.fit(city_list, child_cluster_list, correlation, optimizer, mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=3)
 
         continue_flag = False
 
@@ -63,7 +64,7 @@ def sub_cluster(vendor_id, vehicle:Vehicle):
     
     return child_cluster_list
 
-def vendor_tsp_phase():
+def vendor_tsp_phase(alpha=0.9):
     config = read_config('src/config/config.yaml')
 
     # Load các xe vào 
@@ -75,7 +76,7 @@ def vendor_tsp_phase():
     n_depot, depot_list = load_data(config['dump']['depot'])
     id_code = mapping_id_code(vendor_list + depot_list)
     mapping_item_type = get_items(config['fname']['item_type'])
-    correlation = json.load(open(config['fname']['correlation']))
+    correlation = json.load(open(config['fname']['correlation'], 'r'))
     dump_file = config['output']['vendor-depot']['tsp']
     route_distance = []
     time_computing = []
@@ -86,7 +87,7 @@ def vendor_tsp_phase():
         res = {}
 
         time1 = time.time()
-        child_list = sub_cluster(vendor.id, vehicle_list[i%n_ve])
+        child_list = sub_cluster(vendor.id, vehicle_list[i%n_ve], alpha=alpha)
         time_computing.append(time.time() - time1)
 
         routes = [child_list[i].cities_id for i in range(len(child_list))]

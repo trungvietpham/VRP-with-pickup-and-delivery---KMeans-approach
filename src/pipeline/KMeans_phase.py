@@ -12,7 +12,7 @@ from src.utils.KMeans import KMeans
 from src.utils.uitls import *
 from src.utils.get_data import *
 
-def KMeans_phase(vehicle_fname, tpe = 'depot-customer'):
+def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
     '''
     Chạy phase phân cụm cho k xe \n
     `tpe`: Loại phân cụm, nhận giá trị là 'depot-customer', 'vendor-depot'\n
@@ -75,8 +75,8 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer'):
     model = KMeans(n_clusters)
 
     time1 = time.time()
-    if tpe == 'depot-customer': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=0.9, n_times=5)
-    if tpe == 'vendor-depot': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=6*1e-6, penalty_coef=3, trade_off_coef=0.9, n_times=5)
+    if tpe == 'depot-customer': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=5)
+    if tpe == 'vendor-depot': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=6*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=5)
 
     time2 = time.time()
 
@@ -85,14 +85,14 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer'):
     print(f"Number of iter: {len(centers)}")
 
     
-    # plotting data
-    plt.ion()
-    figure, ax = plt.subplots(figsize=(10, 8))
+    # # plotting data
+    # plt.ion()
+    # figure, ax = plt.subplots(figsize=(10, 8))
 
-    figure, ax = draw_animation(figure, ax, centers, model.locations, labels, 0.01, n_vehicles)
-    figure, ax = plot(figure, ax, dis)
-    plt.show()
-    input("Press to continue: ")
+    # figure, ax = draw_animation(figure, ax, centers, model.locations, labels, 0.01, n_vehicles)
+    # figure, ax = plot(figure, ax, dis)
+    # plt.show()
+    # input("Press to continue: ")
     
 
     # Các biến để in thông tin ra màn hình

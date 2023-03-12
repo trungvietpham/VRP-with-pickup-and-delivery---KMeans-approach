@@ -16,7 +16,7 @@ from src.utils.KMeans import KMeans
 from src.utils.uitls import *
 from src.utils.get_data import *
 
-def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer'):
+def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha = 0.9):
     '''
     `n_node_threshold`: Ngưỡng chặn trên cho số node trong 1 cụm con\n
     `vehicle_fname`: đường dẫn tới file lưu thông tin vehicles\n
@@ -144,7 +144,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer'):
                     print(f"Node demand exceed vehicle capacity, can't clustering")
                     return -1, -1, -1
 
-            (centers, labels, it, dis, best, i_best, child_cluster_list, child_city_list) = model.fit(child_city_list, child_cluster_list, correlation, optimizer, mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=0.9, n_times=3)
+            (centers, labels, it, dis, best, i_best, child_cluster_list, child_city_list) = model.fit(child_city_list, child_cluster_list, correlation, optimizer, mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=3)
 
             continue_flag = False
             for child in child_cluster_list:

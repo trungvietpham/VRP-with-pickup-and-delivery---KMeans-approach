@@ -3,10 +3,10 @@ dump:
     depot: dump/depot.pkl
     vendor: dump/vendor.pkl
 flag:
-    depot-customer: false
-    gendata: true
-    run_all: true
-    vendor-depot: false
+    depot-customer: true
+    gendata: false
+    run_all: false
+    vendor-depot: true
 fname:
     correlation: input/correlation.json
     customer: input/market_400.json

@@ -4,8 +4,9 @@ import matplotlib.pyplot as plt
 # from src.utils.KMeans import KMeans
 from utils.get_data import * 
 import sys
-import os
 sys.path.append("")
+import numpy as np
+import json
 from src.utils.uitls import *
 from src.utils.get_data import *
 from src.gendata.gendata import gendata
@@ -143,6 +144,22 @@ def benchmarking():
         cnt+=1 
         print(f"Done {cnt}/{length}")
 
+
+def alpha_tuning():
+    alpha_list = np.arange(0.5, 1, 0.05)
+    for alpha in alpha_list:
+        fname = main(alpha=alpha)
+        metric = json.load(open(fname+'/metric_res.json', 'r'))
+        with open('alpha_eval.csv', 'a') as f:
+            f.write(f"{alpha}, \
+                    {metric['vendor-depot']['Cost']}, \
+                    {metric['vendor-depot']['survivability']}, \
+                    {metric['depot-customer']['Cost']}, \
+                    {metric['depot-customer']['survivability']}\n")
+            f.close()
+    
+    
 if __name__ == '__main__': 
     # gen_data_for_benchmark()
-    for i in range(5): benchmarking()
+    # for i in range(5): benchmarking()
+    alpha_tuning()
