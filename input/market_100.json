@@ -1,0 +1,1804 @@
+{
+    "market": {
+        "0": {
+            "id": 0,
+            "code": "C39",
+            "name": "WinMart+ 18B Nguyễn Biểu",
+            "location": {
+                "lat": 21.0415902,
+                "long": 105.8399122
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 56
+                }
+            },
+            "seller": "C5",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "1": {
+            "id": 1,
+            "code": "C1",
+            "name": "VinMart Liễu Giai",
+            "location": {
+                "lat": 21.0311,
+                "long": 105.8136648
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 345
+                }
+            },
+            "seller": "C423",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "2": {
+            "id": 2,
+            "code": "C447",
+            "name": "TH true mart Minh Khai Hà Nội",
+            "location": {
+                "lat": 20.996619,
+                "long": 105.863613
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 407
+                }
+            },
+            "seller": "C5",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "3": {
+            "id": 3,
+            "code": "C105",
+            "name": "WinMart+ 47 QL 2 Phủ Lỗ, Sóc Sơn",
+            "location": {
+                "lat": 21.4036171,
+                "long": 105.3155767
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 239
+                }
+            },
+            "seller": "C273",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "4": {
+            "id": 4,
+            "code": "C223",
+            "name": "WinMart+ 310 Minh Khai",
+            "location": {
+                "lat": 20.995806,
+                "long": 105.861092
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 56
+                }
+            },
+            "seller": "C221",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "5": {
+            "id": 5,
+            "code": "C374",
+            "name": "Siêu thị Điện máy XANH  - 88 Trường Chinh",
+            "location": {
+                "lat": 20.9988352,
+                "long": 105.8383131
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 349
+                }
+            },
+            "seller": "C221",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "6": {
+            "id": 6,
+            "code": "C328",
+            "name": "Circle K - 36 Tràng Tiền",
+            "location": {
+                "lat": 21.0250468,
+                "long": 105.8549266
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 197
+                }
+            },
+            "seller": "C423",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "7": {
+            "id": 7,
+            "code": "C94",
+            "name": "WinMart+ 120 Lê Duẩn (Ga Hà Nội)",
+            "location": {
+                "lat": 21.0242529,
+                "long": 105.841029
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 117
+                }
+            },
+            "seller": "C116",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "8": {
+            "id": 8,
+            "code": "C162",
+            "name": "WinMart+ 160 Nguyễn Ngọc Nại",
+            "location": {
+                "lat": 20.9979634,
+                "long": 105.8261287
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 388
+                }
+            },
+            "seller": "C221",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "9": {
+            "id": 9,
+            "code": "C236",
+            "name": "WinMart+ 70 Vạn Kiếp",
+            "location": {
+                "lat": 21.0187737,
+                "long": 105.8631417
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 17
+                }
+            },
+            "seller": "C53",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "10": {
+            "id": 10,
+            "code": "C71",
+            "name": "WinMart Linh Đàm",
+            "location": {
+                "lat": 20.9637169,
+                "long": 105.8235546
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 151
+                }
+            },
+            "seller": "C5",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "11": {
+            "id": 11,
+            "code": "C298",
+            "name": "Circle K 1/37 Lê Thanh Nghị",
+            "location": {
+                "lat": 21.0016317,
+                "long": 105.8464926
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 108
+                }
+            },
+            "seller": "C221",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "12": {
+            "id": 12,
+            "code": "C283",
+            "name": "WinMart+ 121-123 Tô Hiệu",
+            "location": {
+                "lat": 20.9664591,
+                "long": 105.7775736
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 464
+                }
+            },
+            "seller": "C461",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "13": {
+            "id": 13,
+            "code": "C75",
+            "name": "WinMart Bắc Từ Liêm",
+            "location": {
+                "lat": 21.0530292,
+                "long": 105.7800956
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 312
+                }
+            },
+            "seller": "C53",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "14": {
+            "id": 14,
+            "code": "C458",
+            "name": "TH true mart Yên Hòa Hà Nội",
+            "location": {
+                "lat": 21.0218044,
+                "long": 105.790872
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 193
+                }
+            },
+            "seller": "C5",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "15": {
+            "id": 15,
+            "code": "C148",
+            "name": "WinMart+ Ngõ 76 Mai Dịch",
+            "location": {
+                "lat": 21.0412539,
+                "long": 105.7750866
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 368
+                }
+            },
+            "seller": "C143",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "16": {
+            "id": 16,
+            "code": "C362",
+            "name": "Điện máy xanh - 55 P. Nguyễn Hoàng",
+            "location": {
+                "lat": 21.0320869,
+                "long": 105.773378
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 160
+                }
+            },
+            "seller": "C22",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "17": {
+            "id": 17,
+            "code": "C55",
+            "name": "WinMart+ 116 Đê La Thành",
+            "location": {
+                "lat": 21.0200618,
+                "long": 105.8282171
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 472
+                }
+            },
+            "seller": "C143",
+            "start_time": 27900,
+            "end_time": 74700
+        },
+        "18": {
+            "id": 18,
+            "code": "C337",
+            "name": "Circle K - 420 La Thành",
+            "location": {
+                "lat": 21.0228949,
+                "long": 105.8222371
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 363
+                }
+            },
+            "seller": "C273",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "19": {
+            "id": 19,
+            "code": "C16",
+            "name": "VinMart Hoài Đức",
+            "location": {
+                "lat": 21.0741291,
+                "long": 105.7007906
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 410
+                }
+            },
+            "seller": "C423",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "20": {
+            "id": 20,
+            "code": "C9",
+            "name": "VinMart Xuân Diệu",
+            "location": {
+                "lat": 21.0645134,
+                "long": 105.8278671
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 281
+                }
+            },
+            "seller": "C53",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "21": {
+            "id": 21,
+            "code": "C239",
+            "name": "WinMart+ 17 Nguyễn Thượng Hiền",
+            "location": {
+                "lat": 21.018794,
+                "long": 105.8426206
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 352
+                }
+            },
+            "seller": "C259",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "22": {
+            "id": 22,
+            "code": "C424",
+            "name": "Siêu thị Điện máy XANH -  Phụng Thượng 1",
+            "location": {
+                "lat": 21.0579179,
+                "long": 105.6440181
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 383
+                }
+            },
+            "seller": "C22",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "23": {
+            "id": 23,
+            "code": "C153",
+            "name": "WinMart+ 12 Phạm Tuấn Tài",
+            "location": {
+                "lat": 21.0417797,
+                "long": 105.7869201
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 164
+                }
+            },
+            "seller": "C273",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "24": {
+            "id": 24,
+            "code": "C455",
+            "name": "TH true mart Vương Thừa Vũ Hà Nội",
+            "location": {
+                "lat": 20.9997188,
+                "long": 105.8220217
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 229
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "25": {
+            "id": 25,
+            "code": "C261",
+            "name": "WinMart+  Mỹ Đình",
+            "location": {
+                "lat": 21.0017928,
+                "long": 105.7507416
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 495
+                }
+            },
+            "seller": "C116",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "26": {
+            "id": 26,
+            "code": "C50",
+            "name": "WinMart+ 38 Linh Lang",
+            "location": {
+                "lat": 21.0360361,
+                "long": 105.8104245
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 482
+                }
+            },
+            "seller": "C423",
+            "start_time": 27900,
+            "end_time": 74700
+        },
+        "27": {
+            "id": 27,
+            "code": "C218",
+            "name": "WinMart+ 27 Ngô Thì Nhậm",
+            "location": {
+                "lat": 21.0167733,
+                "long": 105.8543229
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 413
+                }
+            },
+            "seller": "C143",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "28": {
+            "id": 28,
+            "code": "C85",
+            "name": "WinMart HNI Cầu Giấy",
+            "location": {
+                "lat": 21.026881,
+                "long": 105.7865155
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 228
+                }
+            },
+            "seller": "C461",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "29": {
+            "id": 29,
+            "code": "C14",
+            "name": "VinMart Ocean Park",
+            "location": {
+                "lat": 20.9940838,
+                "long": 105.9598746
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 252
+                }
+            },
+            "seller": "C53",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "30": {
+            "id": 30,
+            "code": "C469",
+            "name": "TH true mart Nguyễn Khánh Toàn Hà Nội",
+            "location": {
+                "lat": 21.0355126,
+                "long": 105.8041999
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 219
+                }
+            },
+            "seller": "C22",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "31": {
+            "id": 31,
+            "code": "C333",
+            "name": "Circle K - 27 Đinh Tiên Hoàng",
+            "location": {
+                "lat": 21.032023,
+                "long": 105.8525637
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 441
+                }
+            },
+            "seller": "C461",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "32": {
+            "id": 32,
+            "code": "C429",
+            "name": "Nội Thất Thông Minh - Phê Decor",
+            "location": {
+                "lat": 21.0210151,
+                "long": 105.824102
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 165
+                }
+            },
+            "seller": "C221",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "33": {
+            "id": 33,
+            "code": "C111",
+            "name": "Vimart+ 85 Lê Lợi, Vân Đình, Ứng Hòa",
+            "location": {
+                "lat": 20.7337728,
+                "long": 105.7704551
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 387
+                }
+            },
+            "seller": "C259",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "34": {
+            "id": 34,
+            "code": "C402",
+            "name": "Vua nệm - 390 P. Xã Đàn",
+            "location": {
+                "lat": 21.0151223,
+                "long": 105.8336276
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 228
+                }
+            },
+            "seller": "C259",
+            "start_time": 30600,
+            "end_time": 75600
+        },
+        "35": {
+            "id": 35,
+            "code": "C352",
+            "name": "Circle K - 18 Nguyễn Khánh Toàn",
+            "location": {
+                "lat": 21.0355614,
+                "long": 105.8039521
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 361
+                }
+            },
+            "seller": "C5",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "36": {
+            "id": 36,
+            "code": "C164",
+            "name": "WinMart+ 147 Hoàng Văn Thái",
+            "location": {
+                "lat": 20.9950819,
+                "long": 105.8241944
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 88
+                }
+            },
+            "seller": "C259",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "37": {
+            "id": 37,
+            "code": "C276",
+            "name": "WinMart+ 271 Nguyễn Hoàng Tôn",
+            "location": {
+                "lat": 21.0727818,
+                "long": 105.8024247
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 380
+                }
+            },
+            "seller": "C116",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "38": {
+            "id": 38,
+            "code": "C200",
+            "name": "WinMart+ 564 Nguyễn Văn Cừ",
+            "location": {
+                "lat": 21.0498836,
+                "long": 105.886032
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 431
+                }
+            },
+            "seller": "C143",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "39": {
+            "id": 39,
+            "code": "C264",
+            "name": "WinMart+ 357 Xuân Đỉnh",
+            "location": {
+                "lat": 21.0716561,
+                "long": 105.790145
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 102
+                }
+            },
+            "seller": "C143",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "40": {
+            "id": 40,
+            "code": "C351",
+            "name": "Circle K - 16B Hàng Than",
+            "location": {
+                "lat": 21.0420454,
+                "long": 105.8471325
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 261
+                }
+            },
+            "seller": "C5",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "41": {
+            "id": 41,
+            "code": "C363",
+            "name": "Điện máy xanh - 70 Hồ Tùng Mậu",
+            "location": {
+                "lat": 21.03669,
+                "long": 105.778368
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 36
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "42": {
+            "id": 42,
+            "code": "C38",
+            "name": "WinMart+ 50 Nguyễn Hoàng Tôn",
+            "location": {
+                "lat": 21.0715449,
+                "long": 105.8064137
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 498
+                }
+            },
+            "seller": "C461",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "43": {
+            "id": 43,
+            "code": "C20",
+            "name": "VinMart+ 203 Nguyễn Văn Cừ - Bắc Ninh",
+            "location": {
+                "lat": 21.1732146,
+                "long": 106.0534712
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 418
+                }
+            },
+            "seller": "C221",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "44": {
+            "id": 44,
+            "code": "C19",
+            "name": "WinMart+ Hoàng Văn Thái",
+            "location": {
+                "lat": 20.9975522,
+                "long": 105.8228263
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 323
+                }
+            },
+            "seller": "C22",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "45": {
+            "id": 45,
+            "code": "C411",
+            "name": "Vua nệm -  15 Chùa Thông",
+            "location": {
+                "lat": 21.1173504,
+                "long": 105.4964722
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 495
+                }
+            },
+            "seller": "C461",
+            "start_time": 30600,
+            "end_time": 75600
+        },
+        "46": {
+            "id": 46,
+            "code": "C32",
+            "name": "WinMart+ 123 Âu Cơ",
+            "location": {
+                "lat": 21.0635658,
+                "long": 105.8314034
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 241
+                }
+            },
+            "seller": "C5",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "47": {
+            "id": 47,
+            "code": "C318",
+            "name": "Circle K - 149C P. Lò Đúc",
+            "location": {
+                "lat": 21.010473,
+                "long": 105.860179
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 245
+                }
+            },
+            "seller": "C22",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "48": {
+            "id": 48,
+            "code": "C245",
+            "name": "WinMart+ 242 Lê Thanh Nghị",
+            "location": {
+                "lat": 21.0019762,
+                "long": 105.8424844
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 355
+                }
+            },
+            "seller": "C143",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "49": {
+            "id": 49,
+            "code": "C272",
+            "name": "WinMart+ 24 Ngõ 1 Đỗ Nhuận",
+            "location": {
+                "lat": 21.0686448,
+                "long": 105.788083
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 196
+                }
+            },
+            "seller": "C53",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "50": {
+            "id": 50,
+            "code": "C36",
+            "name": "WinMart+ 151 Trích Sài",
+            "location": {
+                "lat": 21.0512115,
+                "long": 105.8129883
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 227
+                }
+            },
+            "seller": "C221",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "51": {
+            "id": 51,
+            "code": "C47",
+            "name": "WinMart+ 31 Tân Ấp",
+            "location": {
+                "lat": 21.0460677,
+                "long": 105.8462736
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 298
+                }
+            },
+            "seller": "C143",
+            "start_time": 27900,
+            "end_time": 74700
+        },
+        "52": {
+            "id": 52,
+            "code": "C291",
+            "name": "WinMart+ 556 Quang Trung - Hà Đông",
+            "location": {
+                "lat": 20.959861,
+                "long": 105.761454
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 153
+                }
+            },
+            "seller": "C22",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "53": {
+            "id": 53,
+            "code": "C185",
+            "name": "WinMart+ C15 Nơ 19 Định Công",
+            "location": {
+                "lat": 20.9836984,
+                "long": 105.8636257
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 132
+                }
+            },
+            "seller": "C53",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "54": {
+            "id": 54,
+            "code": "C27",
+            "name": "WinMart+ Bát Tràng",
+            "location": {
+                "lat": 20.9788994,
+                "long": 105.9160607
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 257
+                }
+            },
+            "seller": "C423",
+            "start_time": 28800,
+            "end_time": 75600
+        },
+        "55": {
+            "id": 55,
+            "code": "C121",
+            "name": "WinMart+ Packexim",
+            "location": {
+                "lat": 21.0869945,
+                "long": 105.8146509
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 30
+                }
+            },
+            "seller": "C53",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "56": {
+            "id": 56,
+            "code": "C134",
+            "name": "WinMart+ 43 Giảng Võ",
+            "location": {
+                "lat": 21.0310366,
+                "long": 105.829477
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 275
+                }
+            },
+            "seller": "C423",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "57": {
+            "id": 57,
+            "code": "C331",
+            "name": "Circle K - 45 Hào Nam",
+            "location": {
+                "lat": 21.0225915,
+                "long": 105.8263294
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 53
+                }
+            },
+            "seller": "C143",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "58": {
+            "id": 58,
+            "code": "C109",
+            "name": "WinMart+ - 543 Thanh Lương, Bích Hòa, Thanh Oai",
+            "location": {
+                "lat": 20.9093072,
+                "long": 105.7622588
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 253
+                }
+            },
+            "seller": "C5",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "59": {
+            "id": 59,
+            "code": "C446",
+            "name": "TH true mart Phan Trọng Tuệ Hà Nội",
+            "location": {
+                "lat": 20.9572832,
+                "long": 105.8081957
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 410
+                }
+            },
+            "seller": "C221",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "60": {
+            "id": 60,
+            "code": "C86",
+            "name": "WinMart+ 208L Lê Trọng Tấn",
+            "location": {
+                "lat": 20.99352,
+                "long": 105.8316225
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 371
+                }
+            },
+            "seller": "C423",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "61": {
+            "id": 61,
+            "code": "C83",
+            "name": "WinMart Lương Yên",
+            "location": {
+                "lat": 21.011644,
+                "long": 105.8627332
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 426
+                }
+            },
+            "seller": "C221",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "62": {
+            "id": 62,
+            "code": "C242",
+            "name": "WinMart+ 66 Đại Cổ Việt",
+            "location": {
+                "lat": 21.0084179,
+                "long": 105.8474426
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 55
+                }
+            },
+            "seller": "C143",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "63": {
+            "id": 63,
+            "code": "C295",
+            "name": "Circle K Kim Ngưu",
+            "location": {
+                "lat": 20.9990116,
+                "long": 105.861635
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 119
+                }
+            },
+            "seller": "C423",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "64": {
+            "id": 64,
+            "code": "C106",
+            "name": "WinMart+ 121 Phú Minh, Sóc Sơn",
+            "location": {
+                "lat": 21.2024335,
+                "long": 105.8114175
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 174
+                }
+            },
+            "seller": "C22",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "65": {
+            "id": 65,
+            "code": "C66",
+            "name": "WinMart Lê Đức Thọ",
+            "location": {
+                "lat": 21.0283527,
+                "long": 105.7688296
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 488
+                }
+            },
+            "seller": "C53",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "66": {
+            "id": 66,
+            "code": "C249",
+            "name": "WinMart+ 347 Bạch Mai",
+            "location": {
+                "lat": 21.0016986,
+                "long": 105.8508168
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 141
+                }
+            },
+            "seller": "C5",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "67": {
+            "id": 67,
+            "code": "C179",
+            "name": "WinMart+ 179 Thịnh Liệt",
+            "location": {
+                "lat": 20.9740814,
+                "long": 105.8412509
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 67
+                }
+            },
+            "seller": "C143",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "68": {
+            "id": 68,
+            "code": "C70",
+            "name": "WinMart Nhật Tân",
+            "location": {
+                "lat": 21.077955,
+                "long": 105.8152239
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 187
+                }
+            },
+            "seller": "C5",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "69": {
+            "id": 69,
+            "code": "C215",
+            "name": "WinMart+ 38 Trường Lâm",
+            "location": {
+                "lat": 21.0620238,
+                "long": 105.8962722
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 90
+                }
+            },
+            "seller": "C273",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "70": {
+            "id": 70,
+            "code": "C166",
+            "name": "WinMart+ 304 Hoàng Mai",
+            "location": {
+                "lat": 20.9874811,
+                "long": 105.8585823
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 323
+                }
+            },
+            "seller": "C53",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "71": {
+            "id": 71,
+            "code": "C168",
+            "name": "VinMart+  Nguyễn Đức Cảnh",
+            "location": {
+                "lat": 20.9879025,
+                "long": 105.8517093
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 213
+                }
+            },
+            "seller": "C116",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "72": {
+            "id": 72,
+            "code": "C350",
+            "name": "Circle K - 218 Nguyễn Huy Tưởng",
+            "location": {
+                "lat": 20.996892,
+                "long": 105.803578
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 215
+                }
+            },
+            "seller": "C221",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "73": {
+            "id": 73,
+            "code": "C466",
+            "name": "TH true mart Tân Mai Hà Nội",
+            "location": {
+                "lat": 20.983445,
+                "long": 105.8510431
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 78
+                }
+            },
+            "seller": "C221",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "74": {
+            "id": 74,
+            "code": "C371",
+            "name": "Siêu thị Điện máy XANH 501 P. Vũ Tông Phan",
+            "location": {
+                "lat": 20.986201,
+                "long": 105.8142495
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 91
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "75": {
+            "id": 75,
+            "code": "C322",
+            "name": "Circle K - 118 P. Tuệ Tĩnh",
+            "location": {
+                "lat": 21.0154738,
+                "long": 105.8474265
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 43
+                }
+            },
+            "seller": "C259",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "76": {
+            "id": 76,
+            "code": "C297",
+            "name": "Circle K 232 Lạc Trung",
+            "location": {
+                "lat": 21.003125,
+                "long": 105.8668833
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 488
+                }
+            },
+            "seller": "C259",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "77": {
+            "id": 77,
+            "code": "C470",
+            "name": "TH true mart Cao Lỗ Hà Nội",
+            "location": {
+                "lat": 21.1387141,
+                "long": 105.8555917
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 342
+                }
+            },
+            "seller": "C5",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "78": {
+            "id": 78,
+            "code": "C448",
+            "name": "TH true mart Doãn Kế Thiện Hà Nội",
+            "location": {
+                "lat": 21.0419265,
+                "long": 105.775327
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 437
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "79": {
+            "id": 79,
+            "code": "C456",
+            "name": "TH true mart Xuân Đỉnh Hà Nội",
+            "location": {
+                "lat": 21.0713757,
+                "long": 105.7968163
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 263
+                }
+            },
+            "seller": "C53",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "80": {
+            "id": 80,
+            "code": "C269",
+            "name": "WinMart+ Intracom Cầu Diễn",
+            "location": {
+                "lat": 21.0421505,
+                "long": 105.759011
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 234
+                }
+            },
+            "seller": "C22",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "81": {
+            "id": 81,
+            "code": "C310",
+            "name": "Circle K Hương Viên",
+            "location": {
+                "lat": 21.0129028,
+                "long": 105.8562064
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 446
+                }
+            },
+            "seller": "C423",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "82": {
+            "id": 82,
+            "code": "C468",
+            "name": "TH true mart Phùng Hưng Hà Nội",
+            "location": {
+                "lat": 20.9694032,
+                "long": 105.7849138
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 215
+                }
+            },
+            "seller": "C22",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "83": {
+            "id": 83,
+            "code": "C366",
+            "name": "Siêu thị Điện máy XANH - 61 Đ. Lê Văn Lương",
+            "location": {
+                "lat": 21.0090458,
+                "long": 105.8093154
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 329
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "84": {
+            "id": 84,
+            "code": "C154",
+            "name": "WinMart+ Chelsea Park, Trung Kính",
+            "location": {
+                "lat": 21.0186652,
+                "long": 105.7932229
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 162
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "85": {
+            "id": 85,
+            "code": "C301",
+            "name": "Circle K KIM ĐỒNG",
+            "location": {
+                "lat": 20.984864,
+                "long": 105.8439488
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 118
+                }
+            },
+            "seller": "C259",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "86": {
+            "id": 86,
+            "code": "C78",
+            "name": "WinMart Hoàng Cầu",
+            "location": {
+                "lat": 21.0190152,
+                "long": 105.8269878
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 136
+                }
+            },
+            "seller": "C423",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "87": {
+            "id": 87,
+            "code": "C407",
+            "name": "Vua nệm -  490 Minh Khai",
+            "location": {
+                "lat": 20.9982596,
+                "long": 105.8685373
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 404
+                }
+            },
+            "seller": "C273",
+            "start_time": 30600,
+            "end_time": 75600
+        },
+        "88": {
+            "id": 88,
+            "code": "C467",
+            "name": "TH true mart Sài Đồng Hà Nội",
+            "location": {
+                "lat": 21.0351249,
+                "long": 105.9104669
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 51
+                }
+            },
+            "seller": "C143",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "89": {
+            "id": 89,
+            "code": "C432",
+            "name": "Đồ gỗ Nội thất HTA",
+            "location": {
+                "lat": 21.0151077,
+                "long": 105.8385705
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 184
+                }
+            },
+            "seller": "C116",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "90": {
+            "id": 90,
+            "code": "C144",
+            "name": "WinMart+ N07B2 Dịch Vọng",
+            "location": {
+                "lat": 21.0377821,
+                "long": 105.7969492
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 436
+                }
+            },
+            "seller": "C461",
+            "start_time": 28800,
+            "end_time": 79200
+        },
+        "91": {
+            "id": 91,
+            "code": "C303",
+            "name": "Circle K 144 Hồng Mai",
+            "location": {
+                "lat": 20.9988981,
+                "long": 105.8530086
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 279
+                }
+            },
+            "seller": "C259",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "92": {
+            "id": 92,
+            "code": "C292",
+            "name": "WinMart+ - 20 Ngô Thì Nhậm",
+            "location": {
+                "lat": 20.9688272,
+                "long": 105.7692128
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 188
+                }
+            },
+            "seller": "C22",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "93": {
+            "id": 93,
+            "code": "C92",
+            "name": "WinMart+ 30 Cửa Nam",
+            "location": {
+                "lat": 21.0279015,
+                "long": 105.8421156
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 139
+                }
+            },
+            "seller": "C273",
+            "start_time": 27000,
+            "end_time": 73800
+        },
+        "94": {
+            "id": 94,
+            "code": "C237",
+            "name": "WinMart+ 69 Hồng Mai",
+            "location": {
+                "lat": 20.998553,
+                "long": 105.852251
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 424
+                }
+            },
+            "seller": "C461",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "95": {
+            "id": 95,
+            "code": "C340",
+            "name": "Circle k - 7 Nguyễn Thị Định",
+            "location": {
+                "lat": 21.0127125,
+                "long": 105.8036719
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 204
+                }
+            },
+            "seller": "C53",
+            "start_time": 25200,
+            "end_time": 75600
+        },
+        "96": {
+            "id": 96,
+            "code": "C52",
+            "name": "WinMart+ 26B Hòe Nhai",
+            "location": {
+                "lat": 21.0412286,
+                "long": 105.8462804
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 404
+                }
+            },
+            "seller": "C143",
+            "start_time": 27900,
+            "end_time": 74700
+        },
+        "97": {
+            "id": 97,
+            "code": "C285",
+            "name": "WinMart+ Liền Kề Lk1-30 Văn Phú",
+            "location": {
+                "lat": 20.9590191,
+                "long": 105.7624874
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 19
+                }
+            },
+            "seller": "C461",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "98": {
+            "id": 98,
+            "code": "C248",
+            "name": "WinMart+ 17A Hàn Thuyên",
+            "location": {
+                "lat": 21.0186167,
+                "long": 105.8567891
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 98
+                }
+            },
+            "seller": "C22",
+            "start_time": 27000,
+            "end_time": 79200
+        },
+        "99": {
+            "id": 99,
+            "code": "C198",
+            "name": "WinMart+ 491D Nguyễn Văn Cừ",
+            "location": {
+                "lat": 21.048673,
+                "long": 105.8811986
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 363
+                }
+            },
+            "seller": "C273",
+            "start_time": 28800,
+            "end_time": 79200
+        }
+    }
+}

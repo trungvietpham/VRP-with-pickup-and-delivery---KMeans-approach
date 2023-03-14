@@ -102,8 +102,6 @@ def vendor_tsp_phase(alpha=0.9):
             for a in range(l):
                 idx_id.append(r[a])
                 for b in range(l):
-                    # print(f"a: {a}, b: {b}, ra: {r[a]}, id_c: {id_code[r[a]]}")
-                    # input('PP')
                     corr[a][b] = correlation[id_code[r[a]]][id_code[r[b]]]
             
             time1 = time.time()
@@ -111,8 +109,6 @@ def vendor_tsp_phase(alpha=0.9):
             time_computing.append(time.time() - time1)
 
             route_distance.append(dis)  
-            # print(f"Coef = {vehicle_list[i%n_ve].coef}, dis = {dis}, goods percentage = {(child_list[j].current_mass)}")
-            # input('p')
             cost.append(vehicle_list[i%n_ve].coef * dis * (np.sum(child_list[j].current_mass) / np.sum(vehicle_list[i%n_ve].capacity)))
             
             p_d_type = ['P']

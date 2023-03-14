@@ -125,12 +125,12 @@ def main(dump_flag = True, alpha = 0.9):
             f.write('\n'.join(route_only))
             f.close()
         
-        sur_main(scena_fname+'/metric_res.json')
+        if all_flag['run_all'] or (all_flag['depot-customer'] and all_flag['vendor-depot']): sur_main(scena_fname+'/metric_res.json')
 
     # with open('scenarios/parameter_evaluate.csv', 'a') as f: 
     #     f.write(f"{n_node_thr}node_{n_vehicles}ve_{n_customers}cus_{n_depots}de, {r_length}, {cost}, {np.round(kmeans_time + pre_time, 0)}, {tsp_time}\n")
-        
+
     print(f"Folder: {scena_fname}")
-    return scena_fname
+    return scena_fname, np.round(kmeans_time + pre_time, 0), tsp_time
 
 if __name__ == '__main__': main(alpha=0.9)

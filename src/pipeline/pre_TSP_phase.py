@@ -63,7 +63,6 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
     mapping_code_id = {}
     mapping_id_idx = {}
     for i, city in enumerate(city_list):
-        # mapping_code_id[city.code] = city.id
         mapping_code_id[city.id] = city.id
         mapping_id_idx[city.id] = i
     
@@ -160,7 +159,6 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
                 # print(f"child: {child.print(city_id_list_flag=True)}, n child: {child.n_cities}, thr: {n_node_threshold}")
                 if child.n_cities > n_node_threshold:
                     continue_flag = True
-                    # print(f"Exceed threshold: {child.n_cities}>{n_node_threshold}")
 
                     break
             

@@ -1,10 +1,10 @@
 {
     "0": {
-        "type": 3,
-        "coef": 5.5,
+        "type": 4,
+        "coef": 4.7,
         "1": {
             "item_id": 1,
-            "demand": 11255
+            "demand": 20838
         }
     },
     "1": {
@@ -12,15 +12,15 @@
         "coef": 7.5,
         "1": {
             "item_id": 1,
-            "demand": 11297
+            "demand": 21210
         }
     },
     "2": {
-        "type": 5,
-        "coef": 9.0,
+        "type": 3,
+        "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 10498
+            "demand": 21346
         }
     },
     "3": {
@@ -28,55 +28,55 @@
         "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 10071
+            "demand": 21755
         }
     },
     "4": {
-        "type": 2,
-        "coef": 2.0,
+        "type": 5,
+        "coef": 9.0,
         "1": {
             "item_id": 1,
-            "demand": 11045
+            "demand": 21498
         }
     },
     "5": {
+        "type": 1,
+        "coef": 7.5,
+        "1": {
+            "item_id": 1,
+            "demand": 20494
+        }
+    },
+    "6": {
+        "type": 4,
+        "coef": 4.7,
+        "1": {
+            "item_id": 1,
+            "demand": 20804
+        }
+    },
+    "7": {
         "type": 2,
         "coef": 2.0,
         "1": {
             "item_id": 1,
-            "demand": 10661
-        }
-    },
-    "6": {
-        "type": 3,
-        "coef": 5.5,
-        "1": {
-            "item_id": 1,
-            "demand": 11814
-        }
-    },
-    "7": {
-        "type": 3,
-        "coef": 5.5,
-        "1": {
-            "item_id": 1,
-            "demand": 10260
+            "demand": 20259
         }
     },
     "8": {
-        "type": 1,
-        "coef": 7.5,
+        "type": 3,
+        "coef": 5.5,
         "1": {
             "item_id": 1,
-            "demand": 11258
+            "demand": 20335
         }
     },
     "9": {
-        "type": 1,
-        "coef": 7.5,
+        "type": 4,
+        "coef": 4.7,
         "1": {
             "item_id": 1,
-            "demand": 10264
+            "demand": 20417
         }
     }
 }

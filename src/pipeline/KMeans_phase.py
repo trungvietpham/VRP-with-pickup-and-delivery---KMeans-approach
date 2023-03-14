@@ -85,14 +85,23 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
     print(f"Number of iter: {len(centers)}")
 
     
-    # # plotting data
-    # plt.ion()
-    # figure, ax = plt.subplots(figsize=(10, 8))
+    # plotting data
+    plt.ion()
+    figure, ax = plt.subplots(figsize=(10, 8))
 
-    # figure, ax = draw_animation(figure, ax, centers, model.locations, labels, 0.01, n_vehicles)
-    # figure, ax = plot(figure, ax, dis)
-    # plt.show()
-    # input("Press to continue: ")
+    figure, ax = draw_animation(figure, ax, centers, model.locations, labels, 0.01, n_vehicles)
+    plt.show()
+    if not os.path.exists('visualize'): os.makedirs('visualize')
+    figure.savefig('visualize/kmeans_cluster.png', format='png', dpi=600 )
+    plt.clf()
+    plt.close()
+    figure, ax = plt.subplots(figsize=(10, 8))
+    figure, ax = plot(figure, ax, dis)
+    plt.show()
+    plt.savefig('visualize/kmeans_cost.png')
+    plt.show()
+    input("Press to continue: ")
+    plt.close()
     
 
     # Các biến để in thông tin ra màn hình
@@ -151,7 +160,3 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
     details.append('\n\n')
     summary.append('\n\n')
     return ('\n'.join(summary), '\n'.join(details), round((time2-time1)*1000.0, 0), n_cities, n_vehicles)
-    # # return (summary, details, time in ms)
-
-# if __name__ == '__main__':
-#     KMeans_phase('input/vehicle_20.json', tpe='vendor-depot')

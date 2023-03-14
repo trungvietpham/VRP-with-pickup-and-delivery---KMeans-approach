@@ -240,6 +240,7 @@ def default_config():
         'customer': 'input/market_400.json',
         'depot': 'input/depot_50.json',
         'item_type': 'data/items.csv',
+        'time': 'input/time.json',
         'vendor': 'input/vendor.json',
         'vehicle': 'input/vehicle_20.json'
     },
@@ -250,8 +251,8 @@ def default_config():
         5.5,
         4.7,
         9.0],
-        'no of items': 5,
-        'no of items type': 2,
+        'no of items': 1,
+        'no of items type': 1,
         'no of vehicle types': 5,
         'no of node threshold': 15 # Number of max city for tsp (depends on your computer, should be in 15-25)
     },
@@ -269,7 +270,8 @@ def default_config():
     },
     'dump': {
         'customer': 'dump/customer.pkl',
-        'depot': 'dump/depot.pkl'
+        'depot': 'dump/depot.pkl',
+        'vendor': 'dump/vendor.pkl'
     },
     'flag': { # Flag to specific which file will run
         'run_all': False, # 
@@ -284,7 +286,8 @@ def default_config():
             'out_fname': None,
             'high_thr': 500,
             'low_thr': 0,
-            'n': 400
+            'n': 400,
+            'out_fname': 'input/market_400.json'
         },
         'gen_depot': { # Some parameter for gen depot
             'flag': False,
@@ -292,7 +295,8 @@ def default_config():
             'out_fname': None,
             'high_thr': 11000,
             'low_thr': 10000,
-            'n': 50
+            'n': 50,
+            'out_fname': 'input/depot_50.json'
         },
         'gen_vehicle': { # Some parameter for gen vehicle
             'flag': False,
@@ -307,9 +311,13 @@ def default_config():
             'high_thr': 20000,
             'low_thr': 15000,
             'n': 10,
-            'out_fname': None
+            'out_fname': 'input/vendor.json'
         }
     }
     }
 
     return config
+
+def reset_count():
+    global count
+    count = 0

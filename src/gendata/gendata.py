@@ -5,12 +5,8 @@ from src.utils.get_data import *
 
 #csv_to_txt('test_data/test_data_30.csv', 'input/tmp.txt')
 def gendata():
-    #Đọc các thông tin cấu hình từ file config.txt
-    # with open(r'config/config.txt', 'r') as f:
-    #     config = f.read()
-    # config = config.split('\n')
-    # n_types = int(config[0].split('=')[1].strip())
-
+    
+    
     # Đọc thông tin config:
     config = read_config(r'src/config/config.yaml', tpe='yaml')
 
@@ -24,6 +20,7 @@ def gendata():
     gen_vendor_flag = config['gendata']['gen_vendor']['flag']
     n_vehicle = config['gendata']['gen_vehicle']['n']
 
+    reset_count()
     if gen_customer_flag: 
         config['fname']['customer'] = config['gendata']['gen_customer']['out_fname']
         csv_to_json_file(config['gendata']['gen_customer']['fname'], data_type='market', dump_file=config['gendata']['gen_customer']['out_fname'], n_node=config['gendata']['gen_customer']['n'], mode='w', low_threshold=config['gendata']['gen_customer']['low_thr'], high_threshold=config['gendata']['gen_customer']['high_thr'], n_items=n_items)

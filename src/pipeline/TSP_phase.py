@@ -166,8 +166,6 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
         center_parent = cluster_data[cluster_parent_key]['center']
         n_cluster_child = len(cluster_data[cluster_parent_key]["child_cluster_list"])
         cluster_info = {}
-        # cluster_info['cluster_id'] = cluster_parent_key
-        # cluster_info['center'] = cluster_data[cluster_parent_key]['center']
 
         for cluster_child_key in cluster_data[cluster_parent_key]["child_cluster_list"]:
             
@@ -276,7 +274,6 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
 
             # Tạo 1 mảng 2 chiều là distance giữa 2 node bất kỳ trong đây, 
             distance_matrix = np.zeros((n_node_child+1, n_node_child+1))
-            # print('Mapping list: {}'.format(mapping))
             for i in range(n_node_child+1):
                 for j in range(n_node_child+1):
                     if mapping_code[j+end_depot_flag] not in correlation[mapping_code[i+end_depot_flag]]: correlation[mapping_code[i+end_depot_flag]][mapping_code[j+end_depot_flag]] = 0.0 
@@ -291,9 +288,6 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
             route_id = [mapping_id[i] for i in range(end_depot_flag - 1)]
 
             p_d_type = ['P' for i in range(end_depot_flag+1)] # pickup delivery type, in ['D', 'P']
-            # print(f"end flag: {end_depot_flag}")
-            # print(f"pd: {p_d_type}, route id: {route_id}")
-            # input('PD')
             for i in range(n_node_child+1):
                 reverse_permutation.append(mapping_code[int(permutation[i]) + end_depot_flag])
                 route_id.append(mapping_id[int(permutation[i]) + end_depot_flag])
@@ -348,11 +342,7 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
     vendor_code_id = mapping_code_id(vendor_list)
     vendor_id_idx = mapping_id_idx(vendor_list)
     for i in range(len(depot_list)):
-        # print(f"O dict: {depot_list[i].order_dict}")
-        # input('P')
         for c_id in depot_list[i].order_dict:
-            # print(f"Code id: {vendor_code_id[customer_list[int(c_id)].seller]}")
-            # print(f"Seller: " )
             vendor_list[vendor_id_idx[int(vendor_code_id[customer_list[int(c_id)].seller])]]._add_order(depot_list[i].id, depot_list[i].order_dict[c_id])
 
     #Dump ra file 'output/TSP_phase.json'
@@ -369,28 +359,30 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
     dump_data(vendor_list, config['dump']['vendor'])
 
     
-    # # Trực quan hóa dữ liệu
-    # n,e,w,s = get_pole(depot_locations + customer_locations)
-    # plt.ion()
-    # figure, ax = plt.subplots(figsize=(10, 8))
+    # Trực quan hóa dữ liệu
+    n,e,w,s = get_pole(depot_locations + customer_locations)
+    plt.ion()
+    figure, ax = plt.subplots(figsize=(10, 8))
     
-    # for i in range(len(route_list)):
-    #     plt.xlim(w[0], e[0])
-    #     plt.ylim(s[1], n[1])
-    #     route = route_list[i].split(' -> ')
-    #     node_tpe = [r[0] for r in route]
-    #     n_depots = np.sum(np.array(node_tpe) == 'D')
-    #     locations = []
-    #     for code in route:
-    #         locations.append(mapping_code_location[code])
-    #     figure,ax = draw_tsp_route(figure, ax, 'r', 'b', n_depots, locations)
+    for i in range(len(route_list)):
+        plt.xlim(w[0], e[0])
+        plt.ylim(s[1], n[1])
+        route = route_list[i].split(' -> ')
+        node_tpe = [r[0] for r in route]
+        n_depots = np.sum(np.array(node_tpe) == 'D')
+        locations = []
+        for code in route:
+            locations.append(mapping_code_location[code])
+        figure,ax = draw_tsp_route(figure, ax, 'r', 'b', n_depots, locations)
 
-    #     figure.canvas.draw()
-    #     figure.canvas.flush_events()
+        figure.canvas.draw()
+        figure.canvas.flush_events()
 
-    #     print(f"Route: {route_list[i]}, length: {route_distance[i]} km")
-    #     if input('Press to continue (0 to exit)...') == '0': break
-    #     plt.clf()
+        print(f"Route: {route_list[i]}, length: {route_distance[i]} km")
+        if input('Press to continue (0 to exit)...') == '0': break
+        plt.clf()
+    
+    plt.close()
     
 
 

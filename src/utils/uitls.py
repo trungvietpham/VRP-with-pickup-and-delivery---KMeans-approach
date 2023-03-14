@@ -330,7 +330,7 @@ def draw_animation(figure, ax, all_centroid, locations, all_labels, time_delta, 
         if next_by_key: input('Press to continue...')
         else:
             time.sleep(time_delta) 
-        plt.clf()
+        if i<it-1: plt.clf()
     
     return figure, ax
 
