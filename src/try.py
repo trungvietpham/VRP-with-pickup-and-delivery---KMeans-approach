@@ -7,10 +7,11 @@ import random
 from src.utils.get_data import *
 from src.utils.uitls import *
 
-config = read_config('src/config/config.yaml')
-# n_v, vendor_list = load_data(config['dump']['depot'])
-# for v in vendor_list:
-#     # print(f"{v.order_dict}")
-#     print(v.order_dict)
-#     input('P')
+import pandas as pd
 
+data = pd.read_csv(f'data\customers.csv')
+
+data.drop('seller', axis=1, inplace=True)
+data['seller'] = ['C5'] * data.shape[0]
+
+data.to_csv(f'data\customers1.csv')

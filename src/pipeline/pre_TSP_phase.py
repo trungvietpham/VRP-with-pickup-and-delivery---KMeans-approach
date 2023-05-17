@@ -32,6 +32,9 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
     correlation_fname = config['fname']['correlation']
     item_type_fname = config['fname']['item_type']
 
+    
+    # print(f"Double check: Vehicle fname: {vehicle_fname} vs {config['fname']['vehicle']}")
+    # input('Continue ...')
     # Load các thông tin từ file lên
     n_items = config['other_config']['no of items']
     n_items_type = config['other_config']['no of items type']
@@ -59,6 +62,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
     '''
     1. Khôi phục lại các cụm từ output_phase1_file
     '''
+    print('Recover data')
     # Mapping customer code với id
     mapping_code_id = {}
     mapping_id_idx = {}
@@ -93,7 +97,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
     2. Với mỗi cụm ta chia thành các cụm nhỏ, số lượng cụm nằm trong khoảng [max(ceil(tổng/capa)), n_node/(floor(min(capa/mean)))]
     Số node trong cụm được giới hạn bởi 1 biến, đặt = 15
     '''
-
+    print('Split cluster')
     # Một số biến lưu trữ các thông tin về số lần thử kmeans, số cụm cha, số cụm con
     try_kmeans_counter_list = []
     n_cluster_parent = 0
@@ -106,7 +110,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
     save_data = {}
     for cluster_id in range(n_clusters):
         n_cluster_parent +=1
-        n_child = 1
+        # n_child = 1
 
         #Lấy ra các node nằm trong cluster cha này
         child_city_list = []
@@ -116,6 +120,8 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
         for city in child_id:
             child_city_list.append(city_list[mapping_id_idx[city]])
 
+        print(f"Total demand: {total_demand(child_city_list, mapping_item_type, n_items)}, vehicle capacity: {vehicle_list[cluster_id].capacity}")
+        n_child = int(np.max(np.floor(total_demand(child_city_list, mapping_item_type, n_items)/vehicle_list[cluster_id].capacity)))
         
         # Bắt đầu lặp từ giá trị n_child, mỗi khi phân cụm xong, ta kiểm tra xem 
         # các current_mass có đều nhỏ hơn capacity của xe hay không, nếu không thì ta tăng giá trị n_child và lặp lại
@@ -133,7 +139,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
                 child_cluster_list.append(Cluster(None, None, capacity_array[i], scale_coef=child_scale_coef[i]))
             
             # Khởi tạo model
-            model = KMeans(n_child)
+            model = KMeans(n_child, distance_type=config['other_config']['distance_type'])
             
             # Kiểm tra mỗi node xem demand có lớn hơn capacity của xe hay không: 
             for i, node in enumerate(child_city_list):

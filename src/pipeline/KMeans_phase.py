@@ -22,6 +22,7 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
 
     # Khởi tạo các thông tin về tên đường dẫn tới các file cần thiết
     config = read_config(r'src/config/config.yaml', tpe='yaml')    
+    distance = config['other_config']['distance_type']
     correlation_fname = config['fname']['correlation']
     item_type_fname = config['fname']['item_type']    
     n_items = config['other_config']['no of items']
@@ -72,11 +73,12 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
         cluster_list.append(Cluster(None, None, capacity=capacity_array[i], scale_coef=scale_coef_list[i]))
         
     # Khởi tạo model
-    model = KMeans(n_clusters)
-
+    model = KMeans(n_clusters, distance)
+    if model.distance_type == 'lat-long': epsilon = 1e-5
+    elif model.distance_type == 'euclidean': epsilon = 1e-2
     time1 = time.time()
-    if tpe == 'depot-customer': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=5)
-    if tpe == 'vendor-depot': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=6*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=5)
+    if tpe == 'depot-customer': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=epsilon, penalty_coef=3, trade_off_coef=alpha, n_times=5)
+    if tpe == 'vendor-depot': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=epsilon, penalty_coef=3, trade_off_coef=alpha, n_times=5)
 
     time2 = time.time()
 
@@ -100,7 +102,7 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
     plt.show()
     plt.savefig('visualize/kmeans_cost.png')
     plt.show()
-    input("Press to continue: ")
+    # input("Press to continue: ")
     plt.close()
     
 

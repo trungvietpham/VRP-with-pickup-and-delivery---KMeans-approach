@@ -1,0 +1,89 @@
+{
+    "depot": {
+        "50": {
+            "id": 50,
+            "code": "D54",
+            "name": " ",
+            "location": {
+                "lat": 60.0,
+                "long": 50.0
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 160
+                }
+            },
+            "start_time": 0,
+            "end_time": 86400
+        },
+        "51": {
+            "id": 51,
+            "code": "D53",
+            "name": " ",
+            "location": {
+                "lat": 50.0,
+                "long": 30.0
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 160
+                }
+            },
+            "start_time": 0,
+            "end_time": 86400
+        },
+        "52": {
+            "id": 52,
+            "code": "D52",
+            "name": " ",
+            "location": {
+                "lat": 30.0,
+                "long": 40.0
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 160
+                }
+            },
+            "start_time": 0,
+            "end_time": 86400
+        },
+        "53": {
+            "id": 53,
+            "code": "D55",
+            "name": " ",
+            "location": {
+                "lat": 51.0,
+                "long": 30.0
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 160
+                }
+            },
+            "start_time": 0,
+            "end_time": 86400
+        },
+        "54": {
+            "id": 54,
+            "code": "D51",
+            "name": " ",
+            "location": {
+                "lat": 20.0,
+                "long": 20.0
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 160
+                }
+            },
+            "start_time": 0,
+            "end_time": 86400
+        }
+    }
+}

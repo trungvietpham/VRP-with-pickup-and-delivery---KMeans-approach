@@ -167,9 +167,16 @@ def alpha_tuning():
                     {metric['depot-customer']['survivability']}\n")
             f.close()
     
+
+
     
+
+
 if __name__ == '__main__': 
     # gen_data_for_benchmark()
-    for i in range(4): 
-        benchmarking()
+    # for i in range(4): 
+    #     benchmarking()
     # for i in range(4): alpha_tuning()
+    
+    plot_data(r'output\depot-customer\TSP_phase_with_Kmeans.json')
+    plot_data(r'output\vendor-depot\TSP_phase_with_Kmeans.json')

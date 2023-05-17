@@ -47,6 +47,8 @@ def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = No
 
     idx = [i for i in range(len(df))]
     k_random = []
+    if n_node == -1: 
+        n_node = df.shape[0]
     for i in range(n_node):
         r = random.randint(0, len(idx)-1)
         k_random.append(idx[int(r)])
@@ -60,7 +62,6 @@ def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = No
         market_dict['code'] = df['code'].iloc[line]
         market_dict['name'] = df['name'].iloc[line]
         location_dict = {}
-        # if float(df['latitude'][line]) < 18: continue
         location_dict['lat'] = float(df['latitude'].iloc[line])
         location_dict['long'] = float(df['longitude'].iloc[line])
         market_dict['location'] = location_dict
@@ -68,7 +69,7 @@ def csv_to_json_file(csv_file, n_items = 2, data_type = 'market', dump_file = No
 
         for item in range(n_items):
             if 'item_{}'.format(item+1) in df.columns:
-                gen_num = df['item_{}'.format(item+1)].iloc[line]
+                gen_num = int(df['item_{}'.format(item+1)].iloc[line])
             else: gen_num = random.randint(low_threshold, high_threshold)
             if gen_num!=0:
                 demand_dict = {'item_id':item+1, 'demand': gen_num}
@@ -161,9 +162,6 @@ def get_length_path(csv_file, dump_file):
     df = pd.read_csv(csv_file)
     df.reset_index(drop=True, inplace=True)
 
-    customer_map = _mapping_id_code('data/customers.csv')
-    depot_map = _mapping_id_code('data/depots.csv')
-    node_map = {**customer_map, **depot_map}
     save_data = {}
     for line in range(len(df)):
         from_node_code = str(df['from_node_code'].iloc[line])
@@ -226,12 +224,15 @@ def read_config(fname, tpe = 'yaml'):
     with codecs.open(fname, 'r', encoding='utf8') as f: 
         if tpe == 'yaml': config = yaml.load(f, Loader=SafeLoader)
         elif tpe == 'json': config = json.load(f)
+        f.close()
     return config
 
 def dump_config(config, fname = 'src/config/config.yaml'):
     with codecs.open(fname, 'w', encoding='utf8') as f: 
         if fname[-4:] == 'json': json.dump(config, f, ensure_ascii=False, indent=4)
         elif fname[-4:] == 'yaml': yaml.dump(config, f, indent=4)
+        f.close()
+    return None
 
 def default_config():
     config = {
@@ -254,7 +255,8 @@ def default_config():
         'no of items': 1,
         'no of items type': 1,
         'no of vehicle types': 5,
-        'no of node threshold': 15 # Number of max city for tsp (depends on your computer, should be in 15-25)
+        'no of node threshold': 15, # Number of max city for tsp (depends on your computer, should be in 15-25)
+        'distance_type': 'lat-long'
     },
     'output': {
         'depot-customer':{
@@ -312,6 +314,10 @@ def default_config():
             'low_thr': 15000,
             'n': 10,
             'out_fname': 'input/vendor.json'
+        },
+        'gen_correlation': {
+            'flag': True,
+            'fname': r'data\correlations.csv'
         }
     }
     }

@@ -7,8 +7,10 @@ import numpy as np
 from src.utils.uitls import *
 from src.utils.SupportClass import *
 class KMeans:
-    def __init__(self, k) -> None:
+    def __init__(self, k, distance_type = 'lat-long') -> None:
         self.k = k
+        self.distance_type = distance_type
+        self.distance_func_map = {'lat-long': lat_long_distance, 'euclidean': euclidean_distance}
 
     def init_center(self, locations):
         '''
@@ -20,6 +22,7 @@ class KMeans:
         '''
         self.n_cities = len(locations)
         
+        print(f"k: {self.k}, no. of cities: {len(locations)}")
         index_list = np.random.choice(int(len(locations)), self.k, replace=False)
         centroid = []
         for i in index_list:
@@ -60,9 +63,10 @@ class KMeans:
 
         res_matrix = np.array(optimizer(clusters_capacity_normed, nodes_demand_normed, shuffle_locations, centroid,
                                 penalty_coef = self.penalty_coef, 
-                                scale_coef=self.scale_coef_norm, 
+                                scale_coef=None, 
                                 trade_off_coef=self.trade_off_coef,
-                                item_type_mapping = mapping_item_type
+                                item_type_mapping = mapping_item_type,
+                                distance_type = self.distance_type
                                 ))
 
         res = np.argmin(res_matrix, axis=1)
@@ -92,6 +96,7 @@ class KMeans:
 
     def has_converged(self, centers, new_centers, epsilon = 1e-8):
 
+        if self.iteration >= 1000: return True
         # Cast data
         centers = np.array(centers)
         new_centers = np.array(new_centers)
@@ -102,7 +107,8 @@ class KMeans:
         
         diff = 0
         for i in range(self.k):
-            diff += distance(centers[i, :], new_centers[i, :])/self.distance_coef
+            diff += self.distance_func_map[self.distance_type](centers[i, :], new_centers[i, :])/1000
+            # diff += self.distance_func_map[self.distance_type](centers[i, :], new_centers[i, :])/self.distance_coef
         
         diff /= self.k
         # print('Diff = {}'.format(diff))
@@ -133,7 +139,16 @@ class KMeans:
         return (distance_coef, mass_coef, scale_coef_norm)
 
 
-    def fit(self, node_list: list[Node], cluster_list: list[Cluster], correlation, optimizer: optimizer, mapping_item_type, epsilon: float = 1e-8, penalty_coef: float = 2.0, trade_off_coef = 0.5, shuffle=True, n_times = 5):
+    def fit(self, 
+            node_list: list[Node], 
+            cluster_list: list[Cluster], 
+            correlation, optimizer: optimizer, 
+            mapping_item_type, 
+            epsilon: float = 1e-8, 
+            penalty_coef: float = 2.0, 
+            trade_off_coef = 0.5, 
+            shuffle=True, 
+            n_times = 5):
         '''
         Hàm học thuật toán KMeans, danh sách tham số: \n
         `node_list`: danh sách các node trong không gian phân cụm (sử dụng cấu trúc Node)\n
@@ -170,6 +185,7 @@ class KMeans:
         locations = np.array(locations)
         clusters_capacity = np.array(clusters_capacity)
         scale_coef_list = np.array(scale_coef_list)
+        print(f"scale coef: {scale_coef_list}")
         mapping_item_type = np.array(mapping_item_type)
 
         # Tạo các thuộc tính của lớp:
@@ -184,7 +200,7 @@ class KMeans:
         self.trade_off_coef = trade_off_coef
         
         # Lấy các giá trị để chuẩn hóa: 
-        self.data_normalize()
+        # self.data_normalize()
 
         # Khởi tạo các biến lưu lại các thông tin trung gian: 
         # Số lần chạy lại để lấy ra kết quả tối ưu
@@ -208,17 +224,19 @@ class KMeans:
             all_labels = [labels] # Thông tin về nhãn của các node mỗi bước lặp 
             total_dis = [] # Thông tin về tổng khoảng cách từ tâm cụm tới các node trong cụm sau mỗi bước lặp
             check_converged = False
+            self.iteration = 0
 
             # Lặp thuật toán tới khi đạt điều kiện dừng
             while not check_converged:
-                
+                self.iteration += 1
                 # Cần chuẩn hóa dữ liệu trước khi đưa vào assign_labels (pass vào bằng các thuộc tính của lớp)
                 it+=1
                 all_labels.append(np.array(self.assign_labels(optimizer, locations, all_centroids[-1], mapping_item_type, shuffle=shuffle)))
                 all_centroids.append(self.update_centers(locations, all_labels[-1]))
+                # print(f"Old center: {all_centroids[-2]}, \nNew center: {all_centroids[-1]}")
 
                 # Tính tổng khoảng cách từ tâm cụm tới các node trong cụm:
-                total_dis.append(total_distance(all_centroids[-1], locations, all_labels[-1]))
+                total_dis.append(total_distance(all_centroids[-1], locations, all_labels[-1], distance_type=self.distance_type))
 
                 check_converged = self.has_converged(all_centroids[-2], all_centroids[-1], epsilon=epsilon)
 

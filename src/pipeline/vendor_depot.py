@@ -36,7 +36,7 @@ def sub_cluster(vendor_id, vehicle:Vehicle, alpha):
         for i in range(n_sub):
             child_cluster_list.append(Cluster(None, None, vehicle.capacity, vehicle.coef))
 
-        model = KMeans(n_sub)
+        model = KMeans(n_sub, distance_type=config['other_config']['distance_type'])
         
         (centers, labels, it, dis, best, i_best, child_cluster_list, city_list) = model.fit(city_list, child_cluster_list, correlation, optimizer, mapping_item_type, epsilon=5*1e-6, penalty_coef=3, trade_off_coef=alpha, n_times=3)
 

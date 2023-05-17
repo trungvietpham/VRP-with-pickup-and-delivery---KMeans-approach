@@ -22,8 +22,6 @@ from src.pipeline.survival import sur_main
 def main(dump_flag = True, alpha = 0.9):
 
     config = read_config('src/config/config.yaml', tpe  = 'yaml')
-    n_node_thr, n_customers, n_depots, n_vendor = 0,0,0,0
-    n_node_thr = config['other_config']['no of node threshold']
     all_flag = config['flag']
     
 
@@ -35,7 +33,10 @@ def main(dump_flag = True, alpha = 0.9):
     scenarios = ['Scenarios:']
     
     if all_flag['run_all'] or all_flag['gendata']: gendata()
-
+    config = read_config('src/config/config.yaml', tpe  = 'yaml')
+    n_node_thr, n_customers, n_depots, n_vendor = 0,0,0,0
+    n_node_thr = config['other_config']['no of node threshold']
+    
     if all_flag['run_all'] or all_flag['depot-customer']: 
         details.append('1. DEPOT - CUSTOMER PHASE:')
         details.append('1.1. KMeans phase:')
@@ -52,6 +53,7 @@ def main(dump_flag = True, alpha = 0.9):
 
         details.append('1.2. Prepare for TSP phase:')
         summary.append('1.2. Prepare for TSP phase:')
+        print('Start pre tsp phase')
         s,d, pre_time = Pre_TSP_phase(n_node_thr, config['fname']['vehicle'], tpe='depot-customer', alpha=alpha)
         print(f"depot-customer: pre tsp phase done")
         
@@ -63,7 +65,7 @@ def main(dump_flag = True, alpha = 0.9):
 
         details.append('1.3. TSP phase')
         summary.append('1.3. TSP phase')
-        s,d, n_depots, tsp_time, r_length, cost = TSP_phase(config['fname']['vehicle'], tpe='depot-customer')
+        s,d, n_depots, tsp_time, r_length, cost = TSP_phase(config['fname']['vehicle'], tpe='depot-customer', ignore_vendor= (config['flag']['run_all'] == False and config['flag']['vendor-depot'] == False))
         if s == -1: 
             summary.append('Cannot solving problem, capacity are lower than demand')
             details.append(summary[-1])
@@ -131,6 +133,12 @@ def main(dump_flag = True, alpha = 0.9):
     #     f.write(f"{n_node_thr}node_{n_vehicles}ve_{n_customers}cus_{n_depots}de, {r_length}, {cost}, {np.round(kmeans_time + pre_time, 0)}, {tsp_time}\n")
 
     print(f"Folder: {scena_fname}")
-    return scena_fname, np.round(kmeans_time + pre_time, 0), tsp_time
+    
+    if len(sys.argv) >= 2: # Có thêm thông tin về file output metrix
+        with open(sys.argv[1], 'a') as f: 
+            f.write(f"{round(kmeans_time + pre_time + tsp_time)/1000}, {r_length}\n")
+    return scena_fname, np.round(kmeans_time + pre_time, 0)/1000, tsp_time
+
+    
 
 if __name__ == '__main__': main(alpha=0.9)

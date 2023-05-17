@@ -1,82 +1,82 @@
 {
     "0": {
-        "type": 4,
-        "coef": 4.7,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 20838
+            "demand": 60
         }
     },
     "1": {
         "type": 1,
-        "coef": 7.5,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 21210
+            "demand": 60
         }
     },
     "2": {
-        "type": 3,
-        "coef": 5.5,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 21346
+            "demand": 60
         }
     },
     "3": {
-        "type": 3,
-        "coef": 5.5,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 21755
+            "demand": 60
         }
     },
     "4": {
-        "type": 5,
-        "coef": 9.0,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 21498
+            "demand": 60
         }
     },
     "5": {
         "type": 1,
-        "coef": 7.5,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 20494
+            "demand": 60
         }
     },
     "6": {
-        "type": 4,
-        "coef": 4.7,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 20804
+            "demand": 60
         }
     },
     "7": {
-        "type": 2,
-        "coef": 2.0,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 20259
+            "demand": 60
         }
     },
     "8": {
-        "type": 3,
-        "coef": 5.5,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 20335
+            "demand": 60
         }
     },
     "9": {
-        "type": 4,
-        "coef": 4.7,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 20417
+            "demand": 60
         }
     }
 }

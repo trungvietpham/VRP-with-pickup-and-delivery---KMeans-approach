@@ -13,10 +13,12 @@ import sys
 import yaml
 sys.path.append("")
 from src.utils.SupportClass import *
-def distance(point1, point2) -> float:
+def lat_long_distance(point1, point2) -> float:
     '''
     Tính khoảng cách l2 giữa 2 điểm tọa độ lat long, trả về khoảng cách km
     '''
+    print('Call lat long distance')
+    # assert point1 == 0, 'Who am i'
     R = 6378.137; # Radius of earth in KM
     dLat = (point2[0] - point1[0])*np.pi/180
     dLon = (point2[1]-point1[1])*np.pi/180
@@ -24,8 +26,11 @@ def distance(point1, point2) -> float:
     c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1-a))
     d = R*c
     return d
+def euclidean_distance(point1, point2) -> float: 
+    # print('Call euclidean distance')
+    return np.sqrt(np.power(point1[0] - point2[0], 2) + np.power(point1[1] - point2[1], 2))
 
-def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef: int, scale_coef, trade_off_coef, item_type_mapping):
+def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef: int, scale_coef, trade_off_coef, item_type_mapping, distance_type):
     '''
     Return array [n_nodes, n_clusters]\n
     Hàm tối ưu, với capacity và demand đã được chuẩn hóa về (0,1)\n
@@ -49,6 +54,7 @@ def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef
 
     # Khởi tạo 1 vài tham số
     zeros_penalty = 1000
+    if len(clusters_capacity.shape) == 1: print(f"{len(clusters_capacity.shape)}, {clusters_capacity.shape}", file=open(r"D:\TaiLieuHocTap\DANO\benchmark_data\log.txt", 'a'))
     n_clusters, n_items_type = clusters_capacity.shape
     n_cities, n_items = nodes_demand.shape
     current_mass = np.array([[0.0]*n_items_type] * n_clusters)
@@ -61,7 +67,8 @@ def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef
         # Tính giá trị về khoảng cách:
         dis = []
         for j, center in enumerate(centroid):
-            adis = distance(locations[i], centroid[j])
+            if distance_type == 'lat-long': adis = lat_long_distance(locations[i], centroid[j])
+            elif distance_type == 'euclidean': adis = euclidean_distance(locations[i], centroid[j])
             dis.append(adis)
         dis = np.array(dis)
         # Tính giá trị về khối lượng:
@@ -70,7 +77,8 @@ def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef
         current_mass += adding_mass
         remain_mass = clusters_capacity - current_mass
         check_penalty = (remain_mass<=0)
-        mass = scale_coef * np.sum((penalty_coef * check_penalty + (1-check_penalty)) * remain_mass / n_items_type * (zeros_penalty * check_zeros_value + (1-check_zeros_value)), axis=1)
+        # mass = scale_coef * np.sum((penalty_coef * check_penalty + (1-check_penalty)) * remain_mass / n_items_type * (zeros_penalty * check_zeros_value + (1-check_zeros_value)), axis=1)
+        mass = np.sum((penalty_coef * check_penalty + (1-check_penalty)) * remain_mass / n_items_type * (zeros_penalty * check_zeros_value + (1-check_zeros_value)), axis=1)
         # Lưu lại kết quả để return 
 
         max_dis = np.max(dis)
@@ -300,7 +308,7 @@ def kmeans_display(X, center, label, K, no_color_flag = False):
         plt.scatter(center[i, 0], center[i, 1], color = 'red', marker = c_marker[i], s = 50, alpha = .8)
 
 
-def total_distance(centroid, locations, labels):
+def total_distance(centroid, locations, labels, distance_type):
     '''
     Tính khoảng cách từ các tâm cụm tới các node trong từng cụm.
 
@@ -313,8 +321,10 @@ def total_distance(centroid, locations, labels):
     centroid = np.array(centroid)
     locations = np.array(locations)
     res = np.zeros(centroid.shape[0])
+    distance_mapping = {'lat-long': lat_long_distance, 'euclidean': euclidean_distance}
     for i in range(locations.shape[0]):
-        res[labels[i]] += distance(centroid[labels[i]], locations[i])
+        # print('Nah')
+        res[labels[i]] += distance_mapping[distance_type](centroid[labels[i]], locations[i])
     
     return np.sum(res)
 
@@ -547,3 +557,30 @@ def element_count(adict : MutableMapping) -> int:
             if v is not None and v != []:
                 cnt += 1
     return cnt
+
+import pandas as pd
+def plot_data(fname):
+    with open(fname, 'r') as f:
+        data = json.load(f)
+    
+    n_point = []
+    length = []
+    
+    ignore_list = ['route_order']
+    for k1, v1 in data.items():
+        if k1 in ignore_list: continue
+        for k2, v2 in v1.items():
+            if k2 in ignore_list: continue
+            tmp = v2['type']
+            n_point.append(np.sum(np.array(tmp) == 'D'))
+            length.append(float(v2["length"].split(' ')[0]))
+    
+    df = pd.DataFrame({'n_point': n_point, 'length': length, '1':[1]*len(length)})
+    
+    df.plot(kind='scatter', x='1', y='length')
+    # plt.show()
+    plt.savefig(fname.split('.')[0] + '.png')
+    plt.close()
+    df['n_point'].value_counts().to_csv(fname.split('.')[0] + '.csv', mode='a')
+    
+    

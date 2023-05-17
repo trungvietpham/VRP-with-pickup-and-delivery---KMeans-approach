@@ -1,0 +1,21 @@
+{
+    "vendor": {
+        "450": {
+            "id": 450,
+            "code": "C5",
+            "name": "VinMart La Thành",
+            "location": {
+                "lat": 21.0207133,
+                "long": 105.8275735
+            },
+            "demand_list": {
+                "1": {
+                    "item_id": 1,
+                    "demand": 150061
+                }
+            },
+            "start_time": 28800,
+            "end_time": 75600
+        }
+    }
+}

@@ -1,0 +1,441 @@
+,Unnamed: 0,id,address,code,end_time,latitude,longitude,name,start_time,penalty_cost,seller
+0,0,1,"Tầng B1, TTTM Vincom Center Liễu Giai, Số 29 Liễu Giai, P. Ngọc Khánh, Q. Ba Đình, Hà Nội",C1,75600,21.0311,105.8136648,VinMart Liễu Giai,28800,1000,C5
+1,1,2,"163A Đại La, Phường Đồng Tâm, quận Hai Bà Trưng, Hà Nội",C2,75600,20.9964605,105.8446364,VinMart Đại La,28800,1000,C5
+2,2,3,"Tòa nhà Nam Đô Complex, 609 Trương Định, Phường Thịnh Liệt, Quận Hoàng Mai, Hà Nội",C3,75600,20.9794457,105.8449844,VinMart Trương Định,28800,1000,C5
+3,3,4,"TTTM Vincom Nguyễn Chí Thanh, Sô 54A Nguyễn Chí Thanh, Phường Láng Thượng, Quận Đống Đa, Hà Nội",C4,75600,21.0234901,105.8093995,VinMart Nguyễn Chí Thanh,28800,1000,C5
+4,4,6,"281 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội",C6,75600,21.0355053,105.8195195,VinMart Đội Cấn,28800,1000,C5
+5,5,7,"Tràng An Complex, Số 1 Phùng Chí Kiên, Nghĩa Đô, Cầu Giấy, Hà Nội",C7,75600,21.044011,105.8028368,VinMart Tràng An,28800,1000,C5
+6,6,8,"46 Thanh Nhàn, Hai Bà Trưng, Hà Nội",C8,75600,21.0030651,105.8580032,VinMart Võ Thị Sáu,28800,1000,C5
+7,7,9,"51 Xuân Diệu, Phường Quảng An, Quận Tây Hồ, Thành phố Hà Nội",C9,75600,21.0645134,105.8278671,VinMart Xuân Diệu,28800,1000,C5
+8,8,10,"98 Thái Thịnh, Phường Ngã Tư Sở, Quận Đống Đa, Thành Phố Hà Nội",C10,75600,21.0075504,105.8211178,VinMart Thái Thịnh,28800,1000,C5
+9,9,11,"131 Nguyễn Văn Cừ, Phường Ngọc Lâm, Quận Long Biên, Hà Nội",C11,75600,21.0420983,105.8699483,VinMart Nguyễn Văn Cừ II,28800,1000,C5
+10,10,12,"131 Nguyễn Văn Cừ, Phường Ngọc Lâm, Quận Long Biên, Hà NộiSố 8 Quang Trung, P. Quang Trung, Q. Hà Đông, Hà Nội",C12,75600,20.9724074,105.7770757,VinMart Hà Đông 2,28800,1000,C5
+11,11,13,"Tầng 4 TTTM Vincom Bà Triệu, 191 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, Hà Nội",C13,75600,21.0111389,105.8494609,VinMart Bà Triệu,28800,1000,C5
+12,12,14,"Tầng 2, TTTM Vincom Mega Mall Ocean Park, Kiêu Kỵ, Gia Lâm, Hà Nội, Việt Nam",C14,75600,20.9940838,105.9598746,VinMart Ocean Park,28800,1000,C5
+13,13,15,"Số 188 Phố Tây Sơn, Thị Trấn Phùng, Huyện Đan Phượng, Thành Phố Hà Nội",C15,75600,21.0836401,105.6725277,VinMart Đan Phượng,28800,1000,C5
+14,14,16,"Tòa nhà CT1A Khu Đô Thị Tân Tây Đô, Xã Tân Lập, Huyện Đan Phượng, TP Hà Nội",C16,75600,21.0741291,105.7007906,VinMart Hoài Đức,28800,1000,C5
+15,15,17,"Tầng Hầm B1 - TTTM Vincom Phạm Ngọc Thạch, Số 2 Phạm Ngọc Thạch, Phường Trung Tự, Quận Đống Đa,  Thành Phố Hà Nội",C17,75600,21.0062871,105.831843,VinMart Phạm Ngọc Thạch,28800,1000,C5
+16,16,18,"Tầng 1 nhà CT7A, khu đô thị mới, Văn Quán, Yên Phúc, Hà Đông, Hà Nội, Việt Nam",C18,75600,20.9703841,105.7868365,WinMart Văn Quá,28800,1000,C5
+17,17,19,"Số 183 Hoàng Văn Thái, Phường Khương Trung, Quận Thanh Xuân, Thành phố Hà Nội",C19,75600,20.9975522,105.8228263,WinMart+ Hoàng Văn Thái,28800,1000,C5
+18,18,20,"Số 203 Nguyễn Văn Cừ, phường Võ Cường, TP Bắc Ninh",C20,75600,21.1732146,106.0534712,VinMart+ 203 Nguyễn Văn Cừ - Bắc Ninh,28800,1000,C5
+19,19,21,"Số 73 Phố Vũ, phường Đại Phúc, TP Bắc Ninh",C21,75600,21.1757102,106.0776232,VinMart+ 73 Phố Vũ - Bắc Ninh,28800,1000,C5
+20,20,23,"VinMart+ 3 Hàng Bút, Số 3 Hàng Bút, phường Hàng Bồ, quận Hoàn Kiếm, Hà Nội",C23,75600,21.0349538,105.8478689,VinMart+ 3 Hàng Bút,28800,1000,C5
+21,21,24,"433 Đ. Bạch Đằng, Chương Dương Độ, Hoàn Kiếm, Hà Nội, Việt Nam",C24,75600,21.0245166,105.862344,VinMart+ 453 Bạch Đằng,28800,1000,C5
+22,22,25,"VinMart+ 266 Đào Cam Mộc, Việt Hùng, Đông Anh, Hà Nội",C25,75600,21.1412991,105.8684964,VinMart+ 266 Đào Cam Mộc,28800,1000,C5
+23,23,26,"VinMart+ - 371 Cao Lỗ, Xã Uy Nỗ, Huyện Đông Anh, Thành phố Hà Nội",C26,75600,21.1380015,105.8594613,VinMart+ 371 Cao Lỗ,28800,1000,C5
+24,24,27,"204 Giang Cao, Bát Tràng, Gia Lâm, Hà Nội",C27,75600,20.9788994,105.9160607,WinMart+ Bát Tràng,28800,1000,C5
+25,25,28,"22 Hoàng Diệu, Phường Quang Trung, Thị xã Sơn Tây, Thành phố Hà Nội",C28,75600,21.1356972,105.5066104,"WinMart+ Hoàng Diệu, Sơn Tây",28800,1000,C5
+26,26,29,"60 Tứ Hiệp, Thị trấn Văn Điển, Huyện Thanh Trì, Thành phố Hà Nội",C29,75600,20.9486349,105.8455084,"WinMart+ - 60 Tứ Hiệp, Thanh Trì",28800,1000,C5
+27,27,30,"387 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Thành phố Hà Nội",C30,75600,21.0458559,105.8132006,WinMart+ 387 Thụy Khuê,28800,1000,C5
+28,28,31,"123 Trịnh Công Sơn, Phường Nhật Tân, Quận Tây Hồ, Thành phố Hà Nội",C31,73800,21.0787166,105.81856,WinMart+ 123 Trịnh Công Sơn,27000,1200,C5
+29,29,32,"123 Âu Cơ, Phường Tứ Liên, Quận Tây Hồ, Thành phố Hà Nội",C32,73800,21.0635658,105.8314034,WinMart+ 123 Âu Cơ,27000,1200,C5
+30,30,33,"35B Xuân La, Phường Xuân La, Quận Tây Hồ, Thành phố Hà Nội",C33,73800,21.061832,105.8080094,WinMart+ 35B Xuân La,27000,1200,C5
+31,31,34,"133 Thụy Khuê, Phường Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",C34,73800,21.0431521,105.8220466,WinMart+ 133 Thụy Khuê,27000,1200,C5
+32,32,35,"WinMart+ - 55 Thụy Khuê, Phường Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",C35,73800,21.040864,105.827736,WinMart+ 55 Thụy Khuê,27000,1200,C5
+33,33,36,"151 P. Trích Sài, Bưởi, Tây Hồ, Hà Nội, Việt Nam",C36,73800,21.0512115,105.8129883,WinMart+ 151 Trích Sài,27000,1200,C5
+34,34,37,"47 Phó Đức Chính, Trúc Bạch, Ba Đình, Hà Nội, Việt Nam",C37,73800,21.048936,105.841036,WinMart+ 47 Phó Đức Chính,27000,1200,C5
+35,35,38,"50 Đ. Nguyễn Hoàng Tôn, Xuân La, Từ Liêm, Hà Nội, Việt Nam",C38,73800,21.0715449,105.8064137,WinMart+ 50 Nguyễn Hoàng Tôn,27000,1200,C5
+36,36,39,"18B Nguyễn Biểu, Phường Quán Thánh, Quận Ba Đình, Thành phố Hà Nội",C39,73800,21.0415902,105.8399122,WinMart+ 18B Nguyễn Biểu,27000,1200,C5
+37,37,40,"140 Đốc Ngữ, Phường Vĩnh Phúc, Quận Ba Đình, Thành phố Hà Nội",C40,73800,21.0382448,105.8128237,WinMart+ 140 Đốc Ngữ,27000,1200,C5
+38,38,41," 69 Vạn Bảo, Phường Liễu Giai, Quận Ba Đình, Thành phố Hà Nội",C41,73800,21.0333895,105.8170932,WinMart+ 69 Vạn Bảo,27000,1200,C5
+39,39,42,"20 Nguyễn Thiếp, Phường Nguyễn Trung Trực, Quận Ba Đình, Thành phố Hà Nội",C42,74700,21.040892,105.8490093,WinMart+ 20 Nguyễn Thiếp,27900,1100,C5
+40,40,43,"27 Phạm Hồng Thái, Phường Trúc Bạch, Quận Ba Đình, Thành phố Hà Nội",C43,74700,21.0435916,105.8449674,WinMart+ 27 Phạm Hồng Thái,27900,1100,C5
+41,41,44,"28 Nguyễn Thái Học, Phường Điện Biên, Quận Ba Đình, Thành phố Hà Nội",C44,74700,21.0292717,105.8405698,WinMart+28 Nguyễn Thái Học,27900,1100,C5
+42,42,45,"575 La Thành, Phường Thành Công, Quận Ba Đình, Thành phố Hà Nội",C45,74700,21.0237555,105.8171405,WinMart+ 575 La Thành,27900,1100,C5
+43,43,46,"20 Nghĩa Dũng, Phường Phúc Xá, Quận Ba Đình, Thành phố Hà Nội",C46,74700,21.0488103,105.8456755,WinMart+ 20 Nghĩa Dũng,27900,1100,C5
+44,44,47,"31 Tân Ấp, Phường Phúc Xá, Quận Ba Đình, Thành phố Hà Nội",C47,74700,21.0460677,105.8462736,WinMart+ 31 Tân Ấp,27900,1100,C5
+45,45,48,"104C Ngọc Hà, Phường Đội Cấn, Quận Ba Đình, Thành phố Hà Nội",C48,74700,21.0373032,105.8309626,WinMart+ 104C Ngọc Hà,27900,1100,C5
+46,46,49,"93 Ngõ Núi Trúc, Phường Kim Mã, Quận Ba Đình, Thành phố Hà Nội",C49,74700,21.0304473,105.824861,WinMart+ 93 Ngõ Núi Trúc,27900,1100,C5
+47,47,50,"38 Linh Lang, Phường Cống Vị, Quận Ba Đình, Thành phố Hà Nội",C50,74700,21.0360361,105.8104245,WinMart+ 38 Linh Lang,27900,1100,C5
+48,48,51,"29A Nguyễn Công Hoan, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội",C51,74700,21.0272409,105.8145485,WinMart+ 29A Nguyễn Công Hoan,27900,1100,C5
+49,49,52,"26B Hòe Nhai, Phường Nguyễn Trung Trực, Quận Ba Đình, Thành phố Hà Nội",C52,74700,21.0412286,105.8462804,WinMart+ 26B Hòe Nhai,27900,1100,C5
+50,50,54,"224 P. Khâm Thiên, Khâm Thiên, Đống Đa, Hà Nội, Việt Nam",C54,74700,21.0193059,105.8351354,WinMart+ 224 Khâm Thiên,27900,1100,C5
+51,51,55,"116 Đ. La Thành, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C55,74700,21.0200618,105.8282171,WinMart+ 116 Đê La Thành,27900,1100,C5
+52,52,56,"80 P. Nguyễn Phúc Lai, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C56,74700,21.0198406,105.8213076,WinMart+ 80 Nguyễn Phúc Lai,27900,1100,C5
+53,53,57,"1132 Đường Láng, Phường Láng Thượng, Quận Đống Đa, Thành phố Hà Nội",C57,74700,21.0252216,105.7986565,WinMart+ 1132 Đường Láng,27900,1100,C5
+54,54,58,"169 Đặng Tiến Đông, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội",C58,74700,21.0136536,105.8222912,WinMart+ 169 Đặng Tiến Đông,27900,1100,C5
+55,55,59,"11 Ngô Sĩ Liên, Phường Văn Miếu, Quận Đống Đa, Thành phố Hà Nội",C59,74700,21.0275313,105.8389718,WinMart+ 11 Ngô Sĩ Liên,27900,1100,C5
+56,56,60,"17B P. Đoàn Thị Điểm, Quốc Tử Giám, Đống Đa, Hà Nội, Việt Nam",C60,74700,21.0260252,105.8326648,WinMart+ 17B Đoàn Thị Điểm,27900,1100,C5
+57,57,61,"Vu Ninh Market, Khu, Suối Hoa, Bắc Ninh, tỉnh Bắc Ninh",C61,73800,21.1895425,106.0763182,WinMart+ BNH SUỐI HOA - Bắc Ninh,27000,1200,C5
+58,58,62,"Tổ hợp nhà đa năng, ở 28 tầng, Trần Đăng Ninh, Làng Quốc tế Thăng Long, Cầu Giấy, Hà Nội, Việt Nam",C62,73800,21.0382547,105.7940821,WinMart Thăng Long,27000,1200,C5
+59,59,63,"Ng. 72 Nguyễn Trãi, Thượng Đình, Thanh Xuân, Hà Nội, Việt Nam",C63,73800,21.0037001,105.816549,WinMart Royal City,27000,1200,C5
+60,60,64,"1 P.Trung Hòa, Trung Hoà, Cầu Giấy, Hà Nội, Việt Nam",C64,73800,21.0138383,105.8018324,WinMart Trung Yên,27000,1200,C5
+61,61,65,"27 Lý Thái Tổ, Phường Lý Thái Tổ, Quận Hoàn Kiếm, Hà Nội",C65,73800,21.0294597,105.8554743,WinMart Lý Thái Tổ,27000,1200,C5
+62,62,66,"TTTM Thiên Sơn Plaza, 89 Lê Đức Thọ, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Hà Nội",C66,73800,21.0283527,105.7688296,WinMart Lê Đức Thọ,27000,1200,C5
+63,63,67,"1 Nguyễn Huy Tưởng, Thanh Xuân Trung, Thanh Xuân, Hà Nội, Việt Nam",C67,73800,20.999531,105.8074389,WinMart Vũ Trọng Phụng,27000,1200,C5
+64,64,68,"HH2 - Meco Complex, Tầng 1, Toà, Ng. 102 Trường Chinh, Phương Đình, Đống Đa, Hà Nội, Việt Nam",C68,73800,20.9999732,105.8363229,WinMart Trường Chinh,27000,1200,C5
+65,65,69,"19 Trúc Khê, Phường Láng Hạ, Quận Đống Đa, Hà Nội",C69,73800,21.0157246,105.8082071,WinMart Trúc Khê,27000,1200,C5
+66,66,70,"689 Đ. Lạc Long Quân, Phú Thượng, Tây Hồ, Hà Nội, Việt Nam",C70,73800,21.077955,105.8152239,WinMart Nhật Tân,27000,1200,C5
+67,67,71,"P. Văn Tân, Khu đô thị Tây Nam Linh Đàm, Hoàng Mai, Hà Nội, Việt Nam",C71,73800,20.9637169,105.8235546,WinMart Linh Đàm,27000,1200,C5
+68,68,72,"TTTM Vincom Plaza SkyLake, Khu đô thị mới Cầu Giấy, Phường Mỹ Đình 1, Quận Nam Từ Liêm, Hà Nội",C72,73800,21.0199991,105.7809501,WinMart VCPLZ HNI Skylake,27000,1200,C5
+69,69,73,"Tầng 2, TTTM Vincom Center Trần duy Hưng, đường Trần Duy Hưng, Trung Hòa, Cầu Giấy, Hà Nội",C73,73800,21.0062226,105.7952365,WinMart VCC HNI Trần Duy Hưng,27000,1200,C5
+70,70,74,"Ngõ 28 Đường Xuân La, phường Xuân La, quận Tây Hồ, Hà Nội",C74,73800,21.0652141,105.8077605,WinMart Xuân La,27000,1200,C5
+71,71,75,"Tầng hầm B1 - TTTM Vincom Bắc Từ Liêm. Số 234 Phạm Văn Đồng, P. Cổ Nhuế 1, Quận Bắc Từ Liêm, Thành Phố Hà Nội",C75,73800,21.0530292,105.7800956,WinMart Bắc Từ Liêm,27000,1200,C5
+72,72,76,"A1 Vinhomes Gardenia, đường Hàm Nghi, Phường Cầu Diễn, Quận Nam Từ Liêm, Thành Phố Hà Nội",C76,73800,21.0359641,105.7600969,WinMart Gardenia,27000,1200,C5
+73,73,77,"Toà CT1a khu Đô thị Xala, Khu đô thị Xa La, Phúc La, Hà Đông, Hà Nội",C77,73800,20.9640178,105.7919202,WinMart Hà Đông,27000,1200,C5
+74,74,78,"Chung cư CT1, Ao Hoàng Cầu, Phường Ô Chợ Dừa, Quận Đống Đa, Hà Nội",C78,73800,21.0190152,105.8269878,WinMart Hoàng Cầu,27000,1200,C5
+75,75,79,"Trung tâm thương mại Center Long Biên, Phường Việt Hưng, Quận Long Biên, Thành Phố Hà Nội",C79,73800,21.0575538,105.9024322,WinMart Long Biên,27000,1200,C5
+76,76,80,"T8, 458 Đường Minh Khai, Khu đô thị Times City, phường Vĩnh Tuy, quận Hai Bà Trưng, thành phố Hà Nội",C80,73800,20.9939208,105.8695352,WinMart Times City,27000,1200,C5
+77,77,81,"TTTM Ocean Mall, P. Hoàng Đạo Thúy, Trung Hoà, Cầu Giấy, Hà Nội, Việt Nam",C81,73800,21.0070457,105.8029953,WinMart Trung Hòa,27000,1200,C5
+78,78,82,"Sun Plaza Thụy Khuê, Số nhà 69B đường Thụy Khuê, P. Thụy Khuê, Q. Tây Hồ, TP. Hà Nội",C82,73800,21.0404572,105.8264387,WinMart Thụy Khuê,27000,1200,C5
+79,79,83,"Số 3 Lương Yên, Phường Bạch Đằng, Quận Hai Bà Trưng, TP. Hà Nội",C83,73800,21.011644,105.8627332,WinMart Lương Yên,27000,1200,C5
+80,80,84,"Tầng 1, tòa CT2, Khu đô thị Gamuda Gardens, Phường Trần Phú, Quận Hoàng Mai, Thành Phố Hà Nội",C84,73800,20.9731409,105.8797607,WinMart Yên Sở,27000,1200,C5
+81,81,85,"Tầng 1&2, Tòa nhà Skypark, số 2 Tôn Thất Thuyết, phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành Phố Hà Nội",C85,73800,21.026881,105.7865155,WinMart HNI Cầu Giấy,27000,1200,C5
+82,82,86,"Số 208L Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội",C86,73800,20.99352,105.8316225,WinMart+ 208L Lê Trọng Tấn,27000,1200,C5
+83,83,87,"TTTM Vincom Thái Nguyên, đường Lương Ngọc Quyến, phường Quang Trung, TP. Thái Nguyên",C87,73800,21.5909003,105.8259454,Siêu thị WinMart Thái Nguyên,27000,1200,C5
+84,84,88,"Vincom Plaza Việt Trì, Hùng Vương, Phường Gia Cẩm, Thành phố Việt Trì, Tỉnh Phú Thọ",C88,73800,21.3124043,105.3947355,WinMart Việt Trì - Phú Thọ,27000,1200,C5
+85,85,89,"Vincom+ Tx Phú Thọ - 200 Nguyễn Tất Thành, Ph.Hùng Vương, Phú Thọ",C89,73800,21.4022204,105.2140012,VM VC+ PTO Phú Thọ,27000,1200,C5
+86,86,90,291 Mê Linh Liên Bảo Vĩnh Yên Vĩnh Phúc,C90,73800,21.3145472,105.6079014,WinMart+ 291 Mê Linh Liên Bảo Vĩnh Yên Vĩnh Phúc,27000,1200,C5
+87,87,91,"53 Cao Lỗ, Xã Uy Nỗ, Huyện Đông Anh, Thành phố Hà Nội",C91,73800,21.1407545,105.8482196,WinMart+ 53 Cao Lỗ,27000,1200,C5
+88,88,92,"30 P. Cửa Nam, Cửa Nam, Hoàn Kiếm, Hà Nội, Việt Nam",C92,73800,21.0279015,105.8421156,WinMart+ 30 Cửa Nam,27000,1200,C5
+89,89,93,"Số 23 P. Gia Ngư, Hàng Bạc, Hoàn Kiếm, Hà Nội, Việt Nam",C93,73800,21.0331231,105.8527578,WinMart+ 23 Gia Ngư,27000,1200,C5
+90,90,94,"Ga Hà Nội, 120 Đường Lê Duẩn, Văn Miếu, Đống Đa, Hà Nội",C94,73800,21.0242529,105.841029,WinMart+ 120 Lê Duẩn (Ga Hà Nội),27000,1200,C5
+91,91,95,"384 Đ. Bạch Đằng, Chương Dương, Hoàn Kiếm, Hà Nội, Việt Nam",C95,73800,21.0218524,105.8627467,WinMart+ 384 Bạch Đằng,27000,1200,C5
+92,92,96,"95 P. Lý Nam Đế, Cửa Đông, Hoàn Kiếm, Hà Nội, Việt Nam",C96,73800,21.0305564,105.8441616,WinMart+ 95 Lý Nam Đế,27000,1200,C5
+93,93,97,"20 Ngõ Huyện, Hàng Trống, Hoàn Kiếm, Hà Nội",C97,73800,21.0298374,105.848524,WinMart+ 20 Ngõ Huyện,27000,1200,C5
+94,94,98,"8 Phố Lê Văn Linh, Hàng Mã, Hoàn Kiếm, Hà Nội",C98,73800,21.037465,105.845865,WinMart+ Số 8 Lê Văn Linh,27000,1200,C5
+95,95,99,"49 Đường Lê Duẩn, Cửa Nam, Đống Đa, Hà Nội",C99,73800,21.0267581,105.8416191,WinMart+ 49 Lê Duẩn,27000,1200,C5
+96,96,100,"4A Phố Hàng Chiếu, Đồng Xuân, Hoàn Kiếm, Hà Nội",C100,73800,21.037291,105.852077,WinMart+ 4A Phố Hàng Chiếu,27000,1200,C5
+97,97,101,"WinMart+ - BT4-B-1.3-7, Khu đô thị mới Đặng Xá II, Đặng Xá, Gia Lâm, Hà Nội",C101,73800,21.0287612,105.9611748,"WinMart+ Khu đô thị mới, Gia Lâm",27000,1200,C5
+98,98,102," 56B Đinh Tiên Hoàng, Phường Ngô Quyền, Thị xã Sơn Tây, Thành phố Hà Nội",C102,73800,21.1429395,105.5029561,"WinMart+ Đinh Tiên Hoàng, Sơn Tây",27000,1200,C5
+99,99,103," 284 Tựu Liệt, Xã Tam Hiệp, Huyện Thanh Trì, Thành phố Hà Nội",C103,73800,20.9530705,105.8338115,"WinMart+ - 284 Tựu Liệt, Tam Hiệp, Thanh Trì",27000,1200,C5
+100,100,104,"WinMart+ Chợ Nỉ, phố Nỉ, xã Trung Giã, huyện Sóc Sơn, thành phố Hà Nội",C104,73800,21.3111262,105.8694258,"WinMart+ Phố Nỉ, Sóc Sơn",27000,1200,C5
+101,101,105,"WinMart+ 47 QL 2 Phủ Lỗ, Sóc Sơn",C105,73800,21.4036171,105.3155767,"WinMart+ 47 QL 2 Phủ Lỗ, Sóc Sơn",27000,1200,C5
+102,102,106,"WinMart+ 121 Phú Minh, Sóc Sơn",C106,73800,21.2024335,105.8114175,"WinMart+ 121 Phú Minh, Sóc Sơn",27000,1200,C5
+103,103,107,"WinMart+ - 120 Phố Mã, Xã Phù Linh, Huyện Sóc Sơn, Thành phố Hà Nội",C107,73800,21.2684245,105.8561853,"WinMart+ Phố Mã, Sóc Sơn",27000,1200,C5
+104,104,108,WinMart+ 78 Quốc lộ 3 Phủ Lỗ,C108,73800,21.205374,105.8487279,WinMart+ 78 Quốc lộ 3 Phủ Lỗ,27000,1200,C5
+105,105,109,"WinMart+ - 543 Thanh Lương, Xã Bích Hòa, Huyện Thanh Oai, Thành phố Hà Nội",C109,73800,20.9093072,105.7622588,"WinMart+ - 543 Thanh Lương, Bích Hòa, Thanh Oai",27000,1200,C5
+106,106,110,"WinMart+ 95 Ba Thá, Ứng Hòa",C110,73800,20.8066279,105.7098129,WinMart+ 95 Ba Thá,27000,1200,C5
+107,107,111,"85 Lê Lợi, TT. Vân Đình, Ứng Hòa, Hà Nội",C111,73800,20.7337728,105.7704551,"Vimart+ 85 Lê Lợi, Vân Đình, Ứng Hòa",27000,1200,C5
+108,108,112,"WinMart+ 132 P. Nguyễn Phi Khanh, TT. Thường Tín, Thường Tín, Hà Nội",C112,73800,20.8681947,105.8622667,"WinMart+ 132 P. Nguyễn Phi Khanh, TT. Thường Tín",27000,1200,C5
+109,109,113,"WinMart+ Tổ 1 TT Quang Minh, Mê Linh",C113,73800,21.1915793,105.7732633,"WinMart+ Tổ 1 TT Quang Minh, Mê Linh",27000,1200,C5
+110,110,114,"WinMart+ - Khu 7, Phố Yên, Xã Tiền Phong, Huyện Mê Linh, Thành phố Hà Nội",C114,73800,21.1530601,105.7573183,"WinMart+ Phố Yên, Mê Linh",27000,1200,C5
+111,111,115,"WinMart+ - Đội 4, Thôn 1, Thạch Đà, Mê Linh, Hà Nội",C115,73800,21.1720499,105.6735131,"WinMart+ Thạch Đà, Mê Linh, Hà Nội",27000,1200,C5
+112,112,117,"WinMart+ - Thôn Đào Xuyên, Xã Đa Tốn, Huyện Gia Lâm, Thành phố Hà Nội",C117,73800,20.9903667,105.9310669,"WinMart+ Đào Xuyên, Đa Tốn, Gia Lâm",27000,1200,C5
+113,113,118,"WinMart+ - 426 Hoàng Hoa Thám, Phường Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",C118,73800,21.0418214,105.8352753,WinMart+ 426 Hoàng Hoa Thám,27000,1200,C5
+114,114,119,"WinMart+ - 175 An Dương, Phường Yên Phụ, Quận Tây Hồ, Thành phố Hà Nội",C119,73800,21.0552746,105.8373475,WinMart+ 175 An Dương,27000,1200,C5
+115,115,120,WinMart+ 612A Lạc Long Quân,C120,73800,21.067045,105.810878,WinMart+ 612A Lạc Long Quân,27000,1200,C5
+116,116,121,"Ngách 6 Ng. 15 An D. Vương, Phú Thượng, Tây Hồ, Hà Nội, Việt Nam",C121,73800,21.0869945,105.8146509,WinMart+ Packexim,27000,1200,C5
+117,117,122,"443 Đội Cấn, Vĩnh Phú, Ba Đình, Hà Nội, Việt Nam",C122,73800,21.0380512,105.8106722,WinMart+ Đội Cấn,27000,1200,C5
+118,118,123,"66 Đặng Tiến Đông, Phường Ô Chợ Dừa, Quận Đống Đa, Thành phố Hà Nội",C123,73800,21.0159499,105.8197992,WinMart+ 66 Đặng Tiến Đông,27000,1200,C5
+119,119,124,"158 P. Thái Thịnh, Thịnh Quang, Đống Đa, Hà Nội, Việt Nam",C124,79200,21.012307,105.816945,WinMart+ 158 Thái Thịnh,28800,1250,C5
+120,120,125,"71 Khương Thượng, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội",C125,79200,21.0049958,105.8258012,WinMart+ 71 Khương Thượng,28800,1250,C5
+121,121,126,"8 P. Vọng, Phương Đình, Đống Đa, Hà Nội, Việt Nam",C126,79200,20.9995764,105.8417809,WinMart+ 6-8 Phố Vọng,28800,1250,C5
+122,122,127,"281 Phố Khâm Thiên, Ô Chợ Dừa, Đống Đa, Hà Nội",C127,79200,21.019094,105.830857,WinMart+ 281 Khâm Thiên,28800,1250,C5
+123,123,128,"150 Nguyễn Lương Bằng, Quang Trung, Đống Đa, Hà Nội, Việt Nam",C128,79200,21.0156452,105.8280662,WinMart+ 150 Nguyễn Lương Bằng,28800,1250,C5
+124,124,129,"19 P. Lương Định Của, Kim Liên, Đống Đa, Hà Nội, Việt Nam",C129,79200,21.0062934,105.8355421,WinMart+ 19 Lương Đình Của,28800,1250,C5
+125,125,130,"166 P. Kim Hoa, Phương Liên, Đống Đa, Hà Nội, Việt Nam",C130,79200,21.0111212,105.8378198,WinMart+ 166 Kim Hoa,28800,1250,C5
+126,126,131,"129 P. Pháo Đài Láng, Láng Thượng, Đống Đa, Hà Nội, Việt Nam",C131,79200,21.0193939,105.805689,WinMart+ 129 Pháo Đài Láng,28800,1250,C5
+127,127,132,"Số 37 phố P. Vũ Ngọc Phan, Láng Hạ, Đống Đa, Hà Nội, Việt Nam",C132,79200,21.0141774,105.8108406,WinMart+ 37 Vũ Ngọc Phan,28800,1250,C5
+128,128,133,"28 P. Tôn Đức Thắng, Cát Linh, Đống Đa, Hà Nội, Việt Nam",C133,79200,21.0293688,105.8351715,WinMart+ 28 Tôn Đức Thắng,28800,1250,C5
+129,129,134,"43 P. Giảng Võ, Cát Linh, Đống Đa, Hà Nội, Việt Nam",C134,79200,21.0310366,105.829477,WinMart+ 43 Giảng Võ,28800,1250,C5
+130,130,135,"52 P. Trung Kính, Trung Hoà, Cầu Giấy, Hà Nội, Việt Nam",C135,79200,21.0140179,105.7973584,WinMart+  Trung Kính,28800,1250,C5
+131,131,136,"46 P. Nguyễn Thị Định, Trung Hoà, Thanh Xuân, Hà Nội, Việt Nam",C136,79200,21.0101073,105.8045239,WinMart+ 46 Hạ Đình,28800,1250,C5
+132,132,137,"208 P.Khương Trung, Khương Đình, Thanh Xuân, Hà Nội, Việt Nam",C137,79200,20.99025,105.817569,WinMart+ 208 Khương Trung,28800,1250,C5
+133,133,138,"122 P. Vọng, Phương Liệt, Hai Bà Trưng, Hà Nội, Việt Nam",C138,79200,20.996905,105.8427279,WinMart+ 122 Phố Vọng,28800,1250,C5
+134,134,139,"51 P. Quan Nhân, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C139,79200,21.0066857,105.8126327,WinMart+ Tòa Nhà 51 Quan Nhân,28800,1250,C5
+135,135,140,"639 Phố Vũ Tông Phan, Khương Đình, Thanh Xuân, Hà Nội",C140,79200,20.98258,105.8167033,WinMart+ 639 Vũ Tông Phan,28800,1250,C5
+136,136,141,"78 P. Nhân Hòa, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C141,79200,21.0021998,105.8083231,WinMart+ 78 Nhân Hòa,28800,1250,C5
+137,137,142,WinMart+ 232 Khương Đình,C142,79200,20.9925281,105.8134928,WinMart+ 232 Khương Đình,28800,1250,C5
+138,138,144,"WinMart+ - Tòa nhà N07B2 - Khu đô thị mới Dịch Vọng, Thành Thái, Phường Dịch Vọng, Quận Cầu Giấy, Thành phố Hà Nội",C144,79200,21.0377821,105.7969492,WinMart+ N07B2 Dịch Vọng,28800,1250,C5
+139,139,145,"Số 17 phốTrần, P. Trần Quốc Hoàn, Dịch Vọng Hậu, Cầu Giấy, Hà Nội 11310, Việt Nam",C145,79200,21.0416664,105.7855364,WinMart+ 17 Trần Quốc Hoàn,28800,1250,C5
+140,140,146,"90 Dương Quảng Hàm, Quan Hoa, Cầu Giấy, Hà Nội, Việt Nam",C146,79200,21.0352695,105.8003763,WinMart+ 90 Dương Quảng Hàm,28800,1250,C5
+141,141,147,"WinMart+, 152 Phố Yên Hòa, Yên Hoà, Cầu Giấy, Hà Nội",C147,79200,21.0234101,105.7943758,WinMart+ 90 Dương Quảng Hàm,28800,1250,C5
+142,142,148,"ngõ 76 P. Mai Dịch, Mai Dịch, Cầu Giấy, Hà Nội 11309, Việt Nam",C148,79200,21.0412539,105.7750866,WinMart+ Ngõ 76 Mai Dịch,28800,1250,C5
+143,143,149,"165 P. Tô Hiệu, Dịch Vọng, Cầu Giấy, Hà Nội, Việt Nam",C149,79200,21.0415329,105.794327,WinMart+ Ngõ 76 Mai Dịch,28800,1250,C5
+144,144,150,"132 P.Trung Hòa, Yên Hoà, Cầu Giấy, Hà Nội, Việt Nam",C150,79200,21.0170417,105.7993846,WinMart+ Ngõ 76 Mai Dịch,28800,1250,C5
+145,145,151,"WinMart+, Đường Nguyễn Ngọc Vũ, Tổ 6, Trung Hoà, Cầu Giấy, Hà Nội",C151,79200,21.0127158,105.8069456,WinMart+ Nguyễn Ngọc Vũ,28800,1250,C5
+146,146,152,"121b Phố Quan Hoa, Quan Hoa, Cầu Giấy, Hà Nội",C152,79200,21.0342858,105.8040881,WinMart+ 121B Quan Hoa,28800,1250,C5
+147,147,153,"Số 12 phố P. Phạm Tuấn Tài, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam",C153,79200,21.0417797,105.7869201,WinMart+ 12 Phạm Tuấn Tài,28800,1250,C5
+148,148,154,"Chelsea Park, 116 Trung Kính, Phường Yên Hòa, Quận Cầu Giấy, Thành phố Hà Nội",C154,79200,21.0186652,105.7932229,"WinMart+ Chelsea Park, Trung Kính",28800,1250,C5
+149,149,155,"Số 142 P. Phương Liệt, Phương Liệt, Thanh Xuân, Hà Nội 11412, Việt Nam",C155,79200,20.9961853,105.8384349,WinMart+ 142 Phương Liệt,28800,1250,C5
+150,150,156,"64 P. Cự Lộc, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C156,79200,21.002933,105.811708,WinMart+ 64 Cự Lộc,28800,1250,C5
+151,151,157,"22 P. Bùi Xương Trạch, Khương Đình, Thanh Xuân, Hà Nội, Việt Nam",C157,79200,20.9916094,105.8172299,WinMart+ 22 Bùi Xương Trạch,28800,1250,C5
+152,152,158,"86 P. Quan Nhân, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C158,79200,21.0068217,105.8118879,WinMart+ Quan Nhân,28800,1250,C5
+153,153,159,"WinMart+, 77 Phố Chính Kinh, Nhân Chính, Thanh Xuân, Hà Nội",C159,79200,20.998957,105.8119449,WinMart+ 77 Chính Kinh,28800,1250,C5
+154,154,160,"47 Đ. Khương Đình, Thượng Đình, Thanh Xuân, Hà Nội, Việt Nam",C160,79200,20.9967425,105.8136954,WinMart+ 47 Khương Đình,28800,1250,C5
+155,155,161,"WinMart+, 268 Lê Trọng Tấn, Khương Mai, Thanh Xuân, Hà Nội",C161,79200,20.9902864,105.8335593,WinMart+ 268 Lê Trọng Tấn,28800,1250,C5
+156,156,162,"VinMart+, 160 Phố Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội",C162,79200,20.9979634,105.8261287,WinMart+ 160 Nguyễn Ngọc Nại,28800,1250,C5
+157,157,163,"WinMart+, Hoàng Văn Thái, Khương Mai, Thanh Xuân, Hà Nội",C163,79200,20.9903456,105.8335762,WinMart+ Hoàng Văn Thái - Khương Mai,28800,1250,C5
+158,158,164,"Số 147 Ngh. 93/28 P. Hoàng Văn Thái, P, Thanh Xuân, Hà Nội, Việt Nam",C164,79200,20.9950819,105.8241944,WinMart+ 147 Hoàng Văn Thái,28800,1250,C5
+159,159,165,"WinMart+, Phố Tô Vĩnh Diện, Khương Trung, Thanh Xuân, Hà Nội",C165,79200,21.0001159,105.8220386,WinMart+ Số 3 Tô Vĩnh Diện,28800,1250,C5
+160,160,166,"304 Đ. Hoàng Mai, Hoàng Văn Thụ, Hai Bà Trưng, Hà Nội, Việt Nam",C166,79200,20.9874811,105.8585823,WinMart+ 304 Hoàng Mai,28800,1250,C5
+161,161,167,"Vinmart+ đường P. Trần Điền, Khu đô thị Định Công, Hoàng Mai, Hà Nội, Việt Nam",C167,79200,20.9914504,105.8325043,WinMart+ Trần Điền,28800,1250,C5
+162,162,168,"VinMart+, Nguyễn Đức Cảnh, Tương Mai, Hoàng Mai, Hà Nội",C168,79200,20.9879025,105.8517093,VinMart+  Nguyễn Đức Cảnh,28800,1250,C5
+163,163,169,"Lô 8-3A. Khu công nghiệp, Đ. Tam Trinh, Hoàng Văn Thụ, Hoàng Mai, Hà Nội 11713, Việt Nam",C169,79200,20.9863393,105.8635604,WinMart+ Lô 8- 3A Kcn Hoàng Mai,28800,1250,C5
+164,164,170,"848 đường Trương Định, Giáp Bát, Hoàng Mai, Hà Nội, Việt Nam",C170,79200,20.978396,105.842752,WinMart+ 848 Trương Định,28800,1250,C5
+165,165,171,"WinMart+, 85 Phố Yên Sở, Khu đô thị Yên Duyên, Yên Sở, Hoàng Mai, Hà Nội",C171,79200,20.967042,105.870371,WinMart+ 85 Yên Sở,28800,1250,C5
+166,166,172,"198 Đường Hoàng Mai, Tương Mai, Hoàng Mai, Hà Nội",C172,79200,20.989877,105.854422,WinMart+ 198 Hoàng Mai,28800,1250,C5
+167,167,173,"120A P. Nguyễn An Ninh, Tương Mai, Hoàng Mai, Hà Nội, Việt Nam",C173,79200,20.9914297,105.8445979,WinMart+ 120A Nguyễn An Ninh,28800,1250,C5
+168,168,174,"86 P. Thanh Lân, Thanh Trì, Hai Bà Trưng, Hà Nội, Việt Nam",C174,79200,20.9899103,105.8884617,WinMart+ 86 Thanh Lân,28800,1250,C5
+169,169,175,"261, Tân Mai, Quận Hoàng Mai, Thành Phố Hà Nội, Tân Mai, Hoàng Mai, Hà Nội, Việt Nam",C175,79200,20.9836299,105.8550986,WinMart+ 261 Tân Mai,28800,1250,C5
+170,170,176,"402 Đ. Kim Giang, Đại Kim, Thanh Xuân, Hà Nội, Việt Nam",C176,79200,20.9743944,105.8246947,WinMart+ 402 Kim Giang,28800,1250,C5
+171,171,177,WinMart+ 53 Ngõ 467 Lĩnh Nam,C177,79200,20.9825137,105.8816702,WinMart+ Lĩnh Nam,28800,1250,C5
+172,172,178,"Số 100B Ngõ 168 Đường Kim Giang, Đại Kim, Hoàng Mai, Hà Nội, Việt Nam",C178,79200,20.9792367,105.8156714,WinMart+ 100B/168 Kim Giang,28800,1250,C5
+173,173,179,"VinMart+, Phố Thịnh Liệt, Thịnh Liệt, Hoàng Mai, Hà Nội",C179,79200,20.9740814,105.8412509,WinMart+ 179 Thịnh Liệt,28800,1250,C5
+174,174,180,"Số 58. lô 6. tổ 44, Đền Lừ 2, Hoàng Văn Thụ, Hoàng Mai, Hà Nội, Việt Nam",C180,79200,20.9859792,105.8579608,WinMart+ 17 Lô 12 Đền Lừ 1,28800,1250,C5
+175,175,181,"12 Phố Đông Thiên, Vĩnh Hưng, Hai Bà Trưng, Hà Nội",C181,79200,20.9833673,105.8764531,WinMart+ 12 Đông Thiên,28800,1250,C5
+176,176,182,"182 Phố Đại Từ, Đại Từ, Đại Kim, Hoàng Mai, Hà Nội",C182,79200,20.9711174,105.8335134,WinMart+ 182 Đại Từ,28800,1250,C5
+177,177,183,"26 Thúy Lĩnh, Lĩnh Nam, Hoàng Mai, Hà Nội",C183,79200,20.9775992,105.8918666,WinMart+ 26 Thúy Lĩnh,28800,1250,C5
+178,178,184,"9 Phố Thịnh Liệt, Thịnh Liệt, Hoàng Mai, Hà Nội",C184,79200,20.9740814,105.8412509,WinMart+ 9 Thịnh Liệt,28800,1250,C5
+179,179,185,"Liền kề C15 NƠ 19, khu đô thị mới, Hoàng Mai, Hà Nội, Việt Nam",C185,79200,20.9836984,105.8636257,WinMart+ C15 Nơ 19 Định Công,28800,1250,C5
+180,180,186,"207 Định Công Thượng, Định Công, Thanh Xuân, Hà Nội, Việt Nam",C186,79200,20.9846035,105.8232334,WinMart+ 207 Định Công Thượng,28800,1250,C5
+181,181,187,"589 Trương Định, Thịnh Liệt, Hoàng Mai, Hà Nội",C187,79200,20.9812164,105.845372,WinMart+ 589 Trương Định,28800,1250,C5
+182,182,188,"353 Phố Nam Dư, Trần Phú, Hoàng Mai, Hà Nội",C188,79200,20.9792667,105.8864419,WinMart+ 353 Nam Dư,28800,1250,C5
+183,183,189,"68 Phố Yên Duyên, Yên Sở, Hoàng Mai, Hà Nội",C189,79200,20.9724033,105.8681474,WinMart+ 68 Yên Duyên,28800,1250,C5
+184,184,190,"87 Ngõ 192 Lê Trọng Tấn, Định Công, Thanh Xuân, Hà Nội",C190,79200,20.9928713,105.8292341,WinMart+ 87 Ngõ 192 Lê Trọng Tấn,28800,1250,C5
+185,185,191,"103 Thanh Đàm, Thanh Trì, Hai Bà Trưng, Hà Nội",C191,79200,20.9940189,105.8878121,WinMart+ 103 Thanh Đàm,28800,1250,C5
+186,186,192,"1 Ngõ 250 Đường Kim Giang, Kim Văn, Đại Kim, Hoàng Mai, Hà Nội",C192,79200,20.9792056,105.8205412,WinMart+ 1 Ngõ 250 Kim Giang,28800,1250,C5
+187,187,193,"271 Phố Nam Dư, Lĩnh Nam, Hoàng Mai, Hà Nội, Việt Nam",C193,79200,20.9811492,105.886665,WinMart+ Nam Dư,28800,1250,C5
+188,188,194,"345 Phố Bùi Xương Trạch, Định Công, Hoàng Mai, Hà Nội",C194,79200,20.9832261,105.8210099,WinMart+ 345 Bùi Xương Trạch,28800,1250,C5
+189,189,195,"91 Vĩnh Hưng, Hai Bà Trưng, Hà Nội",C195,79200,20.9859011,105.8760171,WinMart+ 91 Vĩnh Hưng,28800,1250,C5
+190,190,196,"142 Đường Kim Giang, Kim Văn, Kim Giang, Hoàng Mai, Hà Nội",C196,79200,20.9808756,105.8175831,WinMart+ 142 Kim Giang,28800,1250,C5
+191,191,197,"100 Đường Nguyễn Sơn, Ngọc Lâm, Long Biên, Hà Nội",C197,79200,21.0473163,105.8770613,WinMart+ 100 Nguyễn Sơn,28800,1250,C5
+192,192,198,"491d Đường Nguyễn Văn Cừ, Gia Thụy, Long Biên, Hà Nội",C198,79200,21.048673,105.8811986,WinMart+ 491D Nguyễn Văn Cừ,28800,1250,C5
+193,193,199,"Số 18 Phố Lệ Mật, Việt Hưng, Long Biên, Hà Nội, Việt Nam",C199,79200,21.0537122,105.9007115,WinMart+ 18 Lệ Mật,28800,1250,C5
+194,194,200,"VinMart+, Ngõ 564 Nguyễn Văn Cừ, Gia Thụy, Long Biên, Hà Nội",C200,79200,21.0498836,105.886032,WinMart+ 564 Nguyễn Văn Cừ,28800,1250,C5
+195,195,201,"1d Ngõ 405 Ngọc Thụy, Ngọc Thụy, Long Biên, Hà Nội",C201,79200,21.0621545,105.8614703,WinMart+ 1D Ngõ 405 Ngọc Thụy,27000,1300,C5
+196,196,202,"207 Đức Giang, Thượng Thanh, Long Biên, Hà Nội",C202,79200,21.0696354,105.8816692,WinMart+ 207 Đức Giang,27000,1300,C5
+197,197,203,"11 Đường Nguyễn Sơn, Ngọc Lâm, Long Biên, Hà Nội",C203,79200,21.047937,105.8755636,WinMart+ 11 Nguyễn Sơn,27000,1300,C5
+198,198,204,"166 Phố Ái Mộ, Bồ Đề, Long Biên, Hà Nội",C204,79200,21.0387217,105.8707883,WinMart+ 166 Ái Mộ,27000,1300,C5
+199,199,205,"15 Ng. 68 Đ. Ngọc Thụy, phốTrung Hà, Long Biên, Hà Nội, Việt Nam",C205,79200,21.0497268,105.8659682,WinMart+  Ngọc Thụy,27000,1300,C5
+200,200,206,"195 Hoa Lâm, Trường Lâm, Việt Hưng, Long Biên, Hà Nội",C206,79200,21.0552682,105.8967376,WinMart+ 195 Hoa Lâm,27000,1300,C5
+201,201,207,"51 Ngõ 53 Vũ Xuân Thiều, Sài Đồng, Long Biên, Hà Nội",C207,79200,21.0325032,105.9131525,WinMart+ 51 Ngõ 53 Vũ Xuân Thiều,27000,1300,C5
+202,202,208,"WinMart+, Ngõ 22 Phố Phú Viên, Bồ Đề, Long Biên, Hà Nội",C208,79200,21.0385769,105.8658909,WinMart+  Ngõ 22 Phố Phú Viên,27000,1300,C5
+203,203,209,"271 Phố Bồ Đề, Lâm Du, Bồ Đề, Long Biên, Hà Nội",C209,79200,21.0336659,105.8775066,WinMart+  Ngõ 22 Phố Phú Viên,27000,1300,C5
+204,204,210,"VinMart+, K9, Phố Nguyễn Cao Luyện, Khu đô thị Việt Hưng, Giang Biên, Long Biên, Hà Nội",C210,79200,21.064927,105.908168,WinMart+ 102-K9 Kđt Việt Hưng,27000,1300,C5
+205,205,211,"WinMart+, 10 Đức Giang, Thượng Thanh, Long Biên, Hà Nội",C211,79200,21.0636394,105.8954898,WinMart+ 10 Đức Giang,27000,1300,C5
+206,206,212,"167 Đường Nguyễn Văn Cừ, Ngọc Lâm, Long Biên, Hà Nội",C212,79200,21.044168,105.872321,WinMart+ 10 Đức Giang,27000,1300,C5
+207,207,213,"22 Thạch Bàn, Long Biên, Hà Nội",C213,79200,21.0271937,105.9109711,WinMart+ 22 Thạch Bàn,27000,1300,C5
+208,208,214,"97 Phố Sài Đồng, Sài Đồng, Long Biên, Hà Nội",C214,79200,21.0359332,105.910896,WinMart+ 97 Sài Đồng,27000,1300,C5
+209,209,215,"38 Phố Trường Lâm, Ô Cách, Đức Giang, Long Biên, Hà Nội",C215,79200,21.0620238,105.8962722,WinMart+ 38 Trường Lâm,27000,1300,C5
+210,210,216,"652 Đường Nguyễn Văn Cừ, Gia Thụy, Long Biên, Hà Nội",C216,79200,21.0521792,105.8860205,WinMart+ 652 Nguyễn Văn Cừ,27000,1300,C5
+211,211,217,"24 Phố Sài Đồng, Sài Đồng, Long Biên, Hà Nội",C217,79200,21.0332449,105.9095876,WinMart+ 24 Sài Đồng,27000,1300,C5
+212,212,218,"Số 27 phố Ngô Thì Nhậm, Hai Bà Trưng, Hà Nội, Việt Nam",C218,79200,21.0167733,105.8543229,WinMart+ 27 Ngô Thì Nhậm,27000,1300,C5
+213,213,219,"WinMart+ 150 Bạch Mai, Cầu Dền, Hai Bà Trưng, Hà Nội",C219,79200,21.0067485,105.8503135,WinMart+ 27 Ngô Thì Nhậm,27000,1300,C5
+214,214,220,"Số 47 ngõ 187, phố P. Hồng Mai, Quỳnh Lôi, Hai Bà Trưng, Hà Nội, Việt Nam",C220,79200,20.9993386,105.8567028,WinMart+ 47 Ngõ 187 Hồng Mai,27000,1300,C5
+215,215,222,"Winmart+ 59 Mai Hắc Đế, Mai Hắc Đế, Bùi Thị Xuân, Hai Bà Trưng, Hà Nội",C222,79200,21.0145224,105.8511623,WinMart+ 59 Mai Hắc Đế,27000,1300,C5
+216,216,223,"310 P. Minh Khai, Minh Khai, Hai Bà Trưng, Hà Nội, Việt Nam",C223,79200,20.995806,105.861092,WinMart+ 310 Minh Khai,27000,1300,C5
+217,217,224,"Số 409 P. Bạch Mai, Bạch Mai, Hai Bà Trưng, Hà Nội, Việt Nam",C224,79200,21.0005284,105.8506534,WinMart+ 409 Bạch Mai,27000,1300,C5
+218,218,225,"348 P. Lạc Trung, Thanh Lương, Hai Bà Trưng, Hà Nội 11622, Việt Nam",C225,79200,21.003158,105.868858,WinMart+ 348 Lạc Trung,27000,1300,C5
+219,219,226,"86 Phố Lạc Trung, Vĩnh Tuy, Hai Bà Trưng, Hà Nội",C226,79200,21.0031451,105.863833,WinMart+ 86 Lạc Trung,27000,1300,C5
+220,220,227,"WinMart+, Đê Tô Hoàng, Cầu Dền, Hai Bà Trưng, Hà Nội",C227,79200,21.0074001,105.8499148,WinMart+ 38 Đê Tô Hoàng,27000,1300,C5
+221,221,228,"Chung cư N3- Nguyễn Công Trứ, Ngõ tập thể H5 Nguyễn Công Trứ, Phố Huế, Hai Bà Trưng, Hà Nội",C228,79200,21.0118107,105.8542049,WinMart+ N3 Nguyễn Công Trứ,27000,1100,C5
+222,222,229,"T7, Phố Minh Khai, Khu đô thị Times City, Vĩnh Tuy, Hai Bà Trưng, Hà Nội",C229,79200,20.9953333,105.8685574,WinMart+ T7 – So-05 Times City,27000,1100,C5
+223,223,230,"37 Phố Lê Quý Đôn, Bạch Đằng, Hai Bà Trưng, Hà Nội",C230,79200,21.0131938,105.8621605,WinMart+ 37 Lê Quý Đôn,27000,1100,C5
+224,224,231,"118 Ngõ Hòa Bình 7, Minh Khai, Hai Bà Trưng, Hà Nội",C231,79200,20.9973556,105.8580254,WinMart+ 118 Ngõ Hòa Bình 7,27000,1100,C5
+225,225,232,"167 Phố Trần Đại Nghĩa, Đồng Tâm, Hai Bà Trưng, Hà Nội",C232,79200,21.0005319,105.8454571,WinMart+ 167 Trần Đại Nghĩa,27000,1100,C5
+226,226,233,"49b Ngõ 651 Phố Minh Khai, Thanh Lương, Hai Bà Trưng, Hà Nội",C233,79200,21.0034068,105.8682953,WinMart+ 49B Ngõ 651 Minh Khai,27000,1100,C5
+227,227,234,"WinMart+, Phố Hương Viên, Đống Mác, Hai Bà Trưng, Hà Nội",C234,79200,21.0112194,105.8566274,WinMart+ 101 Hương Viên,27000,1100,C5
+228,228,235,"WinMart+, Phố Mạc Thị Bưởi, Vĩnh Tuy, Hai Bà Trưng, Hà Nội",C235,79200,21.0006527,105.8691705,WinMart+ 31 Mạc Thị Bưởi,27000,1100,C5
+229,229,236,"WinMart+, Phố Vạn Kiếp, tổ 58A, Bạch Đằng, Hai Bà Trưng, Hà Nội",C236,79200,21.0187737,105.8631417,WinMart+ 70 Vạn Kiếp,27000,1100,C5
+230,230,237,"WinMart+, Phố Hồng Mai, Bạch Mai, Hai Bà Trưng, Hà Nội",C237,79200,20.998553,105.852251,WinMart+ 69 Hồng Mai,27000,1100,C5
+231,231,238,"Số 145 phố, P. Lò Đúc, Đống Mác, Hai Bà Trưng, Hà Nội, Việt Nam",C238,79200,21.009874,105.8605751,WinMart+ 145 Lò Đúc,27000,1100,C5
+232,232,239,"17 Phố Nguyễn Thượng Hiền, Nguyễn Du, Hai Bà Trưng, Hà Nội",C239,79200,21.018794,105.8426206,WinMart+ 17 Nguyễn Thượng Hiền,27000,1100,C5
+233,233,240,"52 Trương Định, Hai Bà Trưng, Hà Nội",C240,79200,20.9945993,105.849685,WinMart+ 52 Trương Định,27000,1100,C5
+234,234,241,"317 Phố Vọng, Đồng Tâm, Hai Bà Trưng, Hà Nội",C241,79200,20.9940593,105.842199,WinMart+ 317 Phố Vọng,27000,1100,C5
+235,235,242,"WinMart+, 66 Đại Cồ Việt, Lê Đại Hành, Hai Bà Trưng, Hà Nội",C242,79200,21.0084179,105.8474426,WinMart+ 66 Đại Cổ Việt,27000,1100,C5
+236,236,243,"164 Trương Định, Hai Bà Trưng, Hà Nội",C243,79200,20.9917364,105.849069,WinMart+ 164 Trương Định,27000,1100,C5
+237,237,244,"35b Nguyễn Bỉnh Khiêm, Nguyễn Du, Hai Bà Trưng, Hà Nội",C244,79200,21.0159558,105.8486237,WinMart+ 35B Nguyễn Bỉnh Khiêm,27000,1100,C5
+238,238,245,"242 Phố Lê Thanh Nghị, Đồng Tâm, Hai Bà Trưng, Hà Nội",C245,79200,21.0019762,105.8424844,WinMart+ 242 Lê Thanh Nghị,27000,1100,C5
+239,239,246,"601 Phố Kim Ngưu, Vĩnh Tuy, Hai Bà Trưng, Hà Nội",C246,79200,20.9981624,105.8623923,WinMart+ 601 Kim Ngưu,27000,1100,C5
+240,240,247,"194 Phố Minh Khai, Minh Khai, Hai Bà Trưng, Hà Nội",C247,79200,20.9952768,105.854344,WinMart+ 194 Minh Khai,27000,1100,C5
+241,241,248,"17A Phố Hàn Thuyên, Phạm Đình Hồ, Hai Bà Trưng, Hà Nội",C248,79200,21.0186167,105.8567891,WinMart+ 17A Hàn Thuyên,27000,1100,C5
+242,242,249,"347 Phố Bạch Mai, Bạch Mai, Hai Bà Trưng, Hà Nội",C249,79200,21.0016986,105.8508168,WinMart+ 347 Bạch Mai,27000,1100,C5
+243,243,250,"WinMart+, 227 Phố Thanh Nhàn, Thanh Nhàn, Hai Bà Trưng, Hà Nội",C250,79200,21.0027041,105.8547791,WinMart+ 227 Thanh Nhàn,27000,1100,C5
+244,244,251,"48 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội",C251,79200,21.0034188,105.8491825,WinMart+ 48 Lê Thanh Nghị,27000,1100,C5
+245,245,252,"WinMart+, 81 Phố Thanh Nhàn, Quỳnh Lôi, Hai Bà Trưng, Hà Nội",C252,79200,21.002799,105.858676,WinMart+ 81 Thanh Nhàn,27000,1100,C5
+246,246,253,"Chung cư 46, Phố Lạc Trung, Thanh Lương, Hai Bà Trưng, Hà Nội",C253,79200,21.0038282,105.8661158,WinMart+ - Chung cư 46 Lạc Trung,27000,1100,C5
+247,247,254,"15 Ngõ 35 Tu Hoàng, Phường Phương Canh, Quận Nam Từ Liêm, Thành phố Hà Nội",C254,79200,21.0519932,105.7306692,WinMart+ Tu Hoàng - Phương Canh,27000,1100,C5
+248,248,255,"Intracom 1, Trung Văn, Nam Từ Liêm, Hà Nội",C255,79200,20.990675,105.7877654,WinMart+ Intracom Trung Văn,27000,1100,C5
+249,249,256,"WinMart+, 44 Phố Nguyễn Hoàng, Mỹ Đình 2, Từ Liêm, Hà Nội",C256,79200,21.0314336,105.774488,WinMart+ 44 Nguyễn Hoàng,27000,1100,C5
+250,250,257,"297 Trung Văn, Từ Liêm, Hà Nội",C257,79200,20.9891995,105.7857474,WinMart+ 297 Trung Văn,27000,1100,C5
+251,251,258,"Tây Hà Tower, Tòa nhà Tây, Phố Tố Hữu, Khu đô thị Phùng Khoang, Trung Văn, Nam Từ Liêm, Hà Nội",C258,79200,20.9963641,105.7930296,WinMart+ Tây Hà Tower,27000,1100,C5
+252,252,260,"96 Đ. Mỹ Đình, Mỹ Đình, Từ Liêm, Hà Nội, Việt Nam",C260,79200,21.028823,105.7752222,WinMart+  Mỹ Đình,27000,1100,C5
+253,253,261,"29 Đường Tây Mỗ, Tây Mỗ, Từ Liêm, Hà Nội",C261,79200,21.0017928,105.7507416,WinMart+  Mỹ Đình,27000,1100,C5
+254,254,262,"156 Phố Trần Bình, Mỹ Đình 2, Nam Từ Liêm, Hà Nội",C262,79200,21.030459,105.7758655,WinMart+ 156 Trần Bình,27000,1100,C5
+255,255,263,"Building CT2B, Khu đô thị Tây Hồ Tây, Cổ Nhuế 1, Bắc Từ Liêm, Hà Nội",C263,79200,21.0511521,105.7932438,WinMart+ CT2B Cổ Nhuế,27000,1100,C5
+256,256,264,"357 Đ. Xuân Đỉnh, phường Xuân Đỉnh, Tây Hồ, Hà Nội",C264,79200,21.0716561,105.790145,WinMart+ 357 Xuân Đỉnh,27000,1100,C5
+257,257,265,"Số 464 Đ. Hoàng Công Chất, Cầu Diễn, Bắc Từ Liêm, Hà Nội, Việt Nam",C265,79200,21.0484953,105.7693356,WinMart+ 464 Hoàng Công Chất,27000,1100,C5
+258,258,266,"134 Hoàng Tăng Bí. TDP, Tân Nhuệ, Đông Ngạc, Bắc Từ Liêm, Hà Nội, Việt Nam",C266,79200,21.0827919,105.7821938,WinMart+ Ecohome 2,27000,1100,C5
+259,259,267,"5 Nhật Tảo, Đông Ngạc, Từ Liêm, Hà Nội",C267,79200,21.087577,105.7868327,WinMart+ 5 Nhật Tảo,27000,1100,C5
+260,260,268,"29 Ngõ 126 Xuân Đỉnh, phường Xuân Đỉnh, Tây Hồ, Hà Nội",C268,79200,21.072132,105.7985533,WinMart+ 29 Ngõ 126 Xuân Đỉnh,27000,1100,C5
+261,261,269,"Intracom 2 Tower, Đường Cầu Diễn, Phúc Diễn, Bắc Từ Liêm, Hà Nội",C269,79200,21.0421505,105.759011,WinMart+ Intracom Cầu Diễn,27000,1100,C5
+262,262,270,"46 Tăng Thiết Giáp, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội",C270,79200,21.0574729,105.7809538,WinMart+ 46 Tăng Thiết Giáp,27000,1100,C5
+263,263,271,"118 Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội, Việt Nam",C271,79200,21.0479537,105.745557,WinMart+ 116-118 Cầu Diễn,27000,1100,C5
+264,264,272,"24 Ngõ 1 Đỗ Nhuận, phường Xuân Đỉnh, Từ Liêm, Hà Nội",C272,79200,21.0686448,105.788083,WinMart+ 24 Ngõ 1 Đỗ Nhuận,27000,1100,C5
+265,265,274,"21 Đ. Văn Tiến Dũng, Phúc Diễn, Từ Liêm, Hà Nội, Việt Nam",C274,79200,21.048575,105.748747,WinMart+ 21 Văn Tiến Dũng,27000,1100,C5
+266,266,275,"31 Đ. Xuân Đỉnh, Xuân Tảo, Từ Liêm, Hà Nội",C275,79200,21.0699492,105.8016547,WinMart+ 31 Xuân Đỉnh,27000,1100,C5
+267,267,276,"271 Đường Nguyễn Hoàng Tôn, Xuân Tảo, Từ Liêm, Hà Nội",C276,79200,21.0727818,105.8024247,WinMart+ 271 Nguyễn Hoàng Tôn,27000,1100,C5
+268,268,277,"272 Đường Thụy Phương, làng Chèm, Thụy Phương, Từ Liêm, Hà Nội",C277,79200,21.0927482,105.7777914,WinMart+ 272 Thụy Phương,27000,1100,C5
+269,269,278,"212 Đường Cổ Nhuế, phường, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội",C278,79200,21.063956,105.779958,WinMart+ 212 Cổ Nhuế,27000,1100,C5
+270,270,279,"Số 70 phố Đ. Lê Trọng Tấn, La Khê, Hà Đông, Hà Nội, Việt Nam",C279,79200,20.9660302,105.7582699,WinMart+ Bt2-01 Nam La Khê,27000,1100,C5
+271,271,280,"16 Ngô Thì Nhậm, Hà Cầu, Hà Đông, Hà Nội",C280,79200,20.9686767,105.7693715,WinMart+ Liền Kề 16-19 Ngô Thì Nhậm,27000,1100,C5
+272,272,281,"84 Phố Bế Văn Đàn, Quang Trung, Hà Đông, Hà Nội",C281,79200,20.9688503,105.7721037,WinMart+ 84 Bế Văn Đàn - Hà Đông,27000,1100,C5
+273,273,282,"108 Trần Phú, Mộ Lao, Hà Đông, Hà Nội",C282,79200,20.9795082,105.7833629,WinMart+ 108 Trần Phú - Hà Đông,27000,1100,C5
+274,274,283,"121 Đường Tô Hiệu, Nguyễn Trãi, Hà Đông, Hà Nội",C283,79200,20.9664591,105.7775736,WinMart+ 121-123 Tô Hiệu,27000,1100,C5
+275,275,284,"Lô 11. liền kề 19 khu đấu giá, P. Mậu Lương, Kiến Hưng, Hà Đông, Hà Nội, Việt Nam",C284,79200,20.9556769,105.7929888,WinMart+ Lô 11 Liền Kề 19 Mậu Lương,27000,1100,C5
+276,276,285,"VinMart+ LK1 30 Văn Phú, Khu đô thị Văn Phú, Phú La, Hà Đông, Hà Nội",C285,79200,20.9590191,105.7624874,WinMart+ Liền Kề Lk1-30 Văn Phú,27000,1100,C5
+277,277,286,"26 Đường Vạn Phúc, Vạn Phúc, Hà Đông, Hà Nội, Việt Nam",C286,79200,20.9784264,105.7744123,WinMart+ 2A-20 Liền Kề Mỗ Lao - Hà Đông,27000,1100,C5
+278,278,287,"Lô B15, Bồ Hỏa, Hà Cầu, Hà Đông, Hà Nội, Việt Nam",C287,79200,20.966173,105.7755831,WinMart+ B15 Bồ Hỏa - Hà Đông,27000,1100,C5
+279,279,288,"54 Phố Lý Thường Kiệt, Quang Trung, Hà Đông, Hà Nội",C288,79200,20.9654288,105.7695437,WinMart+ 54 Lý Thường Kiệt - Hà Đông,27000,1100,C5
+280,280,289,"6 Phố Ba La, Phú Lãm, Hà Đông, Hà Nội",C289,79200,20.9485936,105.7564587,WinMart+ 6 Ba La - Hà Đông,27000,1100,C5
+281,281,290,"WinMart+ - 136 Nguyễn Viết Xuân, Phường Quang Trung, Quận Hà Đông, Thành phố Hà Nội",C290,79200,20.9702167,105.768827,WinMart+ - 136 Nguyễn Viết Xuân,27000,1100,C5
+282,282,291,"556 Đường Quang Trung, Hà Đông, Hà Nội",C291,79200,20.959861,105.761454,WinMart+ 556 Quang Trung - Hà Đông,27000,1100,C5
+283,283,292,"WinMart+ - 20 Ngô Thì Nhậm, Phường Hà Cầu, Quận Hà Đông, Thành phố Hà Nội",C292,79200,20.9688272,105.7692128,WinMart+ - 20 Ngô Thì Nhậm,27000,1100,C5
+284,284,293,"148 Phố Lê Lợi, Nguyễn Trãi, Hà Đông, Hà Nội",C293,79200,20.9675526,105.7805081,WinMart+ 148 Lê Lợi,27000,1100,C5
+285,285,294,"37 Phố Lê Lợi, Nguyễn Trãi, Hà Đông, Hà Nội",C294,79200,20.9711998,105.7776999,WinMart+ 37 Lê Lợi,27000,1100,C5
+286,286,295,"286 P. Kim Ngưu, Quỳnh Mai, Hai Bà Trưng, Hà Nội, Việt Nam",C295,75600,20.9990116,105.861635,Circle K Kim Ngưu,25200,1100,C5
+287,287,296,"54-56 Đ. Lĩnh Nam, Mai Động, Hoàng Mai, Hà Nội, Việt Nam",C296,75600,20.989968,105.864925,Circle K Lĩnh Nam,25200,1100,C5
+288,288,297,"232 P. Lạc Trung, Thanh Lương, Hai Bà Trưng, Hà Nội, Việt Nam",C297,75600,21.003125,105.8668833,Circle K 232 Lạc Trung,25200,1100,C5
+289,289,298,"1 Ng. 37 P. Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",C298,75600,21.0016317,105.8464926,Circle K 1/37 Lê Thanh Nghị,25200,1100,C5
+290,290,299,"113 P. Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",C299,75600,21.0027479,105.8448891,Circle K Trần Đại Nghĩa,25200,1100,C5
+291,291,300,"288 Giải Phóng, Phương Liệt, Thanh Xuân, Hà Nội, Việt Nam",C300,75600,20.991114,105.8407034,Circle K Giải Phóng,25200,1100,C5
+292,292,301,"200 Đ. Giáp Bát, Giáp Bát, Hoàng Mai, Hà Nội, Việt Nam",C301,75600,20.984864,105.8439488,Circle K KIM ĐỒNG,25200,1100,C5
+293,293,302,"12 Đ. Tam Trinh, Vĩnh Tuy, Hoàng Mai, Hà Nội, Việt Nam",C302,75600,20.9958667,105.8627569,Circle K Tam Trinh,25200,1100,C5
+294,294,303,"144 P. Hồng Mai, Bạch Mai, Hai Bà Trưng, Hà Nội, Việt Nam",C303,75600,20.9988981,105.8530086,Circle K 144 Hồng Mai,25200,1100,C5
+295,295,304,"03 P. Quỳnh Mai, Quỳnh Mai, Hai Bà Trưng, Hà Nội, Việt Nam",C304,75600,21.0009677,105.8590445,Circle K Quỳnh Mai,25200,1100,C5
+296,296,305,"SH0205 Park 8, Khu đô thị Times City, Hoàng Mai, Hà Nội, Việt Nam",C305,75600,20.992286,105.8687174,"Circle K SH0205 Park 8, Khu đô thị Times City",25200,1100,C5
+297,297,306,"Imperial, 423 P. Minh Khai, Vĩnh Tuy, Hai Bà Trưng, Hà Nội, Việt Nam",C306,75600,20.9983503,105.8668477,Circle K Imperial,25200,1100,C5
+298,298,307,"6 Trần Khát Chân, Thanh Lương, Hai Bà Trưng, Hà Nội, Việt Nam",C307,75600,21.007863,105.863606,Circle K 6 Trần Khát Chân,25200,1100,C5
+299,299,308,"127 Trần Khát Chân, Thanh Lương, Hai Bà Trưng, Hà Nội, Việt Nam",C308,75600,21.00885,105.8609,Circle K 127 Trần Khát Chân,25200,1100,C5
+300,300,309,"33 P. Dương Văn Bé, Vĩnh Phú, Hai Bà Trưng, Hà Nội, Việt Nam",C309,75600,21.0002169,105.8722994,Circle K Dương Văn Bé,25200,1100,C5
+301,301,310,"9 Đường P. Hương Viên, Phường, Hai Bà Trưng, Hà Nội, Việt Nam",C310,75600,21.0129028,105.8562064,Circle K Hương Viên,25200,1100,C5
+302,302,311,"D22, Nơ 12, Khu đô thị mới Định Công P, Định Công, Hoàng Mai, Hà Nội, Việt Nam",C311,75600,20.9877167,105.8315992,"Circle K D22, N12",25200,1100,C5
+303,303,312,"A8 P. Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội, Việt Nam",C312,75600,21.0043525,105.8311572,Circle K A8 Tôn Thất Tùng,25200,1100,C5
+304,304,313,"1A Đầm Trấu, Bạch Đằng, Hai Bà Trưng, Hà Nội, Việt Nam",C313,75600,21.0119554,105.8652486,Circle K 1A Đầm Trấu,25200,1100,C5
+305,305,314,"69 Đền Lừ 2, Hoàng Văn Thụ, Hoàng Mai, Hà Nội, Việt Nam",C314,75600,20.9858885,105.8578098,Circle K 69 Đền Lừ 2,25200,1100,C5
+306,306,315,"125G P. Lò Đúc, Phạm Đình Hổ, Hai Bà Trưng, Hà Nội, Việt Nam",C315,75600,21.0134239,105.8579048,Circle K - Lò Đúc,25200,1100,C5
+307,307,316,"91 P. Nam Đồng, Nam Đồng, Đống Đa, Hà Nội, Việt Nam",C316,75600,21.0127142,105.8326648,Circle K - 91 Nam Đồng,25200,1100,C5
+308,308,317,"46 Lê Trọng Tấn, Khương Mai, Thanh Xuân, Hà Nội, Việt Nam",C317,75600,20.9997704,105.8277226,Circle K - 46 Lê Trọng Tấn,25200,1100,C5
+309,309,318,"149C P. Lò Đúc, Đống Mác, Hai Bà Trưng, Hà Nội, Việt Nam",C318,75600,21.010473,105.860179,Circle K - 149C P. Lò Đúc,25200,1100,C5
+310,310,319,"49 P. Hàng Chuối, Phạm Đình Hổ, Hai Bà Trưng, Hà Nội, Việt Nam",C319,75600,21.0161859,105.8579515,Circle K - 49 P. Hàng Chuối,25200,1100,C5
+311,311,320,"1A P. Hồ Đắc Di, Nam Đồng, Đống Đa, Hà Nội, Việt Nam",C320,75600,21.0110148,105.830595,Circle K - 1A P. Hồ Đắc Di,25200,1100,C5
+312,312,321,"458 P. Minh Khai, Vĩnh Phú, Hai Bà Trưng, Hà Nội, Việt Nam",C321,75600,21.0042501,105.8695696,Circle K Park 8 Times City,25200,1100,C5
+313,313,322,"118 P. Tuệ Tĩnh, Nguyễn Du, Hai Bà Trưng, Hà Nội, Việt Nam",C322,75600,21.0154738,105.8474265,Circle K - 118 P. Tuệ Tĩnh,25200,1100,C5
+314,314,323,"68 P. Tôn Thất Tùng, Khương Thượng, Đống Đa, Hà Nội, Việt Nam",C323,75600,21.001708,105.829441,Circle K - 68  Tôn Thất Tùng,25200,1100,C5
+315,315,324,"292 P. Hoàng Văn Thái, Khương Trung, Thanh Xuân, Hà Nội, Việt Nam",C324,75600,20.9986084,105.8202808,Circle K - 292 Hoàng Văn Thái,25200,1100,C5
+316,316,325,"62 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội, Việt Nam",C325,75600,21.0221733,105.8489029,Circle K - 62 Trần Hưng Đạo,25200,1100,C5
+317,317,326,"Ngõ 34 P. Mai Anh Tuấn, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C326,75600,21.0187335,105.8224546,Circle K - Mai Anh Tuấn,25200,1100,C5
+318,318,327,"91 P. Khâm Thiên, Khâm Thiên, Đống Đa, Hà Nội, Việt Nam",C327,75600,21.0189548,105.8375806,Circle K - 91 Khâm Thiên,25200,1100,C5
+319,319,328,"36 Tràng Tiền, Hoàn Kiếm, Hà Nội, Việt Nam",C328,75600,21.0250468,105.8549266,Circle K - 36 Tràng Tiền,25200,1100,C5
+320,320,329,"6 Ngõ 124 Phố Vĩnh Tuy, Vĩnh Phú, Hai Bà Trưng, Hà Nội, Việt Nam",C329,75600,21.0010312,105.8754738,Circle K - 6 Ngõ 124 Phố Vĩnh Tuy,25200,1100,C5
+321,321,330,"2 Phố Hoàng Ngân, Trung Hoà, Thanh Xuân, Hà Nội, Việt Nam",C330,75600,21.0071688,105.8115855,Circle K - 2 Phố Hoàng Ngân,25200,1100,C5
+322,322,331,"45 P. Hào Nam, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C331,75600,21.0225915,105.8263294,Circle K - 45 Hào Nam,25200,1100,C5
+323,323,332,"01 P. Tô Vĩnh Diện, Khương Trung, Thanh Xuân, Hà Nội, Việt Nam",C332,75600,21.0003557,105.8213606,Circle K - 1 Tô Vĩnh Diện,25200,1100,C5
+324,324,333,"27 P. Đinh Tiên Hoàng, Hàng Trống, Hoàn Kiếm, Hà Nội, Việt Nam",C333,75600,21.032023,105.8525637,Circle K - 27 Đinh Tiên Hoàng,25200,1100,C5
+325,325,334,"204 Đ. Trần Quang Khải, Tràng Tiền, Hoàn Kiếm, Hà Nội, Việt Nam",C334,75600,21.0276965,105.8580662,Circle K - 204 Trần Quang Khải,25200,1100,C5
+326,326,335,"Rice City Linh Đàm - Tòa Trung, G1, Hoàng Mai, Hà Nội, Việt Nam",C335,75600,20.9633858,105.8230591,Circle K - Rice City Linh Đàm,25200,1100,C5
+327,327,336,"79 P. Hà Trung, Hàng Bông, Hoàn Kiếm, Hà Nội, Việt Nam",C336,75600,21.0299461,105.8450038,Circle K - 79 P. Hà Trung,25200,1100,C5
+328,328,337,"420 Đ. La Thành, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C337,75600,21.0228949,105.8222371,Circle K - 420 La Thành,25200,1100,C5
+329,329,338,"83 Hàng Điếu, Cửa Đông, Hoàn Kiếm, Hà Nội, Việt Nam",C338,75600,21.0319939,105.8468804,Circle K Hàng Điếu,25200,1100,C5
+330,330,339,"138 P.Trung Hòa, Yên Hoà, Cầu Giấy, Hà Nội, Việt Nam",C339,75600,21.0171442,105.7992584,Circle k - 138 Trung Hòa,25200,1100,C5
+331,331,340,"7 P. Nguyễn Thị Định, Trung Hoà, Cầu Giấy, Hà Nội, Việt Nam",C340,75600,21.0127125,105.8036719,Circle k - 7 Nguyễn Thị Định,25200,1100,C5
+332,332,341,"125 P. Hoàng Ngân, Trung Hoà, Cầu Giấy, Hà Nội, Việt Nam",C341,75600,21.0089987,105.8065561,Circle k - 125 Hoàng Ngân,25200,1100,C5
+333,333,342,"N8A1 P. Nguyễn Thị Thập, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C342,75600,21.0045437,105.7996073,Circle k - N8A1 Nguyễn Thị Thập,25200,1100,C5
+334,334,343,"85 P. Hàng Mã, Hàng Bồ, Hoàn Kiếm, Hà Nội, Việt Nam",C343,75600,21.0363978,105.8470104,Circle k - 85 Hàng Mã,25200,1100,C5
+335,335,344,"5 Nguyễn Quý Đức, Khu tập thể Thanh Xuân Bắc, Thanh Xuân, Hà Nội, Việt Nam",C344,75600,20.9913234,105.799553,Circle k - 5 Nguyễn Quý Đức,25200,1100,C5
+336,336,345,"38 Đào Duy Từ, Hàng Buồm, Hoàn Kiếm, Hà Nội, Việt Nam",C345,75600,21.0359567,105.8527333,Circle k - 38 Đào Duy Từ,25200,1100,C5
+337,337,346,"126 P. Nam Cao, Giảng Võ, Ba Đình, Hà Nội, Việt Nam",C346,75600,21.030116,105.822275,Circle k - 126 Nam Cao,25200,1100,C5
+338,338,347,"01 P. Lê Văn Thiêm, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C347,75600,20.9985556,105.8052992,Circle K Lê Văn Thiêm,25200,1100,C5
+339,339,348,"105 Phố Chùa Láng, Láng Thượng, Đống Đa, Hà Nội, Việt Nam",C348,75600,21.0232494,105.8048936,Circle K - 105 Phố Chùa Láng,25200,1100,C5
+340,340,349,"76 P. Đồng Xuân, Hàng Mã, Hoàn Kiếm, Hà Nội, Việt Nam",C349,75600,21.037113,105.849374,Circle K - 76 Đồng Xuân,25200,1100,C5
+341,341,350,"218 Nguyễn Huy Tưởng, Thanh Xuân Trung, Thanh Xuân, Hà Nội, Việt Nam",C350,75600,20.996892,105.803578,Circle K - 218 Nguyễn Huy Tưởng,25200,1100,C5
+342,342,351,"16B Hàng Than, Nguyễn Trung Trực, Ba Đình, Hà Nội, Việt Nam",C351,75600,21.0420454,105.8471325,Circle K - 16B Hàng Than,25200,1100,C5
+343,343,352,"18 Nguyễn Khánh Toàn, Quan Hoa, Cầu Giấy, Hà Nội, Việt Nam",C352,75600,21.0355614,105.8039521,Circle K - 18 Nguyễn Khánh Toàn,25200,1100,C5
+344,344,353,"70 P.Ngụy Như Kon Tum, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam",C353,75600,20.9985179,105.8004451,Circle K - 70 Ngụy Như Kon Tum,25200,1100,C5
+345,345,354,"97 Đ. Văn Cao, Liễu Giai, Ba Đình, Hà Nội, Việt Nam",C354,75600,21.0393145,105.8159654,Circle K - 97 Văn Cao,25200,1100,C5
+346,346,355,"22 P. Phan Kế Bính, Cống Vị, Ba Đình, Hà Nội, Việt Nam",C355,75600,21.0346364,105.8119449,Circle K - 22 P. Phan Kế Bính,25200,1100,C5
+347,347,356,"Số 177 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam",C356,75600,21.0364029,105.7837198,Circle K - Số 177 Xuân Thủy,25200,1100,C5
+348,348,357,"260 Đ. Cầu Giấy, Quan Hoa, Cầu Giấy, Hà Nội 10000, Việt Nam",C357,79200,21.0345191,105.7961113,Điện máy xanh - 260 Cầu Giấy,28800,2100,C5
+349,349,358,"194 Phạm Văn Đồng, Tổ 1, P, Cầu Giấy, Hà Nội, Việt Nam",C358,79200,21.0465783,105.7809096,Điện máy xanh - 194 Phạm Văn Đồng,28800,2100,C5
+350,350,359,"37 Đ. Cầu Diễn, Phúc Diễn, Bắc Từ Liêm, Hà Nội 10000, Việt Nam",C359,79200,21.0422733,105.7589172,Điện máy xanh - 37 Cầu Diễn,28800,2100,C5
+351,351,360,"283 Đ. Xuân Phương, Vân Canh, Nam Từ Liêm, Hà Nội 10000, Việt Nam",C360,79200,21.0332894,105.7389162,Điện máy xanh - 283 Xuân Phương,28800,2100,C5
+352,352,361,"81 Đ. Lê Đức Thọ, Mỹ Đình, Nam Từ Liêm, Hà Nội, Việt Nam",C361,79200,21.0301343,105.7693658,Điện máy xanh - 81 Lê Đức Thọ,28800,2100,C5
+353,353,362,"55 P. Nguyễn Hoàng, Phú Mỹ, Từ Liêm, Hà Nội, Việt Nam",C362,79200,21.0320869,105.773378,Điện máy xanh - 55 P. Nguyễn Hoàng,28800,2100,C5
+354,354,363,"70 Đ. Hồ Tùng Mậu, Mai Dịch, Cầu Giấy, Hà Nội, Việt Nam",C363,79200,21.03669,105.778368,Điện máy xanh - 70 Hồ Tùng Mậu,28800,2100,C5
+355,355,364,"1174 Đ. Láng, Láng Thượng, Đống Đa, Hà Nội, Việt Nam",C364,79200,21.0271884,105.7996425,Điện máy xanh - 1174 Láng,28800,2100,C5
+356,356,365,"421 Đường Phạm Văn Đồng, Tổ dân phố Hoàng 14, Bắc Từ Liêm, Hà Nội, Việt Nam",C365,79200,21.0605827,105.7836325,Điện máy xanh - 421 Đường Phạm Văn Đồng,28800,2100,C5
+357,357,366,"61 Đ. Lê Văn Lương, Trung Hoà, Cầu Giấy, Hà Nội, Việt Nam",C366,79200,21.0090458,105.8093154,Siêu thị Điện máy XANH - 61 Đ. Lê Văn Lương,28800,2100,C5
+358,358,367,"159 P. Thái Hà, Láng Hạ, Đống Đa, Hà Nội, Việt Nam",C367,79200,21.0141822,105.818148,Điện Máy Xanh Thái Hà,28800,2100,C5
+359,359,368,"146 P. Kim Mã, Kim Mã, Ba Đình, Hà Nội 10000, Việt Nam",C368,79200,21.0320874,105.8261264,Điện Máy Xanh 146 Kim Mã,28800,2100,C5
+360,360,369,"205 P. Tôn Đức Thắng, Hàng Bột, Đống Đa, Hà Nội, Việt Nam",C369,79200,21.0218032,105.8316837,"Siêu thị Điện máy XANH Tôn Đức Thắng, Đống Đa",28800,2100,C5
+361,361,370,"83 Đ. Trần Duy Hưng, Trung Hoà, Cầu Giấy, Hà Nội 10000, Việt Nam",C370,79200,21.0113721,105.8006815,Siêu thị Điện máy XANH 83 Trần Duy Hưng,28800,2100,C5
+362,362,371,"501 P. Vũ Tông Phan, Khương Đình, Thanh Xuân, Hà Nội, Việt Nam",C371,79200,20.986201,105.8142495,Siêu thị Điện máy XANH 501 P. Vũ Tông Phan,28800,2100,C5
+363,363,372,"Số 659 Đ. Lạc Long Quân, Phú Thượng, Tây Hồ, Hà Nội 10000, Việt Nam",C372,79200,21.0705731,105.81175,Siêu thị Điện máy XANH  - 659 Lạc Long Quân,28800,2100,C5
+364,364,373,"110 Trần Phú, Khu đô thị Mỗ Lao, Hà Đông, Hà Nội 10000, Việt Nam",C373,79200,20.9790294,105.7853602,Siêu thị Điện máy XANH  - 110 Trần Phú,28800,2100,C5
+365,365,374,"88 Đ. Trường Chinh, Phương Đình, Đống Đa, Hà Nội 10000, Việt Nam",C374,79200,20.9988352,105.8383131,Siêu thị Điện máy XANH  - 88 Trường Chinh,28800,2100,C5
+366,366,375,"44 - 46 - 48 Đ. Tây Mỗ, Tây Mỗ, Nam Từ Liêm, Hà Nội 10000, Việt Nam",C375,79200,21.0045452,105.7493796,Siêu thị Điện máy XANH  - Tây Mỗ,28800,2100,C5
+367,367,376,"194 Đường Vạn Phúc, Vạn Phúc, Hà Đông, Hà Nội 10000, Việt Nam",C376,79200,20.9831231,105.7701552,Siêu thị Điện máy XANH  - 194 Đường Vạn Phúc,28800,2100,C5
+368,368,377,"36 Đ. Cầu Bươu, Tân Triều, Hà Đông, Hà Nội, Việt Nam",C377,79200,20.9654737,105.7926293,Siêu thị Điện máy XANH  - Cầu Bươu,28800,2100,C5
+369,369,378,"208 Tân Hội, Phố Tây Sơn, Tân Hội, Đan Phượng, Hà Nội, Việt Nam",C378,79200,21.0952106,105.7052936,"Siêu thị Điện máy XANH Tân Hội, Đan Phượng",28800,2100,C5
+370,370,379,"7 Đ. Lò Vôi, Cổ Điển, Đông Anh, Hà Nội 10000, Việt Nam",C379,79200,21.1133622,105.7888455,Siêu thị Điện máy XANH - 7 Lò Vôi,28800,2100,C5
+371,371,380,"Xóm 2, thôn, Quỳnh Đô, Thanh Trì, Hà Nội, Việt Nam",C380,79200,20.9836107,105.916052,Siêu thị Điện máy XANH - Quỳnh Đô,28800,2100,C5
+372,372,421,"Khu Cống Đặng, Bình Phú, Thạch Thất, Hà Nội, Việt Nam",C421,79200,21.0236074,105.6115294,Siêu thị Điện máy XANH - Khu Cống Đặng,28800,1200,C5
+373,373,422,"Thôn 5, Thạch Thất, Hà Nội, Việt Nam",C422,79200,20.9905234,105.5251894,Siêu thị Điện máy XANH - Thạch Thất 5,28800,1200,C5
+374,374,415,"183 Đ. Trường Chinh, Khương Thượng, Thanh Xuân, Hà Nội",C415,75600,21.002934,105.8285,Vua nệm -  183 Đ. Trường Chinh,30600,1200,C5
+375,375,416,"168 Nguyễn Lương Bằng, Quang Trung, Đống Đa, Hà Nội",C416,75600,21.0153428,105.8278733,Vua nệm -  168 Nguyễn Lương Bằng,30600,1200,C5
+376,376,417,"170 P. Kim Mã, Kim Mã, Ba Đình, Hà Nội",C417,75600,21.031804,105.825511,Vua nệm -  170 P. Kim Mã,30600,1200,C5
+377,377,418,"Vinsmart, S201-01SH15, Tây Mỗ, Nam Từ Liêm, Hà Nội",C418,75600,21.0088528,105.7439194,"Vua nệm -  Vinsmart, S201-01SH15",30600,1200,C5
+378,378,419,"186 Tây Sơn, TT. Phùng, Đan Phượng, Hà Nội, Việt Nam",C419,79200,21.0834913,105.6726652,"Siêu thị Điện máy XANH - 186 Tây Sơn, TT. Phùng",28800,1200,C5
+379,379,420,"Khu Đầm Săn, Thạch Thất, Hà Nội, Việt Nam",C420,79200,21.0553208,105.5798924,Siêu thị Điện máy XANH - Khu Đầm Săn,28800,1200,C5
+380,380,411,"15 Chùa Thông, P. Sơn Lộc, Sơn Tây, Hà Nội",C411,75600,21.1173504,105.4964722,Vua nệm -  15 Chùa Thông,30600,1200,C5
+381,381,412,"142 P. Lò Đúc, Đống Mác, Hai Bà Trưng, Hà Nội",C412,75600,21.0125517,105.8583648,Vua nệm -  142 P. Lò Đúc,30600,1200,C5
+382,382,413,"169 P. Thái Hà, Láng Hạ, Đống Đa, Hà Nội ",C413,75600,21.0154365,105.8164544,Vua nệm -  169 P. Thái Hà,30600,1200,C5
+383,383,414," 22 P. Tố Hữu, Vạn Phúc, Hà Đông, Hà Nội ",C414,75600,20.9824953,105.7697637,Vua nệm -   22 P. Tố Hữu,30600,1200,C5
+384,384,408,"81 Đ. Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội",C408,75600,21.0060414,105.8065104,Vua nệm -  81 Lê Văn Lương,30600,1200,C5
+385,385,409,"322 Đ. Nguyễn Trãi, Thanh Xuân Trung, Thanh Xuân, Hà Nội",C409,75600,20.9961652,105.8096789,Vua nệm -  322 Đ. Nguyễn Trãi,30600,1200,C5
+386,386,410,"128 Đ. Trần Duy Hưng, Trung Hoà, Cầu Giấy, Hà Nội",C410,75600,21.0106242,105.7991954,Vua nệm -  128 Đ. Trần Duy Hưng,30600,1200,C5
+387,387,401,"142 P. Nguyễn Chánh, Yên Hoà, Cầu Giấy, Hà Nội",C401,75600,21.0188271,105.7870322,Vua nệm - 142 Nguyễn Chánh,30600,1200,C5
+388,388,402,"390 P. Xã Đàn, Nam Đồng, Đống Đa, Hà Nội",C402,75600,21.0151223,105.8336276,Vua nệm - 390 P. Xã Đàn,30600,1200,C5
+389,389,403,"16A Đ. Lê Đức Thọ, Mỹ Đình, Nam Từ Liêm, Hà Nội",C403,75600,21.0294938,105.7686478,Vua nệm - 16A Đ. Lê Đức Thọ,30600,1200,C5
+390,390,404,"808 Đ. Láng, Trung Hoà, Đống Đa, Hà Nội",C404,75600,21.0182807,105.802963,Vua nệm - 808 Láng,30600,1200,C5
+391,391,405,"435 Phạm Văn Đồng, tổ dân phố, Bắc Từ Liêm, Hà Nội",C405,75600,21.060291,105.7838673,Vua nệm - 435 Phạm Văn Đồng,30600,1200,C5
+392,392,406,"Lô B2-R1-13, Tầng B2, TTTM Vincom Mega Mall Royal City, 72A Đ. Nguyễn Trãi, Thanh Xuân, Hà Nội",C406,75600,21.0021365,105.8151956,Vua nệm -  Vincom Mega Mall Royal City,30600,1200,C5
+393,393,407,"490 P. Minh Khai, Vĩnh Phú, Hai Bà Trưng, Hà Nội",C407,75600,20.9982596,105.8685373,Vua nệm -  490 Minh Khai,30600,1200,C5
+394,394,424,"Cụm 9, Xóm Trung Phú, Phụng Thượng, Phúc Thọ, Hà Nội, Việt Nam",C424,79200,21.0579179,105.6440181,Siêu thị Điện máy XANH -  Phụng Thượng 1,28800,1200,C5
+395,395,425,"Số 33 Đ. Nguyễn Chí Thanh, Ngọc Khánh, Ba Đình, Hà Nội, Việt Nam",C425,79200,21.027808,105.812312,Công ty đồ gỗ Hưng Long,28800,1200,C5
+396,396,426,"171 P. Minh Khai, Minh Khai, Hai Bà Trưng, Hà Nội, Việt Nam",C426,79200,20.9953007,105.8562083,Cửa Hàng Nội Thất Đồ Gỗ Sunking,28800,1200,C5
+397,397,427,"85-87 Hoàng Quốc Việt, Nghĩa Đô, Cầu Giấy, Hà Nội, Việt Nam",C427,79200,21.0460119,105.8032921,Nội thất Song Lê,28800,1200,C5
+398,398,428,"348 Đ. La Thành, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C428,79200,21.0223532,105.8236519,Cửa Hàng Đồ Gỗ Minh Thúy,28800,1200,C5
+399,399,429,"số 57 Ng. 217, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C429,79200,21.0210151,105.824102,Nội Thất Thông Minh - Phê Decor,28800,1200,C5
+400,400,430,"Tầng 1, Chung cư F4, Đường Trung Kính, Quận Cầu Giấy, Hà Nội, Việt Nam",C430,79200,21.0179078,105.7937114,Nội thất Nhà Xinh,28800,1200,C5
+401,401,431,"590 Đ. La Thành, Giảng Võ, Ba Đình, Hà Nội, Việt Nam",C431,79200,21.0237438,105.8182498,Cửa Hàng Nội Thất Gia Đình,28800,1200,C5
+402,402,432,"198 Trung Phụng, Đống Đa, Hà Nội, Việt Nam",C432,79200,21.0151077,105.8385705,Đồ gỗ Nội thất HTA,28800,1200,C5
+403,403,433,"189 P. Lò Đúc, Đống Mác, Hai Bà Trưng, Hà Nội, Việt Nam",C433,79200,21.0099107,105.8612201,Cửa Hàng Đồ Gỗ Mỹ Nghệ Tâm Chân Phúc,28800,1200,C5
+404,404,434,"Trung tâm thương mại Discovery, 302 Đ. Cầu Giấy, Dịch Vọng, Cầu Giấy, Hà Nội, Việt Nam",C434,79200,21.038853,105.8072092,Cửa hàng đồ trang trí & nội thất Muller,28800,1200,C5
+405,405,435,"20 P. Cát Linh, Cát Linh, Đống Đa, Hà Nội, Việt Nam",C435,79200,21.0288501,105.8307387,Nội Thất Tân Cổ Điển,28800,1200,C5
+406,406,436,"16 P. Hào Nam, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam",C436,79200,21.0217072,105.8264039,Cửa Hàng Nội Thất Đẹp,28800,1200,C5
+407,407,437,"808 Đ. La Thành, Giảng Võ, Ba Đình, Hà Nội, Việt Nam",C437,79200,21.024348,105.8138419,Nội thất Minh Hải,28800,1200,C5
+408,408,438,"M3, Số 1A Lô TT6 Dãy, P. Linh Đàm, Khu đô thị Bắc Linh Đàm, Hoàng Mai, Hà Nội, Việt Nam",C438,79200,20.9713643,105.8280009,TH true mart Bắc Linh Đàm – Hoàng Mai,28800,1200,C5
+409,409,439,"Số 44 Ngô Xuân Quảng, TT Trâu Quỳ, huyện Gia Lâm, TP Hà Nội",C439,79200,21.0185898,105.9369979,TH true mart Ngô Xuân Quảng Hà Nội,28800,1200,C5
+410,410,440,"37 phố Ngô Sĩ Liên, Phường Văn Miếu, Quận Đống Đa, Thành phố Hà Nội",C440,79200,21.026888,105.838622,TH true mart Ngô Sĩ Liên Hà Nội,28800,1200,C5
+411,411,441,"111 Tô Hiệu, phường Nguyễn Trãi, quận Hà Đông, thành phố Hà Nội",C441,79200,20.9668723,105.7778506,TH true mart Tô Hiệu Hà Nội,28800,1200,C5
+412,412,442,"Số 914 Đường Láng, Tổ 2, phường Láng Thượng, quận Đống Đa, thành phố Hà Nội",C442,79200,21.0213121,105.8013336,TH true mart Láng Hà Nội,28800,1200,C5
+413,413,443,"68 phố Võ Thị Sáu, Phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội",C443,79200,21.005663,105.8548371,TH true mart Võ Thị Sáu Hà Nội,28800,1200,C5
+414,414,444,"Số 77 Phố Vĩnh Hưng, Tổ 15, phường Vĩnh Hưng, quận Hoàng Mai, thành phố Hà Nội",C444,79200,20.98554,105.875801,TH true mart Vĩnh Hưng Hà Nội,28800,1200,C5
+415,415,445,"406 Hà Huy Tập, thị trấn Yên Viên, Gia Lâm, Hà Nội",C445,79200,21.0860717,105.9180951,TH true mart Hà Huy Tập Hà Nội,28800,1200,C5
+416,416,446,"328 Phan Trọng Tuệ, huyện Thanh Trì, Thành phố Hà Nội",C446,79200,20.9572832,105.8081957,TH true mart Phan Trọng Tuệ Hà Nội,28800,1200,C5
+417,417,447,"Số 316B+386 phố Minh Khai, tổ 41, phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội",C447,79200,20.996619,105.863613,TH true mart Minh Khai Hà Nội,28800,1200,C5
+418,418,448,"Số 235 Doãn Kế Thiện, phường Mai Dịch, quận Cầu Giấy, Thành phố Hà Nội",C448,79200,21.0419265,105.775327,TH true mart Doãn Kế Thiện Hà Nội,28800,1200,C5
+419,419,449,"Số 130 Vạn Phúc, phường Vạn Phúc, quận Hà Đông, thành phố Hà Nội",C449,79200,20.9800059,105.7721462,TH true mart Vạn Phúc Hà Nội,28800,1200,C5
+420,420,450,"Số 455 Đại Mỗ, phường Đại Mỗ, quận Nam Từ Liêm, Thành phố Hà Nội",C450,79200,20.9954527,105.7540631,TH true mart Đại Mỗ Hà Nội,28800,1200,C5
+421,421,451,"27 Xuân La, phường Xuân La, quận Tây Hồ,Hà Nội",C451,79200,21.0615902,105.8082319,"TH true mart Xuân La, Tây Hồ Hà Nội",28800,1200,C5
+422,422,452,"583 Trương Định, Thịnh Liệt, Hoàng Mai, Hà Nội",C452,79200,20.9813346,105.8454582,TH true mart Trương Định Hà Nội,28800,1200,C5
+423,423,453,"24 Vũ Phạm Hàm, phường Yên Hòa, quận Cầu Giấy, Hà Nội",C453,79200,21.019657,105.80026,TH true mart Vũ Phạm Hàm Hà Nội,28800,1200,C5
+424,424,454,"68 Vũ Trọng Phụng, Thanh Xuân, Hà Nội",C454,79200,21.0002111,105.8078217,TH true mart Vũ Trọng Phụng Hà Nội,28800,1200,C5
+425,425,455,"41 Vương Thừa Vũ, Thanh Xuân, Hà Nội",C455,79200,20.9997188,105.8220217,TH true mart Vương Thừa Vũ Hà Nội,28800,1200,C5
+426,426,456,"165 Xuân Đỉnh, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Hà Nội",C456,79200,21.0713757,105.7968163,TH true mart Xuân Đỉnh Hà Nội,28800,1200,C5
+427,427,457,"Số 16 Tổ 2, thị trấn Xuân Mai, Chương Mỹ, Hà Nội",C457,79200,20.896292,105.5787167,TH true mart Xuân Mai Hà Nội,28800,1200,C5
+428,428,458,"195 Yên Hòa, P. Yên Hòa, Q. Cầu Giấy, TP. Hà Nội",C458,79200,21.0218044,105.790872,TH true mart Yên Hòa Hà Nội,28800,1200,C5
+429,429,459,"96 Yên Phụ, Yên Phụ, Tây Hồ, Hà Nội",C459,79200,21.0543577,105.8362351,TH true mart Yên Phụ Hà Nội,28800,1200,C5
+430,430,460,"165 Trần Đại Nghĩa, phường Đồng Tâm, quận Hai Bà Trưng, Hà Nội",C460,79200,21.0009951,105.8454309,TH true mart Trần Đại Nghĩa Hà Nội,28800,1200,C5
+431,431,462,"87 Thanh Đàm, P Thanh Trì, Q Hoàng Mai, TP Hà Nội",C462,79200,20.9937332,105.888161,TH true mart Thanh Đàm Hà Nội,28800,1200,C5
+432,432,463,"26 Thành Công, phường Thành Công, Quận Ba Đình, Hà Nội",C463,79200,21.0227067,105.8161176,TH true mart Thành Công Hà Nội,28800,1200,C5
+433,433,464,"94 Thạch Bàn, Long Biên, Hà Nội",C464,79200,21.0260984,105.9096785,TH true mart Thạch Bàn Hà Nội,28800,1200,C5
+434,434,465,"148 Tây Sơn, Quang Trung, quận Đống Đa, Hà Nội",C465,79200,21.010926,105.825236,TH true mart Tây Sơn Hà Nội,28800,1200,C5
+435,435,466,"603 H1 Tân Mai, quận Hoàng Mai, Hà Nội",C466,79200,20.983445,105.8510431,TH true mart Tân Mai Hà Nội,28800,1200,C5
+436,436,467,"70 Sài Đồng, quận Long Biên, Hà Nội",C467,79200,21.0351249,105.9104669,TH true mart Sài Đồng Hà Nội,28800,1200,C5
+437,437,468,"50 Phùng Hưng, quận Hà Đông, Hà Nội",C468,79200,20.9694032,105.7849138,TH true mart Phùng Hưng Hà Nội,28800,1200,C5
+438,438,469,"10 Nguyễn Khánh Toàn, phường Quan Hoa, quận Cầu Giấy, Hà Nội",C469,79200,21.0355126,105.8041999,TH true mart Nguyễn Khánh Toàn Hà Nội,28800,1200,C5
+439,439,470,"283 Cao Lỗ, Uy Nỗ, Đông Anh, Hà Nội",C470,79200,21.1387141,105.8555917,TH true mart Cao Lỗ Hà Nội,28800,1200,C5

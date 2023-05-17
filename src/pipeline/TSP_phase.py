@@ -9,7 +9,7 @@ sys.path.append("")
 from src.utils.uitls import *
 from src.utils.get_data import *
 
-def get_best_point(point, depot_list, strategy = 'nearest', point_demand = None, depot_capacity = None):
+def get_best_point(point, depot_list, strategy = 'nearest', point_demand = None, depot_capacity = None, distance_type = 'lat-long'):
     '''
     Trả về chỉ số của `depot_list` phù hợp nhất so với `point` theo chiến lược `strategy`\n
     `point` = [lat, long]: là tọa độ của tâm cụm\n
@@ -26,11 +26,11 @@ def get_best_point(point, depot_list, strategy = 'nearest', point_demand = None,
     '''
     strategy_list = ['nearest', 'best fit', 'ensemble']
     assert strategy in strategy_list, 'strategy must be in {}'.format(strategy_list)
-
+    distance_func_map = {'lat-long': lat_long_distance, 'euclidean': euclidean_distance}
     depot_list = np.array(depot_list)
     dis = np.zeros(len(depot_list))
     for i in range(len(depot_list)):
-        dis[i] = distance(point, depot_list[i])
+        dis[i] = distance_func_map[distance_type](point, depot_list[i])
     argsort = np.argsort(dis)
     if strategy == 'nearest':
         
@@ -45,11 +45,11 @@ def get_best_point(point, depot_list, strategy = 'nearest', point_demand = None,
         
         if found_flag == False:
             print('Best fit not found, change strategy to nearest')
-            return get_best_point(point, depot_list, strategy='nearest')
+            return get_best_point(point, depot_list, strategy='nearest', distance_type=distance_type)
 
 
 
-def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
+def TSP_phase(vehicle_fname, tpe = 'depot-customer', ignore_vendor=True):
     tpe_list = ['depot-customer', 'vendor-depot']
     assert tpe in tpe_list, 'tpe must be in {}, found {}'.format(tpe_list, tpe)
     
@@ -90,7 +90,6 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
         n_customer, customer_list = load_data(config['dump']['depot'])
         n_items_type = n_items
     
-    n_v, vendor_list = load_node_from_json(vendor_fname, 'vendor', n_items_type)
 
     #Lấy ra toàn bộ tọa độ của các depot và lưu vào list
     depot_locations = []
@@ -205,9 +204,13 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
 
             # Loại bỏ những depot có remain = 0
             i = 0
+            print('Current remain: ')
+            print(remain_list)
             while True:
                 if i>=len(index_list): break
+                
                 if np.sum(np.array(remain_list[i]) != 0) == 0: 
+                    print(f'Del {i}')
                     del list_point_2[i]
                     del remain_list[i]
                     del index_list[i]
@@ -215,7 +218,7 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
 
             while continue_flag:
                 continue_flag = False
-                index = get_best_point(point1, list_point_2, strategy='best fit', point_demand=route_demand, depot_capacity=remain_list)
+                index = get_best_point(point1, list_point_2, strategy='best fit', point_demand=route_demand, depot_capacity=remain_list, distance_type = config['other_config']['distance_type'])
                 start_remain.append(depot_list[index_list[index]].remain_capacity.copy())
                 total_depot_capa += np.array(start_remain[-1].copy())
                 depot_capacity_list += np.array(depot_list[index_list[index]].remain_capacity.copy())
@@ -338,13 +341,16 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
     # Tính chi phí xe di chuyển trong 1 route, cost = (hệ số xe) * (tổng khoảng cách xe di chuyển) * (tỉ lệ hàng hóa trên xe)
     cost = np.round(np.array(v_coef_list) * (np.array(route_distance)) * np.array(goods_percentage), decimals=1)
 
-    # shuffle các order về cho vendor
-    vendor_code_id = mapping_code_id(vendor_list)
-    vendor_id_idx = mapping_id_idx(vendor_list)
-    for i in range(len(depot_list)):
-        for c_id in depot_list[i].order_dict:
-            vendor_list[vendor_id_idx[int(vendor_code_id[customer_list[int(c_id)].seller])]]._add_order(depot_list[i].id, depot_list[i].order_dict[c_id])
-
+    if not ignore_vendor:
+        n_v, vendor_list = load_node_from_json(vendor_fname, 'vendor', n_items_type)
+        # shuffle các order về cho vendor
+        vendor_code_id = mapping_code_id(vendor_list)
+        vendor_id_idx = mapping_id_idx(vendor_list)
+        for i in range(len(depot_list)):
+            for c_id in depot_list[i].order_dict:
+                vendor_list[vendor_id_idx[int(vendor_code_id[customer_list[int(c_id)].seller])]]._add_order(depot_list[i].id, depot_list[i].order_dict[c_id])
+        dump_data(vendor_list, config['dump']['vendor'])
+    
     #Dump ra file 'output/TSP_phase.json'
     folder = os.path.dirname(dump_file)
     if not os.path.exists(folder): 
@@ -356,7 +362,7 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
     if not os.path.exists(os.path.dirname(depot_dump_fname)): os.makedirs(os.path.dirname(depot_dump_fname))
     dump_data(depot_list, depot_dump_fname)
 
-    dump_data(vendor_list, config['dump']['vendor'])
+    
 
     
     # Trực quan hóa dữ liệu
@@ -379,7 +385,7 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
         figure.canvas.flush_events()
 
         print(f"Route: {route_list[i]}, length: {route_distance[i]} km")
-        if input('Press to continue (0 to exit)...') == '0': break
+        # if input('Press to continue (0 to exit)...') == '0': break
         plt.clf()
     
     plt.close()
@@ -429,6 +435,6 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer'):
 
 
 if __name__ == "__main__":
-    TSP_phase('input/vehicle_20.json')
+    TSP_phase(r'input\vehicle_2.json')
 
 

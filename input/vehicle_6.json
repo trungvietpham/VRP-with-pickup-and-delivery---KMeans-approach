@@ -1,0 +1,50 @@
+{
+    "0": {
+        "type": 1,
+        "coef": 1,
+        "1": {
+            "item_id": 1,
+            "demand": 500
+        }
+    },
+    "1": {
+        "type": 1,
+        "coef": 1,
+        "1": {
+            "item_id": 1,
+            "demand": 500
+        }
+    },
+    "2": {
+        "type": 1,
+        "coef": 1,
+        "1": {
+            "item_id": 1,
+            "demand": 500
+        }
+    },
+    "3": {
+        "type": 1,
+        "coef": 1,
+        "1": {
+            "item_id": 1,
+            "demand": 500
+        }
+    },
+    "4": {
+        "type": 1,
+        "coef": 1,
+        "1": {
+            "item_id": 1,
+            "demand": 500
+        }
+    },
+    "5": {
+        "type": 1,
+        "coef": 1,
+        "1": {
+            "item_id": 1,
+            "demand": 500
+        }
+    }
+}

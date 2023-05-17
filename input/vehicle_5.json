@@ -1,42 +1,42 @@
 {
     "0": {
         "type": 1,
-        "coef": 7.5,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 41893
+            "demand": 60
         }
     },
     "1": {
-        "type": 3,
-        "coef": 5.5,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 41785
+            "demand": 60
         }
     },
     "2": {
-        "type": 2,
-        "coef": 2.0,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 40731
+            "demand": 60
         }
     },
     "3": {
-        "type": 5,
-        "coef": 9.0,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 41124
+            "demand": 60
         }
     },
     "4": {
-        "type": 2,
-        "coef": 2.0,
+        "type": 1,
+        "coef": 1,
         "1": {
             "item_id": 1,
-            "demand": 41685
+            "demand": 60
         }
     }
 }
