@@ -214,6 +214,7 @@ class KMeans:
         
         # Cho chạy thuật toán n_times lần và lấy ra kết quả tốt nhất để return
         for j in range(n_times):
+            print(f"Round {j}")
             # Khởi tạo tâm cụm
             centroid = self.init_center(locations)
             labels = np.array([-1] * self.n_cities)
@@ -239,7 +240,7 @@ class KMeans:
                 total_dis.append(total_distance(all_centroids[-1], locations, all_labels[-1], distance_type=self.distance_type))
 
                 check_converged = self.has_converged(all_centroids[-2], all_centroids[-1], epsilon=epsilon)
-
+            print(f"\tConverge after {self.iteration} iteration")
             meta_it.append(it)
             meta_all_centroids.append(all_centroids)
             meta_all_labels.append(all_labels)

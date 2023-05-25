@@ -121,7 +121,7 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
             child_city_list.append(city_list[mapping_id_idx[city]])
 
         print(f"Total demand: {total_demand(child_city_list, mapping_item_type, n_items)}, vehicle capacity: {vehicle_list[cluster_id].capacity}")
-        n_child = int(np.max(np.floor(total_demand(child_city_list, mapping_item_type, n_items)/vehicle_list[cluster_id].capacity)))
+        n_child = max(int(np.max(np.floor(total_demand(child_city_list, mapping_item_type, n_items)/vehicle_list[cluster_id].capacity))), 1)
         
         # Bắt đầu lặp từ giá trị n_child, mỗi khi phân cụm xong, ta kiểm tra xem 
         # các current_mass có đều nhỏ hơn capacity của xe hay không, nếu không thì ta tăng giá trị n_child và lặp lại
@@ -130,13 +130,16 @@ def Pre_TSP_phase(n_node_threshold, vehicle_fname, tpe='depot-customer', alpha =
         try_kmeans_counter = 1
         while continue_flag:
             
-            capacity_array = np.array([list(vehicle_list[cluster_id].capacity)]*n_child).reshape((n_child, n_items))
+            capacity_array = np.array([list(vehicle_list[cluster_id].capacity) for i in range(n_child)]).reshape((n_child, n_items))
             child_scale_coef = [scale_coef_list[cluster_id] for _ in range(n_child)]
 
             # Khởi tạo các cụm con
             child_cluster_list = []
             for i in range(n_child):
                 child_cluster_list.append(Cluster(None, None, capacity_array[i], scale_coef=child_scale_coef[i]))
+            
+            # print(capacity_array)
+            # input("..")
             
             # Khởi tạo model
             model = KMeans(n_child, distance_type=config['other_config']['distance_type'])

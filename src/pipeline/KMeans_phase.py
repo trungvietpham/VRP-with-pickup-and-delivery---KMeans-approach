@@ -74,7 +74,7 @@ def KMeans_phase(vehicle_fname, tpe = 'depot-customer', alpha = 0.9):
         
     # Khởi tạo model
     model = KMeans(n_clusters, distance)
-    if model.distance_type == 'lat-long': epsilon = 1e-5
+    if model.distance_type == 'lat-long': epsilon = 1e-4
     elif model.distance_type == 'euclidean': epsilon = 1e-2
     time1 = time.time()
     if tpe == 'depot-customer': (centers, labels, it, dis, best, i_best, cluster_list, city_list) = model.fit(city_list, cluster_list, correlation, optimizer, mapping_item_type=mapping_item_type, epsilon=epsilon, penalty_coef=3, trade_off_coef=alpha, n_times=5)

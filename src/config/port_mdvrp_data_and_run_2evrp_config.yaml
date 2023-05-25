@@ -4,41 +4,41 @@ dump:
     vendor: dump/vendor.pkl
 flag:
     depot-customer: true
-    gendata: false
+    gendata: true
     run_all: false
     vendor-depot: false
 fname:
     correlation: input/correlation.json
-    customer: input/market_400.json
-    depot: input/depot_50.json
+    customer: input/market.json
+    depot: input/depot.json
     item_type: data/items.csv
     time: input/time.json
-    vehicle: input/vehicle_20.json
+    vehicle: input/vehicle_5.json
     vendor: input/vendor.json
 gendata:
     gen_correlation:
         flag: true
-        fname: data\correlations.csv
+        fname: D:\TaiLieuHocTap\DANO\benchmark_data\p22_correlation.csv
     gen_customer:
         flag: true
-        fname: data/customers.csv
-        high_thr: 500
-        low_thr: 1
-        n: 400
-        out_fname: input/market_400.json
+        fname: D:\TaiLieuHocTap\DANO\benchmark_data\p22_customer.csv
+        high_thr: 140
+        low_thr: 140
+        n: -1
+        out_fname: input/market.json
     gen_depot:
         flag: true
-        fname: data/depots.csv
+        fname: D:\TaiLieuHocTap\DANO\benchmark_data\p22_depot.csv
         high_thr: 11000
         low_thr: 10000
-        n: 50
-        out_fname: input/depot_50.json
+        n: -1
+        out_fname: input/depot.json
     gen_vehicle:
         flag: true
         fname: null
-        high_thr: 12000
-        low_thr: 10000
-        n: 20
+        high_thr: 60
+        low_thr: 60
+        n: 5
     gen_vendor:
         flag: true
         fname: data/vendor.csv
@@ -49,7 +49,7 @@ gendata:
 other_config:
     coef list:
     - 1
-    distance_type: lat-long #euclidean
+    distance_type: lat-long
     no of items: 1
     no of items type: 1
     no of node threshold: 15

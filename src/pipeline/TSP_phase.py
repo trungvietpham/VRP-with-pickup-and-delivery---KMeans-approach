@@ -279,7 +279,7 @@ def TSP_phase(vehicle_fname, tpe = 'depot-customer', ignore_vendor=True):
             distance_matrix = np.zeros((n_node_child+1, n_node_child+1))
             for i in range(n_node_child+1):
                 for j in range(n_node_child+1):
-                    if mapping_code[j+end_depot_flag] not in correlation[mapping_code[i+end_depot_flag]]: correlation[mapping_code[i+end_depot_flag]][mapping_code[j+end_depot_flag]] = 0.0 
+                    if mapping_code[j+end_depot_flag] not in correlation[mapping_code[i+end_depot_flag]]: correlation[mapping_code[i+end_depot_flag]][mapping_code[j+end_depot_flag]] = 1000000 
                     distance_matrix[i][j] = correlation[mapping_code[i+end_depot_flag]][mapping_code[j+end_depot_flag]]
             
             #TSP

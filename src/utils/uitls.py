@@ -17,7 +17,7 @@ def lat_long_distance(point1, point2) -> float:
     '''
     Tính khoảng cách l2 giữa 2 điểm tọa độ lat long, trả về khoảng cách km
     '''
-    print('Call lat long distance')
+    # print('Call lat long distance')
     # assert point1 == 0, 'Who am i'
     R = 6378.137; # Radius of earth in KM
     dLat = (point2[0] - point1[0])*np.pi/180
@@ -54,7 +54,7 @@ def optimizer(clusters_capacity, nodes_demand, locations, centroid, penalty_coef
 
     # Khởi tạo 1 vài tham số
     zeros_penalty = 1000
-    if len(clusters_capacity.shape) == 1: print(f"{len(clusters_capacity.shape)}, {clusters_capacity.shape}", file=open(r"D:\TaiLieuHocTap\DANO\benchmark_data\log.txt", 'a'))
+    if len(clusters_capacity.shape) == 1: print(f"{len(clusters_capacity.shape)}, {clusters_capacity.shape}, {clusters_capacity}", file=open(r"D:\TaiLieuHocTap\DANO\benchmark_data\log.txt", 'a'))
     n_clusters, n_items_type = clusters_capacity.shape
     n_cities, n_items = nodes_demand.shape
     current_mass = np.array([[0.0]*n_items_type] * n_clusters)
